@@ -629,8 +629,11 @@
 
         function initMap() {
             map = L.map('map').setView([40.7580, -73.9855], 12); // NYC center
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors'
+            // Use CartoDB Positron for clean, minimal street-only view
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                attribution: '© OpenStreetMap © CartoDB',
+                subdomains: 'abcd',
+                maxZoom: 19
             }).addTo(map);
         }
 
@@ -678,6 +681,7 @@
             const loadingEl = document.getElementById('map-loading');
             const loadingText = document.getElementById('map-loading-text');
             loadingEl.classList.add('active');
+            loadingText.textContent = 'Loading markers...';
 
             // Clear existing markers
             markers.forEach(m => map.removeLayer(m));
@@ -685,60 +689,45 @@
 
             document.getElementById('results-count').textContent = filteredPairs.length;
 
-            // Limit to top 50 for performance
-            const pairsToShow = filteredPairs.slice(0, 50);
-            let loaded = 0;
+            // Show top 100 pairs with coordinates
+            const pairsToShow = filteredPairs.filter(p => p.coordinates).slice(0, 100);
 
-            for (let i = 0; i < pairsToShow.length; i++) {
-                const pair = pairsToShow[i];
+            pairsToShow.forEach((pair, i) => {
+                const coords = pair.coordinates;
 
-                loadingText.textContent = `Loading ${i + 1} of ${pairsToShow.length}...`;
+                // Color based on savings
+                const savings = pair.economics.potential_savings;
+                let color = '#28a745'; // green
+                if (savings > 2000000) color = '#007bff'; // blue for mega deals
+                else if (savings > 1000000) color = '#28a745'; // green
+                else if (savings > 500000) color = '#ffc107'; // yellow
+                else color = '#6c757d'; // gray
 
-                try {
-                    const coords = await geocodeAddress(pair.building);
+                const marker = L.circleMarker([coords.lat, coords.lon], {
+                    radius: 8,
+                    fillColor: color,
+                    color: '#fff',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                }).addTo(map);
 
-                    if (coords) {
-                        // Color based on savings
-                        const savings = pair.economics.potential_savings;
-                        let color = '#28a745'; // green
-                        if (savings > 2000000) color = '#007bff'; // blue for mega deals
-                        else if (savings > 1000000) color = '#28a745'; // green
-                        else if (savings > 500000) color = '#ffc107'; // yellow
-                        else color = '#6c757d'; // gray
+                const popupContent = `
+                    <div class="map-popup">
+                        <h3>${pair.building.split(',')[0]}</h3>
+                        <div class="savings-badge">${formatPrice(savings)} savings</div>
+                        <p><strong>${pair.neighborhood}</strong></p>
+                        <p>${pair.unit_1.unit} + ${pair.unit_2.unit}</p>
+                        <p>${pair.adjacency.description}</p>
+                        <p>${pair.combined.sqft.toLocaleString()} sqft combined</p>
+                        ${pair.unit_1.url ? `<p><a href="${pair.unit_1.url}" target="_blank">View Unit 1 →</a></p>` : ''}
+                        ${pair.unit_2.url ? `<p><a href="${pair.unit_2.url}" target="_blank">View Unit 2 →</a></p>` : ''}
+                    </div>
+                `;
 
-                        const marker = L.circleMarker([coords.lat, coords.lon], {
-                            radius: 8,
-                            fillColor: color,
-                            color: '#fff',
-                            weight: 2,
-                            opacity: 1,
-                            fillOpacity: 0.8
-                        }).addTo(map);
-
-                        const popupContent = `
-                            <div class="map-popup">
-                                <h3>${pair.building.split(',')[0]}</h3>
-                                <div class="savings-badge">${formatPrice(savings)} savings</div>
-                                <p><strong>${pair.neighborhood}</strong></p>
-                                <p>${pair.unit_1.unit} + ${pair.unit_2.unit}</p>
-                                <p>${pair.adjacency.description}</p>
-                                <p>${pair.combined.sqft.toLocaleString()} sqft combined</p>
-                                ${pair.unit_1.url ? `<p><a href="${pair.unit_1.url}" target="_blank">View Unit 1 →</a></p>` : ''}
-                                ${pair.unit_2.url ? `<p><a href="${pair.unit_2.url}" target="_blank">View Unit 2 →</a></p>` : ''}
-                            </div>
-                        `;
-
-                        marker.bindPopup(popupContent);
-                        markers.push(marker);
-                        loaded++;
-                    }
-                } catch (error) {
-                    console.error('Error geocoding:', pair.building, error);
-                }
-
-                // Longer delay to respect rate limits (1 request per second)
-                await new Promise(resolve => setTimeout(resolve, 1200));
-            }
+                marker.bindPopup(popupContent);
+                markers.push(marker);
+            });
 
             // Hide loading indicator
             loadingEl.classList.remove('active');
@@ -746,13 +735,11 @@
             if (markers.length > 0) {
                 const group = L.featureGroup(markers);
                 map.fitBounds(group.getBounds().pad(0.1));
-            } else {
-                alert('No locations could be geocoded. This may be due to API rate limiting. Try refreshing the page in a minute.');
             }
 
-            console.log(`Loaded ${loaded} of ${pairsToShow.length} markers`);
-            if (filteredPairs.length > 50) {
-                console.log(`Showing top 50 of ${filteredPairs.length} opportunities on map`);
+            console.log(`Loaded ${markers.length} markers instantly (using pre-geocoded data)`);
+            if (filteredPairs.length > 100) {
+                console.log(`Showing top 100 of ${filteredPairs.length} opportunities`);
             }
         }
 

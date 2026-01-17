@@ -1,4 +1,5 @@
 // All NYC adjacent pairs (Manhattan + Brooklyn) - auto-generated
+// Includes pre-geocoded coordinates for instant map rendering
 const PAIRS_DATA = [
   {
     "building": "262 W 95th St, New York, NY, 10025",
@@ -35,7 +36,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7942055,
+      "lon": -73.9730647
+    }
   },
   {
     "building": "420 E 51st St, New York, NY, 10022",
@@ -72,7 +77,11 @@ const PAIRS_DATA = [
       "savings_percent": 78.5
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7540119,
+      "lon": -73.9651755
+    }
   },
   {
     "building": "15 Hudson Yards, New York, NY, 10001",
@@ -109,7 +118,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.3
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7534461,
+      "lon": -74.0032895
+    }
   },
   {
     "building": "20 E 76th St, New York, NY, 10021",
@@ -146,7 +159,11 @@ const PAIRS_DATA = [
       "savings_percent": -326.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7743902,
+      "lon": -73.9639545
+    }
   },
   {
     "building": "353 W 56th St, New York, NY, 10019",
@@ -183,7 +200,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.0
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7670554,
+      "lon": -73.985531
+    }
   },
   {
     "building": "353 W 56th St, New York, NY, 10019",
@@ -220,7 +241,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.9
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7670554,
+      "lon": -73.985531
+    }
   },
   {
     "building": "353 W 56th St, New York, NY, 10019",
@@ -257,7 +282,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.1
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7670554,
+      "lon": -73.985531
+    }
   },
   {
     "building": "370 Lenox Ave, New York, NY, 10027",
@@ -294,7 +323,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.9
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8098686,
+      "lon": -73.9438301
+    }
   },
   {
     "building": "370 Lenox Ave, New York, NY, 10027",
@@ -331,7 +364,11 @@ const PAIRS_DATA = [
       "savings_percent": 49.9
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8098686,
+      "lon": -73.9438301
+    }
   },
   {
     "building": "370 Lenox Ave, New York, NY, 10027",
@@ -368,7 +405,11 @@ const PAIRS_DATA = [
       "savings_percent": 43.2
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8098686,
+      "lon": -73.9438301
+    }
   },
   {
     "building": "370 Lenox Ave, New York, NY, 10027",
@@ -405,7 +446,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.7
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8098686,
+      "lon": -73.9438301
+    }
   },
   {
     "building": "370 Lenox Ave, New York, NY, 10027",
@@ -442,7 +487,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.0
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8098686,
+      "lon": -73.9438301
+    }
   },
   {
     "building": "370 Lenox Ave, New York, NY, 10027",
@@ -479,7 +528,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.1
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8098686,
+      "lon": -73.9438301
+    }
   },
   {
     "building": "125 Greenwich St, New York, NY, 10006",
@@ -516,7 +569,11 @@ const PAIRS_DATA = [
       "savings_percent": 4.6
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7091044,
+      "lon": -74.0127448
+    }
   },
   {
     "building": "205 E 63rd St, New York, NY, 10065",
@@ -553,7 +610,11 @@ const PAIRS_DATA = [
       "savings_percent": 62.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7639362,
+      "lon": -73.9641732
+    }
   },
   {
     "building": "340 E 72nd St, Manhattan, NY, 10021",
@@ -590,7 +651,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7680566,
+      "lon": -73.9573226
+    }
   },
   {
     "building": "340 E 72nd St, Manhattan, NY, 10021",
@@ -627,7 +692,11 @@ const PAIRS_DATA = [
       "savings_percent": -145.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7680566,
+      "lon": -73.9573226
+    }
   },
   {
     "building": "200 E 69th St, Manhattan, NY, 10021",
@@ -664,7 +733,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7675785,
+      "lon": -73.9617263
+    }
   },
   {
     "building": "247 W 46th St, New York, NY, 10036",
@@ -701,7 +774,11 @@ const PAIRS_DATA = [
       "savings_percent": 23.2
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7598818,
+      "lon": -73.9874267
+    }
   },
   {
     "building": "56 Pine St, Manhattan, NY, 10005",
@@ -738,7 +815,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.7
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7068297,
+      "lon": -74.0083465
+    }
   },
   {
     "building": "10 W End Ave, New York, NY, 10023",
@@ -775,7 +856,11 @@ const PAIRS_DATA = [
       "savings_percent": 13.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7719834,
+      "lon": -73.9899289
+    }
   },
   {
     "building": "10 W End Ave, New York, NY, 10023",
@@ -812,7 +897,11 @@ const PAIRS_DATA = [
       "savings_percent": 16.6
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7719834,
+      "lon": -73.9899289
+    }
   },
   {
     "building": "10 W End Ave, New York, NY, 10023",
@@ -849,7 +938,11 @@ const PAIRS_DATA = [
       "savings_percent": -0.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7719834,
+      "lon": -73.9899289
+    }
   },
   {
     "building": "1 Wall St, Manhattan, NY, 10005",
@@ -886,7 +979,11 @@ const PAIRS_DATA = [
       "savings_percent": -24.3
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7071243,
+      "lon": -74.0118265
+    }
   },
   {
     "building": "1 Wall St, Manhattan, NY, 10005",
@@ -923,7 +1020,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.0
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7071243,
+      "lon": -74.0118265
+    }
   },
   {
     "building": "218 W 103rd St, New York, NY, 10025",
@@ -960,7 +1061,11 @@ const PAIRS_DATA = [
       "savings_percent": 10.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7988047,
+      "lon": -73.9680673
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -997,7 +1102,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1034,7 +1143,11 @@ const PAIRS_DATA = [
       "savings_percent": -10.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1071,7 +1184,11 @@ const PAIRS_DATA = [
       "savings_percent": -10.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1108,7 +1225,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1145,7 +1266,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1182,7 +1307,11 @@ const PAIRS_DATA = [
       "savings_percent": -3.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1219,7 +1348,11 @@ const PAIRS_DATA = [
       "savings_percent": 7.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1256,7 +1389,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1293,7 +1430,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1330,7 +1471,11 @@ const PAIRS_DATA = [
       "savings_percent": -0.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1367,7 +1512,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1404,7 +1553,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1441,7 +1594,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1478,7 +1635,11 @@ const PAIRS_DATA = [
       "savings_percent": 1.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1515,7 +1676,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1552,7 +1717,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1589,7 +1758,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1626,7 +1799,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1663,7 +1840,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1700,7 +1881,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1737,7 +1922,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1774,7 +1963,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1811,7 +2004,11 @@ const PAIRS_DATA = [
       "savings_percent": -10.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1848,7 +2045,11 @@ const PAIRS_DATA = [
       "savings_percent": -1.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1885,7 +2086,11 @@ const PAIRS_DATA = [
       "savings_percent": -4.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1922,7 +2127,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1959,7 +2168,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -1996,7 +2209,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2033,7 +2250,11 @@ const PAIRS_DATA = [
       "savings_percent": -3.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2070,7 +2291,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2107,7 +2332,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2144,7 +2373,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2181,7 +2414,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2218,7 +2455,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2255,7 +2496,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2292,7 +2537,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2329,7 +2578,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "350 E 18th St, New York, NY, 10003",
@@ -2366,7 +2619,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7342487,
+      "lon": -73.9819483
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2403,7 +2660,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2440,7 +2701,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2477,7 +2742,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2514,7 +2783,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2551,7 +2824,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2588,7 +2865,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2625,7 +2906,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2662,7 +2947,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2699,7 +2988,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2736,7 +3029,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2773,7 +3070,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2810,7 +3111,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2847,7 +3152,11 @@ const PAIRS_DATA = [
       "savings_percent": -24.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2884,7 +3193,11 @@ const PAIRS_DATA = [
       "savings_percent": -56.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2921,7 +3234,11 @@ const PAIRS_DATA = [
       "savings_percent": -57.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2958,7 +3275,11 @@ const PAIRS_DATA = [
       "savings_percent": -56.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -2995,7 +3316,11 @@ const PAIRS_DATA = [
       "savings_percent": -55.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3032,7 +3357,11 @@ const PAIRS_DATA = [
       "savings_percent": -56.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3069,7 +3398,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3106,7 +3439,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3143,7 +3480,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3180,7 +3521,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3217,7 +3562,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3254,7 +3603,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3291,7 +3644,11 @@ const PAIRS_DATA = [
       "savings_percent": -25.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3328,7 +3685,11 @@ const PAIRS_DATA = [
       "savings_percent": -25.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3365,7 +3726,11 @@ const PAIRS_DATA = [
       "savings_percent": -28.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3402,7 +3767,11 @@ const PAIRS_DATA = [
       "savings_percent": -41.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3439,7 +3808,11 @@ const PAIRS_DATA = [
       "savings_percent": -38.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3476,7 +3849,11 @@ const PAIRS_DATA = [
       "savings_percent": -39.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3513,7 +3890,11 @@ const PAIRS_DATA = [
       "savings_percent": -33.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3550,7 +3931,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3587,7 +3972,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3624,7 +4013,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3661,7 +4054,11 @@ const PAIRS_DATA = [
       "savings_percent": -54.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3698,7 +4095,11 @@ const PAIRS_DATA = [
       "savings_percent": -53.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3735,7 +4136,11 @@ const PAIRS_DATA = [
       "savings_percent": -57.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3772,7 +4177,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3809,7 +4218,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3846,7 +4259,11 @@ const PAIRS_DATA = [
       "savings_percent": -20.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3883,7 +4300,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3920,7 +4341,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3957,7 +4382,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -3994,7 +4423,11 @@ const PAIRS_DATA = [
       "savings_percent": -43.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4031,7 +4464,11 @@ const PAIRS_DATA = [
       "savings_percent": -34.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4068,7 +4505,11 @@ const PAIRS_DATA = [
       "savings_percent": -36.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4105,7 +4546,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4142,7 +4587,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4179,7 +4628,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4216,7 +4669,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4253,7 +4710,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4290,7 +4751,11 @@ const PAIRS_DATA = [
       "savings_percent": -26.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4327,7 +4792,11 @@ const PAIRS_DATA = [
       "savings_percent": -26.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4364,7 +4833,11 @@ const PAIRS_DATA = [
       "savings_percent": -20.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4401,7 +4874,11 @@ const PAIRS_DATA = [
       "savings_percent": -23.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4438,7 +4915,11 @@ const PAIRS_DATA = [
       "savings_percent": -53.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4475,7 +4956,11 @@ const PAIRS_DATA = [
       "savings_percent": -49.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4512,7 +4997,11 @@ const PAIRS_DATA = [
       "savings_percent": -46.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4549,7 +5038,11 @@ const PAIRS_DATA = [
       "savings_percent": -49.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4586,7 +5079,11 @@ const PAIRS_DATA = [
       "savings_percent": -46.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4623,7 +5120,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4660,7 +5161,11 @@ const PAIRS_DATA = [
       "savings_percent": -26.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4697,7 +5202,11 @@ const PAIRS_DATA = [
       "savings_percent": -41.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4734,7 +5243,11 @@ const PAIRS_DATA = [
       "savings_percent": -35.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4771,7 +5284,11 @@ const PAIRS_DATA = [
       "savings_percent": -32.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4808,7 +5325,11 @@ const PAIRS_DATA = [
       "savings_percent": -20.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4845,7 +5366,11 @@ const PAIRS_DATA = [
       "savings_percent": -20.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4882,7 +5407,11 @@ const PAIRS_DATA = [
       "savings_percent": -22.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4919,7 +5448,11 @@ const PAIRS_DATA = [
       "savings_percent": -26.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4956,7 +5489,11 @@ const PAIRS_DATA = [
       "savings_percent": -55.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -4993,7 +5530,11 @@ const PAIRS_DATA = [
       "savings_percent": -51.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5030,7 +5571,11 @@ const PAIRS_DATA = [
       "savings_percent": -51.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5067,7 +5612,11 @@ const PAIRS_DATA = [
       "savings_percent": -50.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5104,7 +5653,11 @@ const PAIRS_DATA = [
       "savings_percent": -26.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5141,7 +5694,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5178,7 +5735,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5215,7 +5776,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5252,7 +5817,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5289,7 +5858,11 @@ const PAIRS_DATA = [
       "savings_percent": -48.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5326,7 +5899,11 @@ const PAIRS_DATA = [
       "savings_percent": -49.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5363,7 +5940,11 @@ const PAIRS_DATA = [
       "savings_percent": -27.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5400,7 +5981,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5437,7 +6022,11 @@ const PAIRS_DATA = [
       "savings_percent": -30.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5474,7 +6063,11 @@ const PAIRS_DATA = [
       "savings_percent": -54.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5511,7 +6104,11 @@ const PAIRS_DATA = [
       "savings_percent": -52.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5548,7 +6145,11 @@ const PAIRS_DATA = [
       "savings_percent": -53.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5585,7 +6186,11 @@ const PAIRS_DATA = [
       "savings_percent": -52.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5622,7 +6227,11 @@ const PAIRS_DATA = [
       "savings_percent": -52.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5659,7 +6268,11 @@ const PAIRS_DATA = [
       "savings_percent": -56.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5696,7 +6309,11 @@ const PAIRS_DATA = [
       "savings_percent": -36.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5733,7 +6350,11 @@ const PAIRS_DATA = [
       "savings_percent": -27.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5770,7 +6391,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5807,7 +6432,11 @@ const PAIRS_DATA = [
       "savings_percent": -37.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5844,7 +6473,11 @@ const PAIRS_DATA = [
       "savings_percent": -23.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5881,7 +6514,11 @@ const PAIRS_DATA = [
       "savings_percent": -26.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5918,7 +6555,11 @@ const PAIRS_DATA = [
       "savings_percent": -30.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5955,7 +6596,11 @@ const PAIRS_DATA = [
       "savings_percent": -38.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -5992,7 +6637,11 @@ const PAIRS_DATA = [
       "savings_percent": -47.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6029,7 +6678,11 @@ const PAIRS_DATA = [
       "savings_percent": -49.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6066,7 +6719,11 @@ const PAIRS_DATA = [
       "savings_percent": -28.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6103,7 +6760,11 @@ const PAIRS_DATA = [
       "savings_percent": -42.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6140,7 +6801,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6177,7 +6842,11 @@ const PAIRS_DATA = [
       "savings_percent": -43.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6214,7 +6883,11 @@ const PAIRS_DATA = [
       "savings_percent": -31.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6251,7 +6924,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6288,7 +6965,11 @@ const PAIRS_DATA = [
       "savings_percent": -28.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6325,7 +7006,11 @@ const PAIRS_DATA = [
       "savings_percent": -47.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6362,7 +7047,11 @@ const PAIRS_DATA = [
       "savings_percent": -44.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6399,7 +7088,11 @@ const PAIRS_DATA = [
       "savings_percent": -47.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6436,7 +7129,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6473,7 +7170,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6510,7 +7211,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6547,7 +7252,11 @@ const PAIRS_DATA = [
       "savings_percent": -49.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6584,7 +7293,11 @@ const PAIRS_DATA = [
       "savings_percent": -50.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6621,7 +7334,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6658,7 +7375,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6695,7 +7416,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6732,7 +7457,11 @@ const PAIRS_DATA = [
       "savings_percent": -31.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6769,7 +7498,11 @@ const PAIRS_DATA = [
       "savings_percent": -48.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6806,7 +7539,11 @@ const PAIRS_DATA = [
       "savings_percent": -54.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "255 E 77th St, Manhattan, NY, 10075",
@@ -6843,7 +7580,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7725224,
+      "lon": -73.9569822
+    }
   },
   {
     "building": "157 W 123rd St, New York, NY, 10027",
@@ -6880,7 +7621,11 @@ const PAIRS_DATA = [
       "savings_percent": 47.4
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8076023,
+      "lon": -73.948862
+    }
   },
   {
     "building": "25 Charles St, Manhattan, NY, 10014",
@@ -6917,7 +7662,11 @@ const PAIRS_DATA = [
       "savings_percent": -22.7
     },
     "neighborhood": "West Village",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7351076,
+      "lon": -74.0022349
+    }
   },
   {
     "building": "168 E 111th St, New York, NY, 10029",
@@ -6954,7 +7703,11 @@ const PAIRS_DATA = [
       "savings_percent": 47.1
     },
     "neighborhood": "East Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7950175,
+      "lon": -73.9433968
+    }
   },
   {
     "building": "168 E 111th St, New York, NY, 10029",
@@ -6991,7 +7744,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.0
     },
     "neighborhood": "East Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7950175,
+      "lon": -73.9433968
+    }
   },
   {
     "building": "168 E 111th St, New York, NY, 10029",
@@ -7028,7 +7785,11 @@ const PAIRS_DATA = [
       "savings_percent": 40.3
     },
     "neighborhood": "East Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7950175,
+      "lon": -73.9433968
+    }
   },
   {
     "building": "168 E 111th St, New York, NY, 10029",
@@ -7065,7 +7826,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.5
     },
     "neighborhood": "East Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7950175,
+      "lon": -73.9433968
+    }
   },
   {
     "building": "168 E 111th St, New York, NY, 10029",
@@ -7102,7 +7867,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.0
     },
     "neighborhood": "East Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7950175,
+      "lon": -73.9433968
+    }
   },
   {
     "building": "75 Wall St, Manhattan, NY, 10005",
@@ -7137,7 +7906,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.9
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7051407,
+      "lon": -74.0079783
+    }
   },
   {
     "building": "35 Hudson Yards, New York, NY, 10001",
@@ -7174,7 +7947,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.6
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7546523,
+      "lon": -74.0022403
+    }
   },
   {
     "building": "35 Hudson Yards, New York, NY, 10001",
@@ -7211,7 +7988,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7546523,
+      "lon": -74.0022403
+    }
   },
   {
     "building": "111 Murray St, New York, NY, 10007",
@@ -7248,7 +8029,11 @@ const PAIRS_DATA = [
       "savings_percent": -33.2
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7154405,
+      "lon": -74.0127301
+    }
   },
   {
     "building": "110 Central Park S, New York, NY, 10019",
@@ -7285,7 +8070,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.2
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7657412,
+      "lon": -73.9770239
+    }
   },
   {
     "building": "611 W 56th St, New York, NY, 10019",
@@ -7322,7 +8111,11 @@ const PAIRS_DATA = [
       "savings_percent": 16.5
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7699875,
+      "lon": -73.9923019
+    }
   },
   {
     "building": "370 Central Park W, Manhattan, NY, 10025",
@@ -7359,7 +8152,11 @@ const PAIRS_DATA = [
       "savings_percent": 12.7
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7922117,
+      "lon": -73.9644841
+    }
   },
   {
     "building": "303 Park Ave, New York, NY, 10022",
@@ -7396,7 +8193,11 @@ const PAIRS_DATA = [
       "savings_percent": -113.0
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7569504,
+      "lon": -73.9740258
+    }
   },
   {
     "building": "303 Park Ave, New York, NY, 10022",
@@ -7433,7 +8234,11 @@ const PAIRS_DATA = [
       "savings_percent": -79.5
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7569504,
+      "lon": -73.9740258
+    }
   },
   {
     "building": "303 Park Ave, New York, NY, 10022",
@@ -7470,7 +8275,11 @@ const PAIRS_DATA = [
       "savings_percent": -113.0
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7569504,
+      "lon": -73.9740258
+    }
   },
   {
     "building": "303 Park Ave, New York, NY, 10022",
@@ -7507,7 +8316,11 @@ const PAIRS_DATA = [
       "savings_percent": -65.1
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7569504,
+      "lon": -73.9740258
+    }
   },
   {
     "building": "965 Fifth Ave, New York, NY, 10075",
@@ -7544,7 +8357,11 @@ const PAIRS_DATA = [
       "savings_percent": -111.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8021613,
+      "lon": -73.9453686
+    }
   },
   {
     "building": "400 E 70th St, New York, NY, 10021",
@@ -7581,7 +8398,11 @@ const PAIRS_DATA = [
       "savings_percent": 12.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7661623,
+      "lon": -73.9567416
+    }
   },
   {
     "building": "1060 Park Ave, Manhattan, NY, 10128",
@@ -7618,7 +8439,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7810396,
+      "lon": -73.9568847
+    }
   },
   {
     "building": "98 Park Ter E, Manhattan, NY, 10034",
@@ -7655,7 +8480,11 @@ const PAIRS_DATA = [
       "savings_percent": 68.1
     },
     "neighborhood": "Inwood",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8710928,
+      "lon": -73.915313
+    }
   },
   {
     "building": "98 Park Ter E, Manhattan, NY, 10034",
@@ -7692,7 +8521,11 @@ const PAIRS_DATA = [
       "savings_percent": 69.5
     },
     "neighborhood": "Inwood",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8710928,
+      "lon": -73.915313
+    }
   },
   {
     "building": "1111 Park Avenue Ave, Manhattan, NY, 10128",
@@ -7729,7 +8562,11 @@ const PAIRS_DATA = [
       "savings_percent": -616.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7824507,
+      "lon": -73.9552542
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -7766,7 +8603,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.9
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -7803,7 +8644,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.8
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -7840,7 +8685,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.1
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -7877,7 +8726,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -7914,7 +8767,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.2
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -7951,7 +8808,11 @@ const PAIRS_DATA = [
       "savings_percent": -24.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -7988,7 +8849,11 @@ const PAIRS_DATA = [
       "savings_percent": -23.4
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -8025,7 +8890,11 @@ const PAIRS_DATA = [
       "savings_percent": -33.6
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -8062,7 +8931,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.2
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "525 Sixth Ave, New York, NY, 10011",
@@ -8099,7 +8972,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9190476,
+      "lon": -73.8046791
+    }
   },
   {
     "building": "410 W 24th St, New York, NY, 10011",
@@ -8136,7 +9013,11 @@ const PAIRS_DATA = [
       "savings_percent": 2.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.747274,
+      "lon": -74.0013672
+    }
   },
   {
     "building": "414 W 54th St, New York, NY, 10019",
@@ -8173,7 +9054,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.6
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7662487,
+      "lon": -73.9881972
+    }
   },
   {
     "building": "414 W 54th St, New York, NY, 10019",
@@ -8210,7 +9095,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.2
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7662487,
+      "lon": -73.9881972
+    }
   },
   {
     "building": "77 Greenwich St, Manhattan, NY, 10006",
@@ -8247,7 +9136,11 @@ const PAIRS_DATA = [
       "savings_percent": -52.7
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7073951,
+      "lon": -74.0135508
+    }
   },
   {
     "building": "77 Greenwich St, Manhattan, NY, 10006",
@@ -8284,7 +9177,11 @@ const PAIRS_DATA = [
       "savings_percent": -30.6
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7073951,
+      "lon": -74.0135508
+    }
   },
   {
     "building": "77 Greenwich St, Manhattan, NY, 10006",
@@ -8321,7 +9218,11 @@ const PAIRS_DATA = [
       "savings_percent": 18.2
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7073951,
+      "lon": -74.0135508
+    }
   },
   {
     "building": "77 Greenwich St, Manhattan, NY, 10006",
@@ -8358,7 +9259,11 @@ const PAIRS_DATA = [
       "savings_percent": 21.4
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7073951,
+      "lon": -74.0135508
+    }
   },
   {
     "building": "77 Greenwich St, Manhattan, NY, 10006",
@@ -8395,7 +9300,11 @@ const PAIRS_DATA = [
       "savings_percent": 9.4
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7073951,
+      "lon": -74.0135508
+    }
   },
   {
     "building": "77 Greenwich St, Manhattan, NY, 10006",
@@ -8432,7 +9341,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.0
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7073951,
+      "lon": -74.0135508
+    }
   },
   {
     "building": "77 Greenwich St, Manhattan, NY, 10006",
@@ -8469,7 +9382,11 @@ const PAIRS_DATA = [
       "savings_percent": 16.3
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7073951,
+      "lon": -74.0135508
+    }
   },
   {
     "building": "150 W 51st St, New York, NY, 10019",
@@ -8506,7 +9423,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.1
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7614359,
+      "lon": -73.982392
+    }
   },
   {
     "building": "150 E 49th St, Manhattan, NY, 10017",
@@ -8543,7 +9464,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.7
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7552753,
+      "lon": -73.971923
+    }
   },
   {
     "building": "103 E 84th St, New York, NY, 10028",
@@ -8580,7 +9505,11 @@ const PAIRS_DATA = [
       "savings_percent": -111.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7788202,
+      "lon": -73.9574949
+    }
   },
   {
     "building": "350 W 42nd St, New York, NY, 10036",
@@ -8617,7 +9546,11 @@ const PAIRS_DATA = [
       "savings_percent": 19.9
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7578472,
+      "lon": -73.9922301
+    }
   },
   {
     "building": "21 E 61st St, New York, NY, 10065",
@@ -8654,7 +9587,11 @@ const PAIRS_DATA = [
       "savings_percent": -82.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7650245,
+      "lon": -73.9707058
+    }
   },
   {
     "building": "21 E 61st St, New York, NY, 10065",
@@ -8691,7 +9628,11 @@ const PAIRS_DATA = [
       "savings_percent": -84.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7650245,
+      "lon": -73.9707058
+    }
   },
   {
     "building": "21 E 61st St, New York, NY, 10065",
@@ -8728,7 +9669,11 @@ const PAIRS_DATA = [
       "savings_percent": -165.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7650245,
+      "lon": -73.9707058
+    }
   },
   {
     "building": "330 Grand St, Manhattan, NY, 10002",
@@ -8765,7 +9710,11 @@ const PAIRS_DATA = [
       "savings_percent": 15.3
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7171873,
+      "lon": -73.9901246
+    }
   },
   {
     "building": "330 Grand St, Manhattan, NY, 10002",
@@ -8802,7 +9751,11 @@ const PAIRS_DATA = [
       "savings_percent": 21.0
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7171873,
+      "lon": -73.9901246
+    }
   },
   {
     "building": "330 Grand St, Manhattan, NY, 10002",
@@ -8839,7 +9792,11 @@ const PAIRS_DATA = [
       "savings_percent": 15.2
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7171873,
+      "lon": -73.9901246
+    }
   },
   {
     "building": "330 Grand St, Manhattan, NY, 10002",
@@ -8876,7 +9833,11 @@ const PAIRS_DATA = [
       "savings_percent": 4.5
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7171873,
+      "lon": -73.9901246
+    }
   },
   {
     "building": "290 West St, New York, NY, 10013",
@@ -8913,7 +9874,11 @@ const PAIRS_DATA = [
       "savings_percent": -55.2
     },
     "neighborhood": "Tribeca",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.724831,
+      "lon": -74.0107295
+    }
   },
   {
     "building": "175 W 95th St, New York, NY, 10025",
@@ -8950,7 +9915,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.9
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7933094,
+      "lon": -73.9704338
+    }
   },
   {
     "building": "120 E 37th St, New York, NY, 10016",
@@ -8987,7 +9956,11 @@ const PAIRS_DATA = [
       "savings_percent": 28.5
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7483527,
+      "lon": -73.9789082
+    }
   },
   {
     "building": "350 W 44th St, New York, NY, 10036",
@@ -9024,7 +9997,11 @@ const PAIRS_DATA = [
       "savings_percent": 1.2
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7592918,
+      "lon": -73.9910233
+    }
   },
   {
     "building": "211 Central Park W, New York, NY, 10024",
@@ -9061,7 +10038,11 @@ const PAIRS_DATA = [
       "savings_percent": -563.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7824621,
+      "lon": -73.9716223
+    }
   },
   {
     "building": "65 W 13th St, New York, NY, 10011",
@@ -9098,7 +10079,11 @@ const PAIRS_DATA = [
       "savings_percent": -52.5
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7368357,
+      "lon": -73.9968086
+    }
   },
   {
     "building": "53 W 53rd St, New York, NY, 10019",
@@ -9135,7 +10120,11 @@ const PAIRS_DATA = [
       "savings_percent": -121.9
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7617784,
+      "lon": -73.9781921
+    }
   },
   {
     "building": "53 W 53rd St, New York, NY, 10019",
@@ -9172,7 +10161,11 @@ const PAIRS_DATA = [
       "savings_percent": -75.1
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7617784,
+      "lon": -73.9781921
+    }
   },
   {
     "building": "53 W 53rd St, New York, NY, 10019",
@@ -9209,7 +10202,11 @@ const PAIRS_DATA = [
       "savings_percent": -165.9
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7617784,
+      "lon": -73.9781921
+    }
   },
   {
     "building": "53 W 53rd St, New York, NY, 10019",
@@ -9246,7 +10243,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.6
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7617784,
+      "lon": -73.9781921
+    }
   },
   {
     "building": "53 W 53rd St, New York, NY, 10019",
@@ -9283,7 +10284,11 @@ const PAIRS_DATA = [
       "savings_percent": -35.4
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7617784,
+      "lon": -73.9781921
+    }
   },
   {
     "building": "250 W 96th St, Manhattan, NY, 10025",
@@ -9320,7 +10325,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947729,
+      "lon": -73.9724352
+    }
   },
   {
     "building": "250 W 96th St, Manhattan, NY, 10025",
@@ -9357,7 +10366,11 @@ const PAIRS_DATA = [
       "savings_percent": -3.6
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947729,
+      "lon": -73.9724352
+    }
   },
   {
     "building": "250 W 96th St, Manhattan, NY, 10025",
@@ -9394,7 +10407,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.2
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947729,
+      "lon": -73.9724352
+    }
   },
   {
     "building": "250 W 96th St, Manhattan, NY, 10025",
@@ -9431,7 +10448,11 @@ const PAIRS_DATA = [
       "savings_percent": -3.8
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947729,
+      "lon": -73.9724352
+    }
   },
   {
     "building": "250 W 96th St, Manhattan, NY, 10025",
@@ -9468,7 +10489,11 @@ const PAIRS_DATA = [
       "savings_percent": 8.5
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947729,
+      "lon": -73.9724352
+    }
   },
   {
     "building": "250 W 96th St, Manhattan, NY, 10025",
@@ -9505,7 +10530,11 @@ const PAIRS_DATA = [
       "savings_percent": 0.7
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947729,
+      "lon": -73.9724352
+    }
   },
   {
     "building": "250 W 96th St, Manhattan, NY, 10025",
@@ -9542,7 +10571,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947729,
+      "lon": -73.9724352
+    }
   },
   {
     "building": "250 W 96th St, Manhattan, NY, 10025",
@@ -9579,7 +10612,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.3
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947729,
+      "lon": -73.9724352
+    }
   },
   {
     "building": "250 W 96th St, Manhattan, NY, 10025",
@@ -9616,7 +10653,11 @@ const PAIRS_DATA = [
       "savings_percent": -1.3
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947729,
+      "lon": -73.9724352
+    }
   },
   {
     "building": "1175 York Ave, Manhattan, NY, 10065",
@@ -9653,7 +10694,11 @@ const PAIRS_DATA = [
       "savings_percent": 48.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7615491,
+      "lon": -73.9578486
+    }
   },
   {
     "building": "333 E 53rd St, New York, NY, 10022",
@@ -9690,7 +10735,11 @@ const PAIRS_DATA = [
       "savings_percent": 56.4
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7563178,
+      "lon": -73.9655495
+    }
   },
   {
     "building": "333 E 53rd St, New York, NY, 10022",
@@ -9727,7 +10776,11 @@ const PAIRS_DATA = [
       "savings_percent": 52.2
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7563178,
+      "lon": -73.9655495
+    }
   },
   {
     "building": "333 E 53rd St, New York, NY, 10022",
@@ -9764,7 +10817,11 @@ const PAIRS_DATA = [
       "savings_percent": 47.1
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7563178,
+      "lon": -73.9655495
+    }
   },
   {
     "building": "2 S End Ave, New York, NY, 10280",
@@ -9801,7 +10858,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.3
     },
     "neighborhood": "Battery Park City",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.707925,
+      "lon": -74.0172187
+    }
   },
   {
     "building": "83 Thompson St, New York, NY, 10012",
@@ -9838,7 +10899,11 @@ const PAIRS_DATA = [
       "savings_percent": -65.0
     },
     "neighborhood": "SoHo",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7247821,
+      "lon": -74.0028199
+    }
   },
   {
     "building": "244 E 52nd St, Manhattan, NY, 10022",
@@ -9875,7 +10940,11 @@ const PAIRS_DATA = [
       "savings_percent": 8.5
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7561629,
+      "lon": -73.9683032
+    }
   },
   {
     "building": "244 E 52nd St, Manhattan, NY, 10022",
@@ -9912,7 +10981,11 @@ const PAIRS_DATA = [
       "savings_percent": 6.5
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7561629,
+      "lon": -73.9683032
+    }
   },
   {
     "building": "209 E 2nd St, New York, NY, 10009",
@@ -9949,7 +11022,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.9
     },
     "neighborhood": "East Village",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7218498,
+      "lon": -73.9832667
+    }
   },
   {
     "building": "100 W 93rd St, Manhattan, NY, 10025",
@@ -9986,7 +11063,11 @@ const PAIRS_DATA = [
       "savings_percent": 22.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7908124,
+      "lon": -73.9696314
+    }
   },
   {
     "building": "200 E 75th St, Manhattan, NY, 10021",
@@ -10023,7 +11104,11 @@ const PAIRS_DATA = [
       "savings_percent": -112.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7715195,
+      "lon": -73.9589928
+    }
   },
   {
     "building": "200 E 75th St, Manhattan, NY, 10021",
@@ -10060,7 +11145,11 @@ const PAIRS_DATA = [
       "savings_percent": -43.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7715195,
+      "lon": -73.9589928
+    }
   },
   {
     "building": "66 Madison Ave, Manhattan, NY, 10016",
@@ -10097,7 +11186,11 @@ const PAIRS_DATA = [
       "savings_percent": 52.9
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7436685,
+      "lon": -73.9861211
+    }
   },
   {
     "building": "185 W End Ave, Manhattan, NY, 10023",
@@ -10134,7 +11227,11 @@ const PAIRS_DATA = [
       "savings_percent": 12.8
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7775831,
+      "lon": -73.9859735
+    }
   },
   {
     "building": "185 W End Ave, Manhattan, NY, 10023",
@@ -10171,7 +11268,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.5
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7775831,
+      "lon": -73.9859735
+    }
   },
   {
     "building": "401 E 60th St, New York, NY, 10022",
@@ -10208,7 +11309,11 @@ const PAIRS_DATA = [
       "savings_percent": 35.9
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7602918,
+      "lon": -73.9610478
+    }
   },
   {
     "building": "200 Mercer St, Manhattan, NY, 10012",
@@ -10245,7 +11350,11 @@ const PAIRS_DATA = [
       "savings_percent": -41.2
     },
     "neighborhood": "SoHo",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7263433,
+      "lon": -73.9965864
+    }
   },
   {
     "building": "225 W 60th St, New York, NY, 10023",
@@ -10282,7 +11391,11 @@ const PAIRS_DATA = [
       "savings_percent": 24.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7715656,
+      "lon": -73.988176
+    }
   },
   {
     "building": "24 Central Park S, New York, NY, 10019",
@@ -10319,7 +11432,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.1
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7648577,
+      "lon": -73.9749144
+    }
   },
   {
     "building": "252 South St, New York, NY, 10002",
@@ -10356,7 +11473,11 @@ const PAIRS_DATA = [
       "savings_percent": -0.9
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7100128,
+      "lon": -73.9909786
+    }
   },
   {
     "building": "252 South St, New York, NY, 10002",
@@ -10393,7 +11514,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.4
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7100128,
+      "lon": -73.9909786
+    }
   },
   {
     "building": "30 W 60th St, New York, NY, 10023",
@@ -10430,7 +11555,11 @@ const PAIRS_DATA = [
       "savings_percent": 8.9
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7692974,
+      "lon": -73.9839487
+    }
   },
   {
     "building": "636 Washington St, New York, NY, 10014",
@@ -10467,7 +11596,11 @@ const PAIRS_DATA = [
       "savings_percent": -55.4
     },
     "neighborhood": "West Village",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7321798,
+      "lon": -74.0089057
+    }
   },
   {
     "building": "380 Riverside Dr, New York, NY, 10025",
@@ -10504,7 +11637,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8046596,
+      "lon": -73.967443
+    }
   },
   {
     "building": "45 E 62nd St, Manhattan, NY, 10065",
@@ -10541,7 +11678,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7652696,
+      "lon": -73.9690748
+    }
   },
   {
     "building": "20 E 35th St, New York, NY, 10016",
@@ -10578,7 +11719,11 @@ const PAIRS_DATA = [
       "savings_percent": 28.0
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7482362,
+      "lon": -73.9822653
+    }
   },
   {
     "building": "108 W 138th St, New York, NY, 10030",
@@ -10615,7 +11760,11 @@ const PAIRS_DATA = [
       "savings_percent": 62.5
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8162205,
+      "lon": -73.9403528
+    }
   },
   {
     "building": "15 E 30th St, New York, NY, 10016",
@@ -10652,7 +11801,11 @@ const PAIRS_DATA = [
       "savings_percent": -83.9
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7456796,
+      "lon": -73.985181
+    }
   },
   {
     "building": "50 W 66th St, New York, NY, 10023",
@@ -10689,7 +11842,11 @@ const PAIRS_DATA = [
       "savings_percent": -41.3
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7729375,
+      "lon": -73.980203
+    }
   },
   {
     "building": "50 W 66th St, New York, NY, 10023",
@@ -10726,7 +11883,11 @@ const PAIRS_DATA = [
       "savings_percent": -193.8
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7729375,
+      "lon": -73.980203
+    }
   },
   {
     "building": "20 W 53rd St, New York, NY, 10019",
@@ -10763,7 +11924,11 @@ const PAIRS_DATA = [
       "savings_percent": -62.4
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7606372,
+      "lon": -73.9765774
+    }
   },
   {
     "building": "100 Barclay St, Manhattan, NY, 10007",
@@ -10800,7 +11965,11 @@ const PAIRS_DATA = [
       "savings_percent": 10.0
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.713932,
+      "lon": -74.012523
+    }
   },
   {
     "building": "355 W 39th St, New York, NY, 10018",
@@ -10837,7 +12006,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.3
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7564686,
+      "lon": -73.9934803
+    }
   },
   {
     "building": "355 W 39th St, New York, NY, 10018",
@@ -10874,7 +12047,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.4
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7564686,
+      "lon": -73.9934803
+    }
   },
   {
     "building": "35 Hudson Yards, Manhattan, NY, 10001",
@@ -10911,7 +12088,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.6
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7546523,
+      "lon": -74.0022403
+    }
   },
   {
     "building": "35 Hudson Yards, Manhattan, NY, 10001",
@@ -10948,7 +12129,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7546523,
+      "lon": -74.0022403
+    }
   },
   {
     "building": "400 E 67th St, New York, NY, 10065",
@@ -10985,7 +12170,11 @@ const PAIRS_DATA = [
       "savings_percent": 23.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7643741,
+      "lon": -73.9580158
+    }
   },
   {
     "building": "1965 Broadway, New York, NY, 10023",
@@ -11022,7 +12211,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7744037,
+      "lon": -73.9824956
+    }
   },
   {
     "building": "525 E 80th St, New York, NY, 10075",
@@ -11059,7 +12252,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7716006,
+      "lon": -73.948326
+    }
   },
   {
     "building": "30 Riverside Blvd, New York, NY, 10069",
@@ -11096,7 +12293,11 @@ const PAIRS_DATA = [
       "savings_percent": -32.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7736798,
+      "lon": -73.9918014
+    }
   },
   {
     "building": "30 Riverside Blvd, New York, NY, 10069",
@@ -11133,7 +12334,11 @@ const PAIRS_DATA = [
       "savings_percent": -44.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7736798,
+      "lon": -73.9918014
+    }
   },
   {
     "building": "2 Charlton St, Manhattan, NY, 10014",
@@ -11170,7 +12375,11 @@ const PAIRS_DATA = [
       "savings_percent": -89.3
     },
     "neighborhood": "West Village",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7268861,
+      "lon": -74.0038643
+    }
   },
   {
     "building": "170 W 23rd St, New York, NY, 10011",
@@ -11207,7 +12416,11 @@ const PAIRS_DATA = [
       "savings_percent": 19.4
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7438079,
+      "lon": -73.9954057
+    }
   },
   {
     "building": "420 W 23rd St, New York, NY, 10011",
@@ -11244,7 +12457,11 @@ const PAIRS_DATA = [
       "savings_percent": 14.4
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7466517,
+      "lon": -74.0023926
+    }
   },
   {
     "building": "2 E 2nd St, Manhattan, NY, 10003",
@@ -11281,7 +12498,11 @@ const PAIRS_DATA = [
       "savings_percent": 6.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7256022,
+      "lon": -73.9916238
+    }
   },
   {
     "building": "25 Broad St, Manhattan, NY, 10004",
@@ -11318,7 +12539,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.1
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7058026,
+      "lon": -74.0104757
+    }
   },
   {
     "building": "25 Broad St, Manhattan, NY, 10004",
@@ -11355,7 +12580,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.2
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7058026,
+      "lon": -74.0104757
+    }
   },
   {
     "building": "25 Broad St, Manhattan, NY, 10004",
@@ -11392,7 +12621,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.0
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7058026,
+      "lon": -74.0104757
+    }
   },
   {
     "building": "25 Broad St, Manhattan, NY, 10004",
@@ -11429,7 +12662,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.1
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7058026,
+      "lon": -74.0104757
+    }
   },
   {
     "building": "465 Park Ave, New York, NY, 10022",
@@ -11466,7 +12703,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.7
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7616473,
+      "lon": -73.9701648
+    }
   },
   {
     "building": "668 Riverside Dr, New York, NY, 10031",
@@ -11503,7 +12744,11 @@ const PAIRS_DATA = [
       "savings_percent": 50.8
     },
     "neighborhood": "Hamilton Heights",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8261852,
+      "lon": -73.9525197
+    }
   },
   {
     "building": "140 W 81st St, New York, NY, 10024",
@@ -11540,7 +12785,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7840058,
+      "lon": -73.9765248
+    }
   },
   {
     "building": "140 W 81st St, New York, NY, 10024",
@@ -11577,7 +12826,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7840058,
+      "lon": -73.9765248
+    }
   },
   {
     "building": "410 Central Park W, Manhattan, NY, 10025",
@@ -11614,7 +12867,11 @@ const PAIRS_DATA = [
       "savings_percent": 43.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7947536,
+      "lon": -73.9626335
+    }
   },
   {
     "building": "1809 Adam Clayton Powell Jr Blvd, Manhattan, NY, 10026",
@@ -11651,7 +12908,11 @@ const PAIRS_DATA = [
       "savings_percent": 67.3
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7996694,
+      "lon": -73.9548085
+    }
   },
   {
     "building": "1809 Adam Clayton Powell Jr Blvd, Manhattan, NY, 10026",
@@ -11688,7 +12949,11 @@ const PAIRS_DATA = [
       "savings_percent": 66.8
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7996694,
+      "lon": -73.9548085
+    }
   },
   {
     "building": "1809 Adam Clayton Powell Jr Blvd, Manhattan, NY, 10026",
@@ -11725,7 +12990,11 @@ const PAIRS_DATA = [
       "savings_percent": 66.8
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7996694,
+      "lon": -73.9548085
+    }
   },
   {
     "building": "12 W 72nd St, New York, NY, 10023",
@@ -11762,7 +13031,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7764198,
+      "lon": -73.9771456
+    }
   },
   {
     "building": "741 W End Ave, New York, NY, 10025",
@@ -11799,7 +13072,11 @@ const PAIRS_DATA = [
       "savings_percent": 22.9
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7956074,
+      "lon": -73.9730748
+    }
   },
   {
     "building": "75 Wall St, New York, NY, 10005",
@@ -11836,7 +13113,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.8
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7051407,
+      "lon": -74.0079783
+    }
   },
   {
     "building": "300 E 93rd St, Manhattan, NY, 10128",
@@ -11873,7 +13154,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.781943,
+      "lon": -73.9483213
+    }
   },
   {
     "building": "100 W 15th St, New York, NY, 10011",
@@ -11910,7 +13195,11 @@ const PAIRS_DATA = [
       "savings_percent": 10.2
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7381129,
+      "lon": -73.9967414
+    }
   },
   {
     "building": "400 E 56th St, Manhattan, NY, 10022",
@@ -11947,7 +13236,11 @@ const PAIRS_DATA = [
       "savings_percent": 48.5
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7572668,
+      "lon": -73.9629554
+    }
   },
   {
     "building": "721 Fifth Ave, New York, NY, 10022",
@@ -11984,7 +13277,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.6
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8021613,
+      "lon": -73.9453686
+    }
   },
   {
     "building": "215 E 79th St, Manhattan, NY, 10075",
@@ -12021,7 +13318,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7740852,
+      "lon": -73.9562147
+    }
   },
   {
     "building": "455 W 19th St, Manhattan, NY, 10011",
@@ -12058,7 +13359,11 @@ const PAIRS_DATA = [
       "savings_percent": -86.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7451437,
+      "lon": -74.005197
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12095,7 +13400,11 @@ const PAIRS_DATA = [
       "savings_percent": -4.9
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12132,7 +13441,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.5
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12169,7 +13482,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.4
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12206,7 +13523,11 @@ const PAIRS_DATA = [
       "savings_percent": 0.4
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12243,7 +13564,11 @@ const PAIRS_DATA = [
       "savings_percent": -27.1
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12280,7 +13605,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.0
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12317,7 +13646,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.0
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12354,7 +13687,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.0
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12391,7 +13728,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.8
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12428,7 +13769,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.7
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12465,7 +13810,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.5
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12502,7 +13851,11 @@ const PAIRS_DATA = [
       "savings_percent": -24.4
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12539,7 +13892,11 @@ const PAIRS_DATA = [
       "savings_percent": -24.4
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12576,7 +13933,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.9
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12613,7 +13974,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.2
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12650,7 +14015,11 @@ const PAIRS_DATA = [
       "savings_percent": -22.9
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "609 Second Ave, New York, NY, 10016",
@@ -12687,7 +14056,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.3
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.912141,
+      "lon": -73.8121681
+    }
   },
   {
     "building": "226 E 12th St, Manhattan, NY, 10003",
@@ -12724,7 +14097,11 @@ const PAIRS_DATA = [
       "savings_percent": 49.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7312116,
+      "lon": -73.9869149
+    }
   },
   {
     "building": "108 Leonard St, New York, NY, 10013",
@@ -12761,7 +14138,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.1
     },
     "neighborhood": "Tribeca",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7164336,
+      "lon": -74.0033385
+    }
   },
   {
     "building": "40 Bleecker St, New York, NY, 10012",
@@ -12798,7 +14179,11 @@ const PAIRS_DATA = [
       "savings_percent": -101.0
     },
     "neighborhood": "SoHo",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7256829,
+      "lon": -73.9944244
+    }
   },
   {
     "building": "120 E 36th St, Manhattan, NY, 10016",
@@ -12835,7 +14220,11 @@ const PAIRS_DATA = [
       "savings_percent": 43.7
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7478184,
+      "lon": -73.979444
+    }
   },
   {
     "building": "790 Riverside Dr, Manhattan, NY, 10032",
@@ -12872,7 +14261,11 @@ const PAIRS_DATA = [
       "savings_percent": 63.5
     },
     "neighborhood": "Washington Heights",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8347904,
+      "lon": -73.9468968
+    }
   },
   {
     "building": "433 W 34th St, Manhattan, NY, 10001",
@@ -12909,7 +14302,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.4
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7542846,
+      "lon": -73.9977693
+    }
   },
   {
     "building": "695 First Ave, New York, NY, 10016",
@@ -12946,7 +14343,11 @@ const PAIRS_DATA = [
       "savings_percent": 7.3
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.9132806,
+      "lon": -73.8125851
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -12983,7 +14384,11 @@ const PAIRS_DATA = [
       "savings_percent": -90.9
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13020,7 +14425,11 @@ const PAIRS_DATA = [
       "savings_percent": -79.4
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13057,7 +14466,11 @@ const PAIRS_DATA = [
       "savings_percent": -90.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13094,7 +14507,11 @@ const PAIRS_DATA = [
       "savings_percent": -94.1
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13131,7 +14548,11 @@ const PAIRS_DATA = [
       "savings_percent": -82.5
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13168,7 +14589,11 @@ const PAIRS_DATA = [
       "savings_percent": -80.9
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13205,7 +14630,11 @@ const PAIRS_DATA = [
       "savings_percent": -77.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13242,7 +14671,11 @@ const PAIRS_DATA = [
       "savings_percent": -51.6
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13279,7 +14712,11 @@ const PAIRS_DATA = [
       "savings_percent": -65.4
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13316,7 +14753,11 @@ const PAIRS_DATA = [
       "savings_percent": -73.3
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13353,7 +14794,11 @@ const PAIRS_DATA = [
       "savings_percent": -62.2
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "500 W 18th St, New York, NY, 10011",
@@ -13390,7 +14835,11 @@ const PAIRS_DATA = [
       "savings_percent": -81.9
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7440611,
+      "lon": -74.0049828
+    }
   },
   {
     "building": "345 E 69th St, Manhattan, NY, 10021",
@@ -13427,7 +14876,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7660752,
+      "lon": -73.9576325
+    }
   },
   {
     "building": "1280 Fifth Ave, New York, NY, 10029",
@@ -13464,7 +14917,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.6
     },
     "neighborhood": "East Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8021613,
+      "lon": -73.9453686
+    }
   },
   {
     "building": "14 Sutton Pl S, New York, NY, 10022",
@@ -13501,7 +14958,11 @@ const PAIRS_DATA = [
       "savings_percent": -47.0
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7569625,
+      "lon": -73.9611895
+    }
   },
   {
     "building": "340 E 23rd St, New York, NY, 10010",
@@ -13538,7 +14999,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7373688,
+      "lon": -73.9799787
+    }
   },
   {
     "building": "340 E 23rd St, New York, NY, 10010",
@@ -13575,7 +15040,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7373688,
+      "lon": -73.9799787
+    }
   },
   {
     "building": "340 E 23rd St, New York, NY, 10010",
@@ -13612,7 +15081,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7373688,
+      "lon": -73.9799787
+    }
   },
   {
     "building": "570 Broome St, Manhattan, NY, 10013",
@@ -13649,7 +15122,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.2
     },
     "neighborhood": "Tribeca",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7246209,
+      "lon": -74.0065953
+    }
   },
   {
     "building": "118 E 60th St, Manhattan, NY, 10022",
@@ -13686,7 +15163,11 @@ const PAIRS_DATA = [
       "savings_percent": 49.3
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7627579,
+      "lon": -73.968691
+    }
   },
   {
     "building": "222 E Broadway, New York, NY, 10002",
@@ -13723,7 +15204,11 @@ const PAIRS_DATA = [
       "savings_percent": 22.0
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7143411,
+      "lon": -73.9878105
+    }
   },
   {
     "building": "222 E Broadway, New York, NY, 10002",
@@ -13760,7 +15245,11 @@ const PAIRS_DATA = [
       "savings_percent": 10.1
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7143411,
+      "lon": -73.9878105
+    }
   },
   {
     "building": "222 E Broadway, New York, NY, 10002",
@@ -13797,7 +15286,11 @@ const PAIRS_DATA = [
       "savings_percent": 7.5
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7143411,
+      "lon": -73.9878105
+    }
   },
   {
     "building": "222 E Broadway, New York, NY, 10002",
@@ -13834,7 +15327,11 @@ const PAIRS_DATA = [
       "savings_percent": 4.2
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7143411,
+      "lon": -73.9878105
+    }
   },
   {
     "building": "222 E Broadway, New York, NY, 10002",
@@ -13871,7 +15368,11 @@ const PAIRS_DATA = [
       "savings_percent": 18.6
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7143411,
+      "lon": -73.9878105
+    }
   },
   {
     "building": "135 E 47th St, New York, NY, 10017",
@@ -13908,7 +15409,11 @@ const PAIRS_DATA = [
       "savings_percent": -28.6
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7544381,
+      "lon": -73.9730838
+    }
   },
   {
     "building": "135 E 47th St, New York, NY, 10017",
@@ -13945,7 +15450,11 @@ const PAIRS_DATA = [
       "savings_percent": -33.9
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7544381,
+      "lon": -73.9730838
+    }
   },
   {
     "building": "135 E 47th St, New York, NY, 10017",
@@ -13982,7 +15491,11 @@ const PAIRS_DATA = [
       "savings_percent": -31.1
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7544381,
+      "lon": -73.9730838
+    }
   },
   {
     "building": "135 E 47th St, New York, NY, 10017",
@@ -14019,7 +15532,11 @@ const PAIRS_DATA = [
       "savings_percent": -46.6
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7544381,
+      "lon": -73.9730838
+    }
   },
   {
     "building": "135 E 47th St, New York, NY, 10017",
@@ -14056,7 +15573,11 @@ const PAIRS_DATA = [
       "savings_percent": -53.1
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7544381,
+      "lon": -73.9730838
+    }
   },
   {
     "building": "135 E 47th St, New York, NY, 10017",
@@ -14093,7 +15614,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.7
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7544381,
+      "lon": -73.9730838
+    }
   },
   {
     "building": "135 E 47th St, New York, NY, 10017",
@@ -14130,7 +15655,11 @@ const PAIRS_DATA = [
       "savings_percent": -36.7
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7544381,
+      "lon": -73.9730838
+    }
   },
   {
     "building": "135 E 47th St, New York, NY, 10017",
@@ -14167,7 +15696,11 @@ const PAIRS_DATA = [
       "savings_percent": -50.3
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7544381,
+      "lon": -73.9730838
+    }
   },
   {
     "building": "135 E 47th St, New York, NY, 10017",
@@ -14204,7 +15737,11 @@ const PAIRS_DATA = [
       "savings_percent": -34.2
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7544381,
+      "lon": -73.9730838
+    }
   },
   {
     "building": "125 E 74th St, Manhattan, NY, 10021",
@@ -14241,7 +15778,11 @@ const PAIRS_DATA = [
       "savings_percent": -91.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7721899,
+      "lon": -73.961771
+    }
   },
   {
     "building": "303 E 43rd St, Manhattan, NY, 10017",
@@ -14278,7 +15819,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.9
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.750598,
+      "lon": -73.9712959
+    }
   },
   {
     "building": "161 W 61st St, New York, NY, 10023",
@@ -14315,7 +15860,11 @@ const PAIRS_DATA = [
       "savings_percent": 24.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7717343,
+      "lon": -73.9862238
+    }
   },
   {
     "building": "49 E 21st St, Manhattan, NY, 10010",
@@ -14352,7 +15901,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7392925,
+      "lon": -73.9876826
+    }
   },
   {
     "building": "49 E 21st St, Manhattan, NY, 10010",
@@ -14389,7 +15942,11 @@ const PAIRS_DATA = [
       "savings_percent": 23.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7392925,
+      "lon": -73.9876826
+    }
   },
   {
     "building": "517 W 29th St, New York, NY, 10001",
@@ -14426,7 +15983,11 @@ const PAIRS_DATA = [
       "savings_percent": 8.1
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7520452,
+      "lon": -74.0022839
+    }
   },
   {
     "building": "416 W 52nd St, New York, NY, 10019",
@@ -14463,7 +16024,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.5
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7649274,
+      "lon": -73.9889843
+    }
   },
   {
     "building": "517 E 77th St, New York, NY, 10075",
@@ -14500,7 +16065,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7697314,
+      "lon": -73.949861
+    }
   },
   {
     "building": "450 Washington St, New York, NY, 10013",
@@ -14537,7 +16106,11 @@ const PAIRS_DATA = [
       "savings_percent": -41.0
     },
     "neighborhood": "Tribeca",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7239207,
+      "lon": -74.0103767
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14574,7 +16147,11 @@ const PAIRS_DATA = [
       "savings_percent": -41.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14611,7 +16188,11 @@ const PAIRS_DATA = [
       "savings_percent": -39.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14648,7 +16229,11 @@ const PAIRS_DATA = [
       "savings_percent": -42.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14685,7 +16270,11 @@ const PAIRS_DATA = [
       "savings_percent": -42.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14722,7 +16311,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14759,7 +16352,11 @@ const PAIRS_DATA = [
       "savings_percent": -51.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14796,7 +16393,11 @@ const PAIRS_DATA = [
       "savings_percent": -53.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14833,7 +16434,11 @@ const PAIRS_DATA = [
       "savings_percent": -54.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14870,7 +16475,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14907,7 +16516,11 @@ const PAIRS_DATA = [
       "savings_percent": -41.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14944,7 +16557,11 @@ const PAIRS_DATA = [
       "savings_percent": -42.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -14981,7 +16598,11 @@ const PAIRS_DATA = [
       "savings_percent": -40.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15018,7 +16639,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15055,7 +16680,11 @@ const PAIRS_DATA = [
       "savings_percent": -38.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15092,7 +16721,11 @@ const PAIRS_DATA = [
       "savings_percent": -36.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15129,7 +16762,11 @@ const PAIRS_DATA = [
       "savings_percent": -37.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15166,7 +16803,11 @@ const PAIRS_DATA = [
       "savings_percent": -47.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15203,7 +16844,11 @@ const PAIRS_DATA = [
       "savings_percent": -37.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15240,7 +16885,11 @@ const PAIRS_DATA = [
       "savings_percent": -46.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15277,7 +16926,11 @@ const PAIRS_DATA = [
       "savings_percent": -49.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15314,7 +16967,11 @@ const PAIRS_DATA = [
       "savings_percent": -46.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15351,7 +17008,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15388,7 +17049,11 @@ const PAIRS_DATA = [
       "savings_percent": -51.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15425,7 +17090,11 @@ const PAIRS_DATA = [
       "savings_percent": -47.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15462,7 +17131,11 @@ const PAIRS_DATA = [
       "savings_percent": -38.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15499,7 +17172,11 @@ const PAIRS_DATA = [
       "savings_percent": -43.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15536,7 +17213,11 @@ const PAIRS_DATA = [
       "savings_percent": -37.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15573,7 +17254,11 @@ const PAIRS_DATA = [
       "savings_percent": -53.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15610,7 +17295,11 @@ const PAIRS_DATA = [
       "savings_percent": -37.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15647,7 +17336,11 @@ const PAIRS_DATA = [
       "savings_percent": -42.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15684,7 +17377,11 @@ const PAIRS_DATA = [
       "savings_percent": -50.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15721,7 +17418,11 @@ const PAIRS_DATA = [
       "savings_percent": -44.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15758,7 +17459,11 @@ const PAIRS_DATA = [
       "savings_percent": -40.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15795,7 +17500,11 @@ const PAIRS_DATA = [
       "savings_percent": -42.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15832,7 +17541,11 @@ const PAIRS_DATA = [
       "savings_percent": -40.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15869,7 +17582,11 @@ const PAIRS_DATA = [
       "savings_percent": -34.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15906,7 +17623,11 @@ const PAIRS_DATA = [
       "savings_percent": -48.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15943,7 +17664,11 @@ const PAIRS_DATA = [
       "savings_percent": -42.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -15980,7 +17705,11 @@ const PAIRS_DATA = [
       "savings_percent": -44.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -16017,7 +17746,11 @@ const PAIRS_DATA = [
       "savings_percent": -39.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -16054,7 +17787,11 @@ const PAIRS_DATA = [
       "savings_percent": -55.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -16091,7 +17828,11 @@ const PAIRS_DATA = [
       "savings_percent": -58.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -16128,7 +17869,11 @@ const PAIRS_DATA = [
       "savings_percent": -47.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -16165,7 +17910,11 @@ const PAIRS_DATA = [
       "savings_percent": -43.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -16202,7 +17951,11 @@ const PAIRS_DATA = [
       "savings_percent": -59.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -16239,7 +17992,11 @@ const PAIRS_DATA = [
       "savings_percent": -58.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "815 Broadway, Manhattan, NY, 10003",
@@ -16276,7 +18033,11 @@ const PAIRS_DATA = [
       "savings_percent": -60.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7329893,
+      "lon": -73.9912723
+    }
   },
   {
     "building": "150 W End Ave, Manhattan, NY, 10023",
@@ -16313,7 +18074,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.776586,
+      "lon": -73.9859919
+    }
   },
   {
     "building": "25 Tudor City Pl, Manhattan, NY, 10017",
@@ -16350,7 +18115,11 @@ const PAIRS_DATA = [
       "savings_percent": 61.0
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7486361,
+      "lon": -73.9705046
+    }
   },
   {
     "building": "160 W 66th St, New York, NY, 10023",
@@ -16387,7 +18156,11 @@ const PAIRS_DATA = [
       "savings_percent": -4.3
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7745105,
+      "lon": -73.9839956
+    }
   },
   {
     "building": "136 E 36th St, Manhattan, NY, 10016",
@@ -16424,7 +18197,11 @@ const PAIRS_DATA = [
       "savings_percent": 19.1
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7475049,
+      "lon": -73.9786191
+    }
   },
   {
     "building": "121 E 23rd St, New York, NY, 10010",
@@ -16461,7 +18238,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7398484,
+      "lon": -73.9853385
+    }
   },
   {
     "building": "260 Park Ave S, New York, NY, 10010",
@@ -16498,7 +18279,11 @@ const PAIRS_DATA = [
       "savings_percent": 1.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7387453,
+      "lon": -73.9876896
+    }
   },
   {
     "building": "260 Park Ave S, New York, NY, 10010",
@@ -16535,7 +18320,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7387453,
+      "lon": -73.9876896
+    }
   },
   {
     "building": "260 Park Ave S, New York, NY, 10010",
@@ -16572,7 +18361,11 @@ const PAIRS_DATA = [
       "savings_percent": -0.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7387453,
+      "lon": -73.9876896
+    }
   },
   {
     "building": "21 E 61st St, Manhattan, NY, 10065",
@@ -16609,7 +18402,11 @@ const PAIRS_DATA = [
       "savings_percent": -35.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7650245,
+      "lon": -73.9707058
+    }
   },
   {
     "building": "205 E 77th St, Manhattan, NY, 10075",
@@ -16646,7 +18443,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.772876,
+      "lon": -73.9575297
+    }
   },
   {
     "building": "420 E 72nd St, Manhattan, NY, 10021",
@@ -16683,7 +18484,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7672374,
+      "lon": -73.9552841
+    }
   },
   {
     "building": "20 Pine St, New York, NY, 10005",
@@ -16720,7 +18525,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.5
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7077309,
+      "lon": -74.0097165
+    }
   },
   {
     "building": "360 E 88th St, Manhattan, NY, 10128",
@@ -16757,7 +18566,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7782758,
+      "lon": -73.9490193
+    }
   },
   {
     "building": "181 E 101st St, Manhattan, NY, 10029",
@@ -16794,7 +18607,11 @@ const PAIRS_DATA = [
       "savings_percent": 35.4
     },
     "neighborhood": "East Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7886813,
+      "lon": -73.9472026
+    }
   },
   {
     "building": "111 W 56th St, New York, NY, 10019",
@@ -16831,7 +18648,11 @@ const PAIRS_DATA = [
       "savings_percent": -73.9
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7638871,
+      "lon": -73.978036
+    }
   },
   {
     "building": "310 E 86th St, New York, NY, 10028",
@@ -16868,7 +18689,11 @@ const PAIRS_DATA = [
       "savings_percent": 2.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7776099,
+      "lon": -73.9513372
+    }
   },
   {
     "building": "310 E 86th St, New York, NY, 10028",
@@ -16905,7 +18730,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7776099,
+      "lon": -73.9513372
+    }
   },
   {
     "building": "310 E 86th St, New York, NY, 10028",
@@ -16942,7 +18771,11 @@ const PAIRS_DATA = [
       "savings_percent": 2.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7776099,
+      "lon": -73.9513372
+    }
   },
   {
     "building": "310 E 86th St, New York, NY, 10028",
@@ -16979,7 +18812,11 @@ const PAIRS_DATA = [
       "savings_percent": 1.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7776099,
+      "lon": -73.9513372
+    }
   },
   {
     "building": "25 W 54th St, New York, NY, 10019",
@@ -17016,7 +18853,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.9
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7619332,
+      "lon": -73.9769847
+    }
   },
   {
     "building": "400 Fifth Ave, New York, NY, 10018",
@@ -17053,7 +18894,11 @@ const PAIRS_DATA = [
       "savings_percent": 2.7
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7501052,
+      "lon": -73.9838132
+    }
   },
   {
     "building": "100 Central Park S, New York, NY, 10019",
@@ -17090,7 +18935,11 @@ const PAIRS_DATA = [
       "savings_percent": -93.3
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7655572,
+      "lon": -73.9765904
+    }
   },
   {
     "building": "500 W 43rd St, New York, NY, 10036",
@@ -17127,7 +18976,11 @@ const PAIRS_DATA = [
       "savings_percent": 21.2
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7601737,
+      "lon": -73.995524
+    }
   },
   {
     "building": "1289 Lexington Ave, Manhattan, NY, 10028",
@@ -17164,7 +19017,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7799779,
+      "lon": -73.9551103
+    }
   },
   {
     "building": "1289 Lexington Ave, Manhattan, NY, 10028",
@@ -17201,7 +19058,11 @@ const PAIRS_DATA = [
       "savings_percent": -6.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7799779,
+      "lon": -73.9551103
+    }
   },
   {
     "building": "1289 Lexington Ave, Manhattan, NY, 10028",
@@ -17238,7 +19099,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.8
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7799779,
+      "lon": -73.9551103
+    }
   },
   {
     "building": "1289 Lexington Ave, Manhattan, NY, 10028",
@@ -17275,7 +19140,11 @@ const PAIRS_DATA = [
       "savings_percent": -23.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7799779,
+      "lon": -73.9551103
+    }
   },
   {
     "building": "1289 Lexington Ave, Manhattan, NY, 10028",
@@ -17312,7 +19181,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7799779,
+      "lon": -73.9551103
+    }
   },
   {
     "building": "1289 Lexington Ave, Manhattan, NY, 10028",
@@ -17349,7 +19222,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7799779,
+      "lon": -73.9551103
+    }
   },
   {
     "building": "1289 Lexington Ave, Manhattan, NY, 10028",
@@ -17386,7 +19263,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7799779,
+      "lon": -73.9551103
+    }
   },
   {
     "building": "1289 Lexington Ave, Manhattan, NY, 10028",
@@ -17423,7 +19304,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7799779,
+      "lon": -73.9551103
+    }
   },
   {
     "building": "1289 Lexington Ave, Manhattan, NY, 10028",
@@ -17460,7 +19345,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7799779,
+      "lon": -73.9551103
+    }
   },
   {
     "building": "24 W 55th St, New York, NY, 10019",
@@ -17497,7 +19386,11 @@ const PAIRS_DATA = [
       "savings_percent": 45.6
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.762047,
+      "lon": -73.9763887
+    }
   },
   {
     "building": "530 Park Ave, Manhattan, NY, 10065",
@@ -17534,7 +19427,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7640143,
+      "lon": -73.9693062
+    }
   },
   {
     "building": "106 Central Park S, New York, NY, 10019",
@@ -17571,7 +19468,11 @@ const PAIRS_DATA = [
       "savings_percent": 7.1
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.765454,
+      "lon": -73.976929
+    }
   },
   {
     "building": "29 W 138th St, New York, NY, 10037",
@@ -17608,7 +19509,11 @@ const PAIRS_DATA = [
       "savings_percent": 71.4
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8151379,
+      "lon": -73.9368592
+    }
   },
   {
     "building": "15 W 81st St, Manhattan, NY, 10024",
@@ -17645,7 +19550,11 @@ const PAIRS_DATA = [
       "savings_percent": -43.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7828672,
+      "lon": -73.9723983
+    }
   },
   {
     "building": "50 W 15th St, New York, NY, 10011",
@@ -17682,7 +19591,11 @@ const PAIRS_DATA = [
       "savings_percent": 6.6
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7374253,
+      "lon": -73.9954715
+    }
   },
   {
     "building": "75 1st Ave, New York, NY, 10003",
@@ -17719,7 +19632,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.725672,
+      "lon": -73.987118
+    }
   },
   {
     "building": "157 W 57th St, New York, NY, 10019",
@@ -17756,7 +19673,11 @@ const PAIRS_DATA = [
       "savings_percent": -213.0
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7650714,
+      "lon": -73.978746
+    }
   },
   {
     "building": "157 W 57th St, New York, NY, 10019",
@@ -17793,7 +19714,11 @@ const PAIRS_DATA = [
       "savings_percent": -252.5
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7650714,
+      "lon": -73.978746
+    }
   },
   {
     "building": "157 W 57th St, New York, NY, 10019",
@@ -17830,7 +19755,11 @@ const PAIRS_DATA = [
       "savings_percent": -83.3
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7650714,
+      "lon": -73.978746
+    }
   },
   {
     "building": "432 Park Ave, New York, NY, 10022",
@@ -17867,7 +19796,11 @@ const PAIRS_DATA = [
       "savings_percent": -249.9
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7616833,
+      "lon": -73.9718584
+    }
   },
   {
     "building": "432 Park Ave, New York, NY, 10022",
@@ -17904,7 +19837,11 @@ const PAIRS_DATA = [
       "savings_percent": -296.3
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7616833,
+      "lon": -73.9718584
+    }
   },
   {
     "building": "205 W 76th St, Manhattan, NY, 10023",
@@ -17941,7 +19878,11 @@ const PAIRS_DATA = [
       "savings_percent": -1.6
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7816888,
+      "lon": -73.9799928
+    }
   },
   {
     "building": "220 E 65th St, New York, NY, 10065",
@@ -17978,7 +19919,11 @@ const PAIRS_DATA = [
       "savings_percent": 11.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.764479,
+      "lon": -73.9624015
+    }
   },
   {
     "building": "251 E 51st St, Manhattan, NY, 10022",
@@ -18015,7 +19960,11 @@ const PAIRS_DATA = [
       "savings_percent": 35.2
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.755679,
+      "lon": -73.9682192
+    }
   },
   {
     "building": "200 E 32nd St, Manhattan, NY, 10016",
@@ -18052,7 +20001,11 @@ const PAIRS_DATA = [
       "savings_percent": 18.9
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7439285,
+      "lon": -73.9790227
+    }
   },
   {
     "building": "200 E 83rd St, Manhattan, NY, 10028",
@@ -18089,7 +20042,11 @@ const PAIRS_DATA = [
       "savings_percent": -22.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7765584,
+      "lon": -73.9552666
+    }
   },
   {
     "building": "435 W 19th St, Manhattan, NY, 10011",
@@ -18126,7 +20083,11 @@ const PAIRS_DATA = [
       "savings_percent": 19.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.744793,
+      "lon": -74.0044183
+    }
   },
   {
     "building": "435 W 19th St, Manhattan, NY, 10011",
@@ -18163,7 +20124,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.6
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.744793,
+      "lon": -74.0044183
+    }
   },
   {
     "building": "435 W 19th St, Manhattan, NY, 10011",
@@ -18200,7 +20165,11 @@ const PAIRS_DATA = [
       "savings_percent": 12.1
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.744793,
+      "lon": -74.0044183
+    }
   },
   {
     "building": "529 W 42nd St, New York, NY, 10036",
@@ -18237,7 +20206,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.2
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7605763,
+      "lon": -73.9973166
+    }
   },
   {
     "building": "70 Little West St, New York, NY, 10004",
@@ -18274,7 +20247,11 @@ const PAIRS_DATA = [
       "savings_percent": 6.4
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7069568,
+      "lon": -74.0166594
+    }
   },
   {
     "building": "400 E 52nd St, Manhattan, NY, 10022",
@@ -18311,7 +20288,11 @@ const PAIRS_DATA = [
       "savings_percent": 55.5
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7548076,
+      "lon": -73.9647332
+    }
   },
   {
     "building": "5 Riverside Dr, New York, NY, 10023",
@@ -18348,7 +20329,11 @@ const PAIRS_DATA = [
       "savings_percent": -74.8
     },
     "neighborhood": "Inwood",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.780727,
+      "lon": -73.9853371
+    }
   },
   {
     "building": "25 Central Park W, New York, NY, 10023",
@@ -18385,7 +20370,11 @@ const PAIRS_DATA = [
       "savings_percent": -0.5
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7704241,
+      "lon": -73.9812331
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18422,7 +20411,11 @@ const PAIRS_DATA = [
       "savings_percent": -80.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18459,7 +20452,11 @@ const PAIRS_DATA = [
       "savings_percent": -55.7
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18496,7 +20493,11 @@ const PAIRS_DATA = [
       "savings_percent": -63.2
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18533,7 +20534,11 @@ const PAIRS_DATA = [
       "savings_percent": -58.8
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18570,7 +20575,11 @@ const PAIRS_DATA = [
       "savings_percent": -53.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18607,7 +20616,11 @@ const PAIRS_DATA = [
       "savings_percent": -57.3
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18644,7 +20657,11 @@ const PAIRS_DATA = [
       "savings_percent": -43.9
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18681,7 +20698,11 @@ const PAIRS_DATA = [
       "savings_percent": -47.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18718,7 +20739,11 @@ const PAIRS_DATA = [
       "savings_percent": -30.5
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18755,7 +20780,11 @@ const PAIRS_DATA = [
       "savings_percent": -23.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18792,7 +20821,11 @@ const PAIRS_DATA = [
       "savings_percent": -30.8
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18829,7 +20862,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.2
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18866,7 +20903,11 @@ const PAIRS_DATA = [
       "savings_percent": -25.7
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18903,7 +20944,11 @@ const PAIRS_DATA = [
       "savings_percent": -60.2
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18940,7 +20985,11 @@ const PAIRS_DATA = [
       "savings_percent": -56.5
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -18977,7 +21026,11 @@ const PAIRS_DATA = [
       "savings_percent": -53.9
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19014,7 +21067,11 @@ const PAIRS_DATA = [
       "savings_percent": -28.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19051,7 +21108,11 @@ const PAIRS_DATA = [
       "savings_percent": -34.7
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19088,7 +21149,11 @@ const PAIRS_DATA = [
       "savings_percent": -33.8
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19125,7 +21190,11 @@ const PAIRS_DATA = [
       "savings_percent": -25.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19162,7 +21231,11 @@ const PAIRS_DATA = [
       "savings_percent": -35.2
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19199,7 +21272,11 @@ const PAIRS_DATA = [
       "savings_percent": -35.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19236,7 +21313,11 @@ const PAIRS_DATA = [
       "savings_percent": -32.2
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19273,7 +21354,11 @@ const PAIRS_DATA = [
       "savings_percent": -34.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19310,7 +21395,11 @@ const PAIRS_DATA = [
       "savings_percent": -39.7
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19347,7 +21436,11 @@ const PAIRS_DATA = [
       "savings_percent": -70.7
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19384,7 +21477,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.3
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19421,7 +21518,11 @@ const PAIRS_DATA = [
       "savings_percent": -20.3
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19458,7 +21559,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.5
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19495,7 +21600,11 @@ const PAIRS_DATA = [
       "savings_percent": -48.5
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19532,7 +21641,11 @@ const PAIRS_DATA = [
       "savings_percent": -48.5
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19569,7 +21682,11 @@ const PAIRS_DATA = [
       "savings_percent": -47.5
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19606,7 +21723,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.7
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19643,7 +21764,11 @@ const PAIRS_DATA = [
       "savings_percent": -27.2
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19680,7 +21805,11 @@ const PAIRS_DATA = [
       "savings_percent": -66.8
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19717,7 +21846,11 @@ const PAIRS_DATA = [
       "savings_percent": -32.1
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19754,7 +21887,11 @@ const PAIRS_DATA = [
       "savings_percent": -33.6
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "211 W 84th St, Manhattan, NY, 10024",
@@ -19791,7 +21928,11 @@ const PAIRS_DATA = [
       "savings_percent": -32.3
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7869396,
+      "lon": -73.9767614
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -19828,7 +21969,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -19865,7 +22010,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -19902,7 +22051,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -19939,7 +22092,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -19976,7 +22133,11 @@ const PAIRS_DATA = [
       "savings_percent": 2.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20013,7 +22174,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20050,7 +22215,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20087,7 +22256,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20124,7 +22297,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20161,7 +22338,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20198,7 +22379,11 @@ const PAIRS_DATA = [
       "savings_percent": 1.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20235,7 +22420,11 @@ const PAIRS_DATA = [
       "savings_percent": -22.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20272,7 +22461,11 @@ const PAIRS_DATA = [
       "savings_percent": -20.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20309,7 +22502,11 @@ const PAIRS_DATA = [
       "savings_percent": -38.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20346,7 +22543,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20383,7 +22584,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20420,7 +22625,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20457,7 +22666,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20494,7 +22707,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20531,7 +22748,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20568,7 +22789,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20605,7 +22830,11 @@ const PAIRS_DATA = [
       "savings_percent": -23.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20642,7 +22871,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20679,7 +22912,11 @@ const PAIRS_DATA = [
       "savings_percent": -28.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20716,7 +22953,11 @@ const PAIRS_DATA = [
       "savings_percent": -32.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20753,7 +22994,11 @@ const PAIRS_DATA = [
       "savings_percent": -22.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20790,7 +23035,11 @@ const PAIRS_DATA = [
       "savings_percent": -31.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20827,7 +23076,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20864,7 +23117,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20901,7 +23158,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20938,7 +23199,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -20975,7 +23240,11 @@ const PAIRS_DATA = [
       "savings_percent": -23.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21012,7 +23281,11 @@ const PAIRS_DATA = [
       "savings_percent": -19.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21049,7 +23322,11 @@ const PAIRS_DATA = [
       "savings_percent": -25.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21086,7 +23363,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21123,7 +23404,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21160,7 +23445,11 @@ const PAIRS_DATA = [
       "savings_percent": 0.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21197,7 +23486,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21234,7 +23527,11 @@ const PAIRS_DATA = [
       "savings_percent": -3.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21271,7 +23568,11 @@ const PAIRS_DATA = [
       "savings_percent": -4.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21308,7 +23609,11 @@ const PAIRS_DATA = [
       "savings_percent": -3.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21345,7 +23650,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21382,7 +23691,11 @@ const PAIRS_DATA = [
       "savings_percent": 4.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21419,7 +23732,11 @@ const PAIRS_DATA = [
       "savings_percent": 7.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21456,7 +23773,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21493,7 +23814,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21530,7 +23855,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21567,7 +23896,11 @@ const PAIRS_DATA = [
       "savings_percent": -10.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21604,7 +23937,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21641,7 +23978,11 @@ const PAIRS_DATA = [
       "savings_percent": -6.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21678,7 +24019,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21715,7 +24060,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21752,7 +24101,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21789,7 +24142,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21826,7 +24183,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21863,7 +24224,11 @@ const PAIRS_DATA = [
       "savings_percent": -6.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21900,7 +24265,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21937,7 +24306,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -21974,7 +24347,11 @@ const PAIRS_DATA = [
       "savings_percent": -6.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22011,7 +24388,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22048,7 +24429,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22085,7 +24470,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22122,7 +24511,11 @@ const PAIRS_DATA = [
       "savings_percent": -6.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22159,7 +24552,11 @@ const PAIRS_DATA = [
       "savings_percent": -6.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22196,7 +24593,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22233,7 +24634,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22270,7 +24675,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22307,7 +24716,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22344,7 +24757,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22381,7 +24798,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22418,7 +24839,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22455,7 +24880,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22492,7 +24921,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22529,7 +24962,11 @@ const PAIRS_DATA = [
       "savings_percent": -3.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22566,7 +25003,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22603,7 +25044,11 @@ const PAIRS_DATA = [
       "savings_percent": -6.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22640,7 +25085,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22677,7 +25126,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22714,7 +25167,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22751,7 +25208,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22788,7 +25249,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22825,7 +25290,11 @@ const PAIRS_DATA = [
       "savings_percent": -10.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22862,7 +25331,11 @@ const PAIRS_DATA = [
       "savings_percent": 2.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22899,7 +25372,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22936,7 +25413,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -22973,7 +25454,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23010,7 +25495,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23047,7 +25536,11 @@ const PAIRS_DATA = [
       "savings_percent": -1.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23084,7 +25577,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23121,7 +25618,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23158,7 +25659,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23195,7 +25700,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23232,7 +25741,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23269,7 +25782,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23306,7 +25823,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23343,7 +25864,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23380,7 +25905,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23417,7 +25946,11 @@ const PAIRS_DATA = [
       "savings_percent": -7.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23454,7 +25987,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23491,7 +26028,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23528,7 +26069,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23565,7 +26110,11 @@ const PAIRS_DATA = [
       "savings_percent": -26.6
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23602,7 +26151,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23639,7 +26192,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23676,7 +26233,11 @@ const PAIRS_DATA = [
       "savings_percent": -14.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23713,7 +26274,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23750,7 +26315,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23787,7 +26356,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23824,7 +26397,11 @@ const PAIRS_DATA = [
       "savings_percent": -4.9
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23861,7 +26438,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23898,7 +26479,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23935,7 +26520,11 @@ const PAIRS_DATA = [
       "savings_percent": -26.4
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -23972,7 +26561,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -24009,7 +26602,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.5
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -24046,7 +26643,11 @@ const PAIRS_DATA = [
       "savings_percent": -16.7
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -24083,7 +26684,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.1
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -24120,7 +26725,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.3
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "201 E 23rd St, Manhattan, NY, 10010",
@@ -24157,7 +26766,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.2
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.738846,
+      "lon": -73.982956
+    }
   },
   {
     "building": "404 E 76th St, New York, NY, 10021",
@@ -24194,7 +26807,11 @@ const PAIRS_DATA = [
       "savings_percent": 40.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.770096,
+      "lon": -73.953641
+    }
   },
   {
     "building": "30 E 62nd St, New York, NY, 10065",
@@ -24231,7 +26848,11 @@ const PAIRS_DATA = [
       "savings_percent": -142.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7652631,
+      "lon": -73.9698246
+    }
   },
   {
     "building": "66 Clinton St, Manhattan, NY, 10002",
@@ -24268,7 +26889,11 @@ const PAIRS_DATA = [
       "savings_percent": 5.4
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7193615,
+      "lon": -73.984656
+    }
   },
   {
     "building": "66 Clinton St, Manhattan, NY, 10002",
@@ -24305,7 +26930,11 @@ const PAIRS_DATA = [
       "savings_percent": -1.0
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7193615,
+      "lon": -73.984656
+    }
   },
   {
     "building": "66 Clinton St, Manhattan, NY, 10002",
@@ -24342,7 +26971,11 @@ const PAIRS_DATA = [
       "savings_percent": 8.5
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7193615,
+      "lon": -73.984656
+    }
   },
   {
     "building": "66 Clinton St, Manhattan, NY, 10002",
@@ -24379,7 +27012,11 @@ const PAIRS_DATA = [
       "savings_percent": 6.7
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7193615,
+      "lon": -73.984656
+    }
   },
   {
     "building": "66 Clinton St, Manhattan, NY, 10002",
@@ -24416,7 +27053,11 @@ const PAIRS_DATA = [
       "savings_percent": 19.6
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7193615,
+      "lon": -73.984656
+    }
   },
   {
     "building": "66 Clinton St, Manhattan, NY, 10002",
@@ -24453,7 +27094,11 @@ const PAIRS_DATA = [
       "savings_percent": 9.9
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7193615,
+      "lon": -73.984656
+    }
   },
   {
     "building": "345 E 52nd St, Manhattan, NY, 10022",
@@ -24490,7 +27135,11 @@ const PAIRS_DATA = [
       "savings_percent": 55.1
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.755615,
+      "lon": -73.9658739
+    }
   },
   {
     "building": "25 W 28th St, New York, NY, 10001",
@@ -24527,7 +27176,11 @@ const PAIRS_DATA = [
       "savings_percent": -110.7
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7456871,
+      "lon": -73.9889627
+    }
   },
   {
     "building": "515 Park Ave, New York, NY, 10022",
@@ -24564,7 +27217,11 @@ const PAIRS_DATA = [
       "savings_percent": -29.1
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7632162,
+      "lon": -73.9691649
+    }
   },
   {
     "building": "400 E 54th St, New York, NY, 10022",
@@ -24601,7 +27258,11 @@ const PAIRS_DATA = [
       "savings_percent": 35.4
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7560875,
+      "lon": -73.9640348
+    }
   },
   {
     "building": "15 Hudson Yards, Manhattan, NY, 10001",
@@ -24638,7 +27299,11 @@ const PAIRS_DATA = [
       "savings_percent": -30.3
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7534461,
+      "lon": -74.0032895
+    }
   },
   {
     "building": "300 E 54th St, Manhattan, NY, 10022",
@@ -24675,7 +27340,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.9
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7569924,
+      "lon": -73.9665384
+    }
   },
   {
     "building": "117 W 123rd St, Manhattan, NY, 10027",
@@ -24712,7 +27381,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.4
     },
     "neighborhood": "Harlem",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.8070967,
+      "lon": -73.9473737
+    }
   },
   {
     "building": "30 Park Pl, New York, NY, 10007",
@@ -24749,7 +27422,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.1
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7128287,
+      "lon": -74.0091479
+    }
   },
   {
     "building": "55 E 65th St, New York, NY, 10065",
@@ -24786,7 +27463,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.7
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7670709,
+      "lon": -73.9673634
+    }
   },
   {
     "building": "200 E 59th St, New York, NY, 10022",
@@ -24823,7 +27504,11 @@ const PAIRS_DATA = [
       "savings_percent": -43.5
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7612649,
+      "lon": -73.9663691
+    }
   },
   {
     "building": "200 E 59th St, New York, NY, 10022",
@@ -24860,7 +27545,11 @@ const PAIRS_DATA = [
       "savings_percent": -50.3
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7612649,
+      "lon": -73.9663691
+    }
   },
   {
     "building": "301 E 62nd St, Manhattan, NY, 10065",
@@ -24897,7 +27586,11 @@ const PAIRS_DATA = [
       "savings_percent": 21.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.762439,
+      "lon": -73.9625965
+    }
   },
   {
     "building": "20 E 9th St, Manhattan, NY, 10003",
@@ -24934,7 +27627,11 @@ const PAIRS_DATA = [
       "savings_percent": -40.0
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7322375,
+      "lon": -73.9947853
+    }
   },
   {
     "building": "5 Beekman St, Manhattan, NY, 10038",
@@ -24971,7 +27668,11 @@ const PAIRS_DATA = [
       "savings_percent": 20.3
     },
     "neighborhood": "Financial District",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7111949,
+      "lon": -74.0069009
+    }
   },
   {
     "building": "100 Eleventh Ave, New York, NY, 10011",
@@ -25008,7 +27709,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.3
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 42.7355236,
+      "lon": -73.711277
+    }
   },
   {
     "building": "515 W 18th St, Manhattan, NY, 10011",
@@ -25045,7 +27750,11 @@ const PAIRS_DATA = [
       "savings_percent": -38.0
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7451293,
+      "lon": -74.0067795
+    }
   },
   {
     "building": "35 W 15th St, New York, NY, 10011",
@@ -25082,7 +27791,11 @@ const PAIRS_DATA = [
       "savings_percent": -15.4
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.737624,
+      "lon": -73.9945746
+    }
   },
   {
     "building": "244 W 23rd St, Manhattan, NY, 10011",
@@ -25119,7 +27832,11 @@ const PAIRS_DATA = [
       "savings_percent": -86.5
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7445763,
+      "lon": -73.9974907
+    }
   },
   {
     "building": "255 E 74th St, Manhattan, NY, 10021",
@@ -25156,7 +27873,11 @@ const PAIRS_DATA = [
       "savings_percent": 10.5
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7706079,
+      "lon": -73.9583384
+    }
   },
   {
     "building": "200 E 20th St, New York, NY, 10003",
@@ -25193,7 +27914,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7367779,
+      "lon": -73.9843307
+    }
   },
   {
     "building": "1065 Park Ave, Manhattan, NY, 10128",
@@ -25230,7 +27955,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.9
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7809075,
+      "lon": -73.9563198
+    }
   },
   {
     "building": "1065 Park Ave, Manhattan, NY, 10128",
@@ -25267,7 +27996,11 @@ const PAIRS_DATA = [
       "savings_percent": -110.1
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7809075,
+      "lon": -73.9563198
+    }
   },
   {
     "building": "15 W 72nd St, Manhattan, NY, 10023",
@@ -25304,7 +28037,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7770662,
+      "lon": -73.977014
+    }
   },
   {
     "building": "223 E 50th St, Manhattan, NY, 10022",
@@ -25341,7 +28078,11 @@ const PAIRS_DATA = [
       "savings_percent": -75.0
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7555602,
+      "lon": -73.9696514
+    }
   },
   {
     "building": "111 E 36th St, New York, NY, 10016",
@@ -25378,7 +28119,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.4
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7482092,
+      "lon": -73.9795395
+    }
   },
   {
     "building": "126 E 57th St, New York, NY, 10022",
@@ -25415,7 +28160,11 @@ const PAIRS_DATA = [
       "savings_percent": -71.6
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7608709,
+      "lon": -73.9697343
+    }
   },
   {
     "building": "126 E 57th St, New York, NY, 10022",
@@ -25452,7 +28201,11 @@ const PAIRS_DATA = [
       "savings_percent": -64.4
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7608709,
+      "lon": -73.9697343
+    }
   },
   {
     "building": "126 E 57th St, New York, NY, 10022",
@@ -25489,7 +28242,11 @@ const PAIRS_DATA = [
       "savings_percent": -41.8
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7608709,
+      "lon": -73.9697343
+    }
   },
   {
     "building": "126 E 57th St, New York, NY, 10022",
@@ -25526,7 +28283,11 @@ const PAIRS_DATA = [
       "savings_percent": -68.5
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7608709,
+      "lon": -73.9697343
+    }
   },
   {
     "building": "126 E 57th St, New York, NY, 10022",
@@ -25563,7 +28324,11 @@ const PAIRS_DATA = [
       "savings_percent": -45.7
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7608709,
+      "lon": -73.9697343
+    }
   },
   {
     "building": "245 E 54th St, Manhattan, NY, 10022",
@@ -25600,7 +28365,11 @@ const PAIRS_DATA = [
       "savings_percent": 22.9
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.757805,
+      "lon": -73.9667697
+    }
   },
   {
     "building": "250 E 25th St, New York, NY, 10010",
@@ -25637,7 +28406,11 @@ const PAIRS_DATA = [
       "savings_percent": -17.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7395611,
+      "lon": -73.981122
+    }
   },
   {
     "building": "250 E 25th St, New York, NY, 10010",
@@ -25674,7 +28447,11 @@ const PAIRS_DATA = [
       "savings_percent": -25.8
     },
     "neighborhood": "Gramercy",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7395611,
+      "lon": -73.981122
+    }
   },
   {
     "building": "100 W 58th St, Manhattan, NY, 10019",
@@ -25711,7 +28488,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.2
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7650615,
+      "lon": -73.977071
+    }
   },
   {
     "building": "425 E 58th St, Manhattan, NY, 10022",
@@ -25748,7 +28529,11 @@ const PAIRS_DATA = [
       "savings_percent": 52.9
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7584285,
+      "lon": -73.9606336
+    }
   },
   {
     "building": "25 E 69th St, New York, NY, 10021",
@@ -25785,7 +28570,11 @@ const PAIRS_DATA = [
       "savings_percent": -61.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7697663,
+      "lon": -73.9661565
+    }
   },
   {
     "building": "234 E 46th St, New York, NY, 10017",
@@ -25822,7 +28611,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.1
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7525887,
+      "lon": -73.9713822
+    }
   },
   {
     "building": "234 E 46th St, New York, NY, 10017",
@@ -25859,7 +28652,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.3
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7525887,
+      "lon": -73.9713822
+    }
   },
   {
     "building": "234 E 46th St, New York, NY, 10017",
@@ -25896,7 +28693,11 @@ const PAIRS_DATA = [
       "savings_percent": 19.6
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7525887,
+      "lon": -73.9713822
+    }
   },
   {
     "building": "234 E 46th St, New York, NY, 10017",
@@ -25933,7 +28734,11 @@ const PAIRS_DATA = [
       "savings_percent": 18.4
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7525887,
+      "lon": -73.9713822
+    }
   },
   {
     "building": "234 E 46th St, New York, NY, 10017",
@@ -25970,7 +28775,11 @@ const PAIRS_DATA = [
       "savings_percent": 15.2
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7525887,
+      "lon": -73.9713822
+    }
   },
   {
     "building": "234 E 46th St, New York, NY, 10017",
@@ -26007,7 +28816,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.4
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7525887,
+      "lon": -73.9713822
+    }
   },
   {
     "building": "14 Sutton Pl S, Manhattan, NY, 10022",
@@ -26044,7 +28857,11 @@ const PAIRS_DATA = [
       "savings_percent": -18.3
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7569625,
+      "lon": -73.9611895
+    }
   },
   {
     "building": "105 Norfolk St, Manhattan, NY, 10002",
@@ -26081,7 +28898,11 @@ const PAIRS_DATA = [
       "savings_percent": 23.6
     },
     "neighborhood": "Lower East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7189059,
+      "lon": -73.9872983
+    }
   },
   {
     "building": "308 E 38th St, New York, NY, 10016",
@@ -26118,7 +28939,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.6
     },
     "neighborhood": "Murray Hill",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7468173,
+      "lon": -73.9734861
+    }
   },
   {
     "building": "435 E 77th St, New York, NY, 10075",
@@ -26155,7 +28980,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.4
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7706466,
+      "lon": -73.9522395
+    }
   },
   {
     "building": "150 E 69th St, Manhattan, NY, 10021",
@@ -26192,7 +29021,11 @@ const PAIRS_DATA = [
       "savings_percent": -36.6
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7678465,
+      "lon": -73.962392
+    }
   },
   {
     "building": "15 W 11th St, Manhattan, NY, 10011",
@@ -26229,7 +29062,11 @@ const PAIRS_DATA = [
       "savings_percent": -64.1
     },
     "neighborhood": "Chelsea",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7345324,
+      "lon": -73.9956661
+    }
   },
   {
     "building": "349 W 51st St, Manhattan, NY, 10019",
@@ -26266,7 +29103,11 @@ const PAIRS_DATA = [
       "savings_percent": 4.0
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7637887,
+      "lon": -73.9875035
+    }
   },
   {
     "building": "349 W 51st St, Manhattan, NY, 10019",
@@ -26303,7 +29144,11 @@ const PAIRS_DATA = [
       "savings_percent": 2.3
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7637887,
+      "lon": -73.9875035
+    }
   },
   {
     "building": "349 W 51st St, Manhattan, NY, 10019",
@@ -26340,7 +29185,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.5
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7637887,
+      "lon": -73.9875035
+    }
   },
   {
     "building": "50 United Nations Plz, Manhattan, NY, 10017",
@@ -26377,7 +29226,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.0
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7517087,
+      "lon": -73.9682502
+    }
   },
   {
     "building": "245 W 99th St, New York, NY, 10025",
@@ -26414,7 +29267,11 @@ const PAIRS_DATA = [
       "savings_percent": 24.4
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.79698,
+      "lon": -73.9708847
+    }
   },
   {
     "building": "308 W 103rd St, New York, NY, 10025",
@@ -26451,7 +29308,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.0
     },
     "neighborhood": "Upper West Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7998704,
+      "lon": -73.9706517
+    }
   },
   {
     "building": "178 E 80th St, New York, NY, 10075",
@@ -26488,7 +29349,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.3
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7750465,
+      "lon": -73.9574116
+    }
   },
   {
     "building": "166 E 61st St, New York, NY, 10065",
@@ -26525,7 +29390,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.0
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7629398,
+      "lon": -73.9662921
+    }
   },
   {
     "building": "425 W 50th St, New York, NY, 10019",
@@ -26562,7 +29431,11 @@ const PAIRS_DATA = [
       "savings_percent": -30.3
     },
     "neighborhood": "Midtown West",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7643878,
+      "lon": -73.9901499
+    }
   },
   {
     "building": "975 Park Ave, Manhattan, NY, 10028",
@@ -26599,7 +29472,11 @@ const PAIRS_DATA = [
       "savings_percent": -20.2
     },
     "neighborhood": "Upper East Side",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7779861,
+      "lon": -73.9585149
+    }
   },
   {
     "building": "12 Beekman Pl, Manhattan, NY, 10022",
@@ -26636,7 +29513,11 @@ const PAIRS_DATA = [
       "savings_percent": 45.8
     },
     "neighborhood": "Midtown East",
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "coordinates": {
+      "lat": 40.7531965,
+      "lon": -73.9650468
+    }
   },
   {
     "building": "2229 Knapp St, Brooklyn, NY, 11229",
@@ -26673,7 +29554,11 @@ const PAIRS_DATA = [
       "savings_percent": 84.5
     },
     "neighborhood": "Midwood",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5988524,
+      "lon": -73.9335694
+    }
   },
   {
     "building": "135 Amity St, Brooklyn, NY, 11201",
@@ -26710,7 +29595,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.8
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.689466,
+      "lon": -73.9960288
+    }
   },
   {
     "building": "70 Remsen St, Brooklyn, NY, 11201",
@@ -26747,7 +29636,11 @@ const PAIRS_DATA = [
       "savings_percent": 61.1
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6941834,
+      "lon": -73.9958553
+    }
   },
   {
     "building": "1625 Emmons Ave, Brooklyn, NY, 11235",
@@ -26784,7 +29677,11 @@ const PAIRS_DATA = [
       "savings_percent": 73.1
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.583692,
+      "lon": -73.9514527
+    }
   },
   {
     "building": "368 92nd St, Brooklyn, NY, 11209",
@@ -26821,7 +29718,11 @@ const PAIRS_DATA = [
       "savings_percent": 61.5
     },
     "neighborhood": "Bay Ridge",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6185141,
+      "lon": -74.0309367
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -26858,7 +29759,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -26895,7 +29800,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.1
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -26932,7 +29841,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.4
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -26969,7 +29882,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.8
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27006,7 +29923,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.2
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27043,7 +29964,11 @@ const PAIRS_DATA = [
       "savings_percent": 28.5
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27080,7 +30005,11 @@ const PAIRS_DATA = [
       "savings_percent": 28.4
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27117,7 +30046,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27154,7 +30087,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.9
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27191,7 +30128,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27228,7 +30169,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.4
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27265,7 +30210,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27302,7 +30251,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.1
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27339,7 +30292,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.3
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27376,7 +30333,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.1
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27413,7 +30374,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.9
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27450,7 +30415,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.6
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27487,7 +30456,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.2
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27524,7 +30497,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.6
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27561,7 +30538,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.4
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27598,7 +30579,11 @@ const PAIRS_DATA = [
       "savings_percent": 24.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27635,7 +30620,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27672,7 +30661,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.8
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27709,7 +30702,11 @@ const PAIRS_DATA = [
       "savings_percent": 28.5
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27746,7 +30743,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27783,7 +30784,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.9
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27820,7 +30825,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.1
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27857,7 +30866,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.8
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27894,7 +30907,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.9
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27931,7 +30948,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.9
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "643 5th Ave, Brooklyn, NY, 11215",
@@ -27968,7 +30989,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6626822,
+      "lon": -73.9917122
+    }
   },
   {
     "building": "39 Remsen St, Brooklyn, NY, 11201",
@@ -28005,7 +31030,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.1
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.694964,
+      "lon": -73.9969223
+    }
   },
   {
     "building": "3855 Shore Pkwy, Brooklyn, NY, 11235",
@@ -28042,7 +31071,11 @@ const PAIRS_DATA = [
       "savings_percent": 80.4
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5857904,
+      "lon": -73.9329898
+    }
   },
   {
     "building": "2286 Cropsey Ave, Brooklyn, NY, 11214",
@@ -28079,7 +31112,11 @@ const PAIRS_DATA = [
       "savings_percent": 35.2
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5957622,
+      "lon": -73.9970334
+    }
   },
   {
     "building": "480 Kent Ave, Brooklyn, NY, 11249",
@@ -28116,7 +31153,11 @@ const PAIRS_DATA = [
       "savings_percent": -21.1
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7083485,
+      "lon": -73.9685578
+    }
   },
   {
     "building": "480 Kent Ave, Brooklyn, NY, 11249",
@@ -28153,7 +31194,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.6
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7083485,
+      "lon": -73.9685578
+    }
   },
   {
     "building": "480 Kent Ave, Brooklyn, NY, 11249",
@@ -28190,7 +31235,11 @@ const PAIRS_DATA = [
       "savings_percent": -13.1
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7083485,
+      "lon": -73.9685578
+    }
   },
   {
     "building": "480 Kent Ave, Brooklyn, NY, 11249",
@@ -28227,7 +31276,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.1
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7083485,
+      "lon": -73.9685578
+    }
   },
   {
     "building": "480 Kent Ave, Brooklyn, NY, 11249",
@@ -28264,7 +31317,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.0
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7083485,
+      "lon": -73.9685578
+    }
   },
   {
     "building": "480 Kent Ave, Brooklyn, NY, 11249",
@@ -28301,7 +31358,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.2
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7083485,
+      "lon": -73.9685578
+    }
   },
   {
     "building": "2940 W 5th St, Brooklyn, NY, 11224",
@@ -28338,7 +31399,11 @@ const PAIRS_DATA = [
       "savings_percent": 78.0
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5775517,
+      "lon": -73.9737531
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28375,7 +31440,11 @@ const PAIRS_DATA = [
       "savings_percent": -33.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28412,7 +31481,11 @@ const PAIRS_DATA = [
       "savings_percent": -36.3
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28449,7 +31522,11 @@ const PAIRS_DATA = [
       "savings_percent": -22.9
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28486,7 +31563,11 @@ const PAIRS_DATA = [
       "savings_percent": 2.0
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28523,7 +31604,11 @@ const PAIRS_DATA = [
       "savings_percent": -10.9
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28560,7 +31645,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.5
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28597,7 +31686,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.9
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28634,7 +31727,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.1
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28671,7 +31768,11 @@ const PAIRS_DATA = [
       "savings_percent": 8.3
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28708,7 +31809,11 @@ const PAIRS_DATA = [
       "savings_percent": -9.5
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28745,7 +31850,11 @@ const PAIRS_DATA = [
       "savings_percent": -28.3
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28782,7 +31891,11 @@ const PAIRS_DATA = [
       "savings_percent": 6.5
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28819,7 +31932,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.0
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28856,7 +31973,11 @@ const PAIRS_DATA = [
       "savings_percent": 11.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28893,7 +32014,11 @@ const PAIRS_DATA = [
       "savings_percent": 4.2
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28930,7 +32055,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.5
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "8 S 4th St, Brooklyn, NY, 11249",
@@ -28967,7 +32096,11 @@ const PAIRS_DATA = [
       "savings_percent": -22.2
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7131399,
+      "lon": -73.9671457
+    }
   },
   {
     "building": "4300 Atlantic Ave, Brooklyn, NY, 11224",
@@ -29004,7 +32137,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.6
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5749924,
+      "lon": -74.0092946
+    }
   },
   {
     "building": "4300 Atlantic Ave, Brooklyn, NY, 11224",
@@ -29041,7 +32178,11 @@ const PAIRS_DATA = [
       "savings_percent": 61.2
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5749924,
+      "lon": -74.0092946
+    }
   },
   {
     "building": "2335 Bath Ave, Brooklyn, NY, 11214",
@@ -29078,7 +32219,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.3
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5965988,
+      "lon": -73.9940019
+    }
   },
   {
     "building": "2335 Bath Ave, Brooklyn, NY, 11214",
@@ -29115,7 +32260,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.3
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5965988,
+      "lon": -73.9940019
+    }
   },
   {
     "building": "2335 Bath Ave, Brooklyn, NY, 11214",
@@ -29152,7 +32301,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.4
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5965988,
+      "lon": -73.9940019
+    }
   },
   {
     "building": "2335 Bath Ave, Brooklyn, NY, 11214",
@@ -29189,7 +32342,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.3
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5965988,
+      "lon": -73.9940019
+    }
   },
   {
     "building": "2335 Bath Ave, Brooklyn, NY, 11214",
@@ -29226,7 +32383,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.4
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5965988,
+      "lon": -73.9940019
+    }
   },
   {
     "building": "475 17th St, Brooklyn, NY, 11215",
@@ -29263,7 +32424,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.7
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6588004,
+      "lon": -73.9827874
+    }
   },
   {
     "building": "30 Front St, Brooklyn, NY, 11201",
@@ -29300,7 +32465,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.3
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7026351,
+      "lon": -73.9912102
+    }
   },
   {
     "building": "30 Front St, Brooklyn, NY, 11201",
@@ -29337,7 +32506,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.6
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7026351,
+      "lon": -73.9912102
+    }
   },
   {
     "building": "30 Front St, Brooklyn, NY, 11201",
@@ -29374,7 +32547,11 @@ const PAIRS_DATA = [
       "savings_percent": -1.3
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7026351,
+      "lon": -73.9912102
+    }
   },
   {
     "building": "30 Front St, Brooklyn, NY, 11201",
@@ -29411,7 +32588,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.3
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7026351,
+      "lon": -73.9912102
+    }
   },
   {
     "building": "30 Front St, Brooklyn, NY, 11201",
@@ -29448,7 +32629,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.6
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7026351,
+      "lon": -73.9912102
+    }
   },
   {
     "building": "30 Front St, Brooklyn, NY, 11201",
@@ -29485,7 +32670,11 @@ const PAIRS_DATA = [
       "savings_percent": -1.3
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7026351,
+      "lon": -73.9912102
+    }
   },
   {
     "building": "30 Front St, Brooklyn, NY, 11201",
@@ -29522,7 +32711,11 @@ const PAIRS_DATA = [
       "savings_percent": -10.1
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7026351,
+      "lon": -73.9912102
+    }
   },
   {
     "building": "360 Furman St, Brooklyn, NY, 11201",
@@ -29559,7 +32752,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.2
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6928646,
+      "lon": -73.999809
+    }
   },
   {
     "building": "50 Bridge Park Dr, Brooklyn, NY, 11201",
@@ -29596,7 +32793,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.0
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.69283,
+      "lon": -74.0007138
+    }
   },
   {
     "building": "372 92nd St, Brooklyn, NY, 11209",
@@ -29633,7 +32834,11 @@ const PAIRS_DATA = [
       "savings_percent": 64.6
     },
     "neighborhood": "Bay Ridge",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6186316,
+      "lon": -74.0309532
+    }
   },
   {
     "building": "1 Hanson Pl, Brooklyn, NY, 11243",
@@ -29670,7 +32875,11 @@ const PAIRS_DATA = [
       "savings_percent": 40.2
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6855462,
+      "lon": -73.9777236
+    }
   },
   {
     "building": "1165 E 54th St, Brooklyn, NY, 11234",
@@ -29707,7 +32916,11 @@ const PAIRS_DATA = [
       "savings_percent": 82.9
     },
     "neighborhood": "Mill Basin",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.629595,
+      "lon": -73.9236026
+    }
   },
   {
     "building": "1165 E 54th St, Brooklyn, NY, 11234",
@@ -29744,7 +32957,11 @@ const PAIRS_DATA = [
       "savings_percent": 82.7
     },
     "neighborhood": "Mill Basin",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.629595,
+      "lon": -73.9236026
+    }
   },
   {
     "building": "1165 E 54th St, Brooklyn, NY, 11234",
@@ -29781,7 +32998,11 @@ const PAIRS_DATA = [
       "savings_percent": 82.3
     },
     "neighborhood": "Mill Basin",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.629595,
+      "lon": -73.9236026
+    }
   },
   {
     "building": "2711 Avenue X, Brooklyn, NY, 11235",
@@ -29818,7 +33039,11 @@ const PAIRS_DATA = [
       "savings_percent": 69.5
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5937974,
+      "lon": -73.9430363
+    }
   },
   {
     "building": "3021 Avenue Z, Brooklyn, NY, 11235",
@@ -29855,7 +33080,11 @@ const PAIRS_DATA = [
       "savings_percent": 83.4
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5904034,
+      "lon": -73.9358991
+    }
   },
   {
     "building": "110 Luquer St, Brooklyn, NY, 11231",
@@ -29892,7 +33121,11 @@ const PAIRS_DATA = [
       "savings_percent": -0.6
     },
     "neighborhood": "Red Hook",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6776823,
+      "lon": -74.0010018
+    }
   },
   {
     "building": "2819 W 17th St, Brooklyn, NY, 11224",
@@ -29929,7 +33162,11 @@ const PAIRS_DATA = [
       "savings_percent": 56.5
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5784421,
+      "lon": -73.9849
+    }
   },
   {
     "building": "2819 W 17th St, Brooklyn, NY, 11224",
@@ -29966,7 +33203,11 @@ const PAIRS_DATA = [
       "savings_percent": 55.2
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5784421,
+      "lon": -73.9849
+    }
   },
   {
     "building": "2819 W 17th St, Brooklyn, NY, 11224",
@@ -30003,7 +33244,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.9
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5784421,
+      "lon": -73.9849
+    }
   },
   {
     "building": "2819 W 17th St, Brooklyn, NY, 11224",
@@ -30040,7 +33285,11 @@ const PAIRS_DATA = [
       "savings_percent": 52.9
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5784421,
+      "lon": -73.9849
+    }
   },
   {
     "building": "184 Hawthorne St, Brooklyn, NY, 11225",
@@ -30077,7 +33326,11 @@ const PAIRS_DATA = [
       "savings_percent": 37.4
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6574121,
+      "lon": -73.9542016
+    }
   },
   {
     "building": "184 Hawthorne St, Brooklyn, NY, 11225",
@@ -30114,7 +33367,11 @@ const PAIRS_DATA = [
       "savings_percent": 37.3
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6574121,
+      "lon": -73.9542016
+    }
   },
   {
     "building": "184 Hawthorne St, Brooklyn, NY, 11225",
@@ -30151,7 +33408,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.0
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6574121,
+      "lon": -73.9542016
+    }
   },
   {
     "building": "184 Hawthorne St, Brooklyn, NY, 11225",
@@ -30188,7 +33449,11 @@ const PAIRS_DATA = [
       "savings_percent": 40.8
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6574121,
+      "lon": -73.9542016
+    }
   },
   {
     "building": "184 Hawthorne St, Brooklyn, NY, 11225",
@@ -30225,7 +33490,11 @@ const PAIRS_DATA = [
       "savings_percent": 40.6
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6574121,
+      "lon": -73.9542016
+    }
   },
   {
     "building": "184 Hawthorne St, Brooklyn, NY, 11225",
@@ -30262,7 +33531,11 @@ const PAIRS_DATA = [
       "savings_percent": 50.6
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6574121,
+      "lon": -73.9542016
+    }
   },
   {
     "building": "6665 Colonial Rd, Brooklyn, NY, 11220",
@@ -30299,7 +33572,11 @@ const PAIRS_DATA = [
       "savings_percent": 75.1
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6398029,
+      "lon": -74.0298228
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30336,7 +33613,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.1
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30373,7 +33654,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.8
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30410,7 +33695,11 @@ const PAIRS_DATA = [
       "savings_percent": 47.9
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30447,7 +33736,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.0
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30484,7 +33777,11 @@ const PAIRS_DATA = [
       "savings_percent": 45.0
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30521,7 +33818,11 @@ const PAIRS_DATA = [
       "savings_percent": 59.6
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30558,7 +33859,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.1
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30595,7 +33900,11 @@ const PAIRS_DATA = [
       "savings_percent": 59.9
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30632,7 +33941,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.8
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "800 5th Ave, Brooklyn, NY, 11232",
@@ -30669,7 +33982,11 @@ const PAIRS_DATA = [
       "savings_percent": 47.9
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6556722,
+      "lon": -73.9996791
+    }
   },
   {
     "building": "90 Herbert St, Brooklyn, NY, 11222",
@@ -30706,7 +34023,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.4
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7202467,
+      "lon": -73.9413889
+    }
   },
   {
     "building": "90 Herbert St, Brooklyn, NY, 11222",
@@ -30743,7 +34064,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.4
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7202467,
+      "lon": -73.9413889
+    }
   },
   {
     "building": "90 Herbert St, Brooklyn, NY, 11222",
@@ -30780,7 +34105,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.4
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7202467,
+      "lon": -73.9413889
+    }
   },
   {
     "building": "90 Herbert St, Brooklyn, NY, 11222",
@@ -30817,7 +34146,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.9
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7202467,
+      "lon": -73.9413889
+    }
   },
   {
     "building": "90 Herbert St, Brooklyn, NY, 11222",
@@ -30854,7 +34187,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.9
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7202467,
+      "lon": -73.9413889
+    }
   },
   {
     "building": "90 Herbert St, Brooklyn, NY, 11222",
@@ -30891,7 +34228,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.9
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7202467,
+      "lon": -73.9413889
+    }
   },
   {
     "building": "90 Herbert St, Brooklyn, NY, 11222",
@@ -30928,7 +34269,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.9
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7202467,
+      "lon": -73.9413889
+    }
   },
   {
     "building": "90 Herbert St, Brooklyn, NY, 11222",
@@ -30965,7 +34310,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.9
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7202467,
+      "lon": -73.9413889
+    }
   },
   {
     "building": "57 Bay 31st St, Brooklyn, NY, 11214",
@@ -31002,7 +34351,11 @@ const PAIRS_DATA = [
       "savings_percent": 60.3
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6002633,
+      "lon": -73.9940032
+    }
   },
   {
     "building": "97 Seigel St, Brooklyn, NY, 11206",
@@ -31039,7 +34392,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.9
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7045734,
+      "lon": -73.9432133
+    }
   },
   {
     "building": "97 Seigel St, Brooklyn, NY, 11206",
@@ -31076,7 +34433,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.5
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7045734,
+      "lon": -73.9432133
+    }
   },
   {
     "building": "2140 Knapp St, Brooklyn, NY, 11229",
@@ -31113,7 +34474,11 @@ const PAIRS_DATA = [
       "savings_percent": 84.9
     },
     "neighborhood": "Midwood",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6002123,
+      "lon": -73.9344159
+    }
   },
   {
     "building": "2140 Knapp St, Brooklyn, NY, 11229",
@@ -31150,7 +34515,11 @@ const PAIRS_DATA = [
       "savings_percent": 83.2
     },
     "neighborhood": "Midwood",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6002123,
+      "lon": -73.9344159
+    }
   },
   {
     "building": "2140 Knapp St, Brooklyn, NY, 11229",
@@ -31187,7 +34556,11 @@ const PAIRS_DATA = [
       "savings_percent": 83.0
     },
     "neighborhood": "Midwood",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6002123,
+      "lon": -73.9344159
+    }
   },
   {
     "building": "583 Putnam Ave, Brooklyn, NY, 11221",
@@ -31224,7 +34597,11 @@ const PAIRS_DATA = [
       "savings_percent": 45.5
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6856064,
+      "lon": -73.9379531
+    }
   },
   {
     "building": "110 Boerum Pl, Brooklyn, NY, 11201",
@@ -31261,7 +34638,11 @@ const PAIRS_DATA = [
       "savings_percent": -23.0
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.688089,
+      "lon": -73.991491
+    }
   },
   {
     "building": "110 Boerum Pl, Brooklyn, NY, 11201",
@@ -31298,7 +34679,11 @@ const PAIRS_DATA = [
       "savings_percent": -25.0
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.688089,
+      "lon": -73.991491
+    }
   },
   {
     "building": "185 Hall St, Brooklyn, NY, 11205",
@@ -31335,7 +34720,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.8
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6924374,
+      "lon": -73.9653421
+    }
   },
   {
     "building": "1310 84th St, Brooklyn, NY, 11228",
@@ -31372,7 +34761,11 @@ const PAIRS_DATA = [
       "savings_percent": 56.1
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6149668,
+      "lon": -74.0124499
+    }
   },
   {
     "building": "1479 Sterling Pl, Brooklyn, NY, 11213",
@@ -31409,7 +34802,11 @@ const PAIRS_DATA = [
       "savings_percent": 47.7
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6716061,
+      "lon": -73.9294414
+    }
   },
   {
     "building": "1479 Sterling Pl, Brooklyn, NY, 11213",
@@ -31446,7 +34843,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.5
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6716061,
+      "lon": -73.9294414
+    }
   },
   {
     "building": "1479 Sterling Pl, Brooklyn, NY, 11213",
@@ -31483,7 +34884,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.3
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6716061,
+      "lon": -73.9294414
+    }
   },
   {
     "building": "1479 Sterling Pl, Brooklyn, NY, 11213",
@@ -31520,7 +34925,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.0
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6716061,
+      "lon": -73.9294414
+    }
   },
   {
     "building": "1479 Sterling Pl, Brooklyn, NY, 11213",
@@ -31557,7 +34966,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.2
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6716061,
+      "lon": -73.9294414
+    }
   },
   {
     "building": "1479 Sterling Pl, Brooklyn, NY, 11213",
@@ -31594,7 +35007,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.2
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6716061,
+      "lon": -73.9294414
+    }
   },
   {
     "building": "55 Hicks St, Brooklyn, NY, 11201",
@@ -31631,7 +35048,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.3
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7000283,
+      "lon": -73.9933129
+    }
   },
   {
     "building": "2915 W 5th St, Brooklyn, NY, 11224",
@@ -31668,7 +35089,11 @@ const PAIRS_DATA = [
       "savings_percent": 76.4
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5777976,
+      "lon": -73.9718748
+    }
   },
   {
     "building": "40 Oceana Dr W, Brooklyn, NY, 11235",
@@ -31705,7 +35130,11 @@ const PAIRS_DATA = [
       "savings_percent": 64.3
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.577515,
+      "lon": -73.9587965
+    }
   },
   {
     "building": "1935 Shore Pkwy, Brooklyn, NY, 11214",
@@ -31742,7 +35171,11 @@ const PAIRS_DATA = [
       "savings_percent": 79.2
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5899989,
+      "lon": -73.9936769
+    }
   },
   {
     "building": "831 Knickerbocker Ave, Brooklyn, NY, 11207",
@@ -31779,7 +35212,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.5
     },
     "neighborhood": "East New York",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6921729,
+      "lon": -73.906329
+    }
   },
   {
     "building": "35 Seacoast Ter, Brooklyn, NY, 11235",
@@ -31816,7 +35253,11 @@ const PAIRS_DATA = [
       "savings_percent": 66.3
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5766266,
+      "lon": -73.9562385
+    }
   },
   {
     "building": "35 Seacoast Ter, Brooklyn, NY, 11235",
@@ -31853,7 +35294,11 @@ const PAIRS_DATA = [
       "savings_percent": 69.5
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5766266,
+      "lon": -73.9562385
+    }
   },
   {
     "building": "35 Seacoast Ter, Brooklyn, NY, 11235",
@@ -31890,7 +35335,11 @@ const PAIRS_DATA = [
       "savings_percent": 69.7
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5766266,
+      "lon": -73.9562385
+    }
   },
   {
     "building": "35 Seacoast Ter, Brooklyn, NY, 11235",
@@ -31927,7 +35376,11 @@ const PAIRS_DATA = [
       "savings_percent": 69.6
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5766266,
+      "lon": -73.9562385
+    }
   },
   {
     "building": "1807 66th St, Brooklyn, NY, 11204",
@@ -31964,7 +35417,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.2
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6184424,
+      "lon": -73.9904876
+    }
   },
   {
     "building": "1807 66th St, Brooklyn, NY, 11204",
@@ -32001,7 +35458,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.1
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6184424,
+      "lon": -73.9904876
+    }
   },
   {
     "building": "1807 66th St, Brooklyn, NY, 11204",
@@ -32038,7 +35499,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.5
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6184424,
+      "lon": -73.9904876
+    }
   },
   {
     "building": "1807 66th St, Brooklyn, NY, 11204",
@@ -32075,7 +35540,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.9
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6184424,
+      "lon": -73.9904876
+    }
   },
   {
     "building": "85 Livingston St, Brooklyn, NY, 11201",
@@ -32112,7 +35581,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.8
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6915902,
+      "lon": -73.9905592
+    }
   },
   {
     "building": "85 Livingston St, Brooklyn, NY, 11201",
@@ -32149,7 +35622,11 @@ const PAIRS_DATA = [
       "savings_percent": 50.8
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6915902,
+      "lon": -73.9905592
+    }
   },
   {
     "building": "85 Livingston St, Brooklyn, NY, 11201",
@@ -32186,7 +35663,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.0
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6915902,
+      "lon": -73.9905592
+    }
   },
   {
     "building": "2121 Shore Pkwy, Brooklyn, NY, 11214",
@@ -32223,7 +35704,11 @@ const PAIRS_DATA = [
       "savings_percent": 67.2
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5853673,
+      "lon": -73.9886994
+    }
   },
   {
     "building": "1710 84th St, Brooklyn, NY, 11214",
@@ -32260,7 +35745,11 @@ const PAIRS_DATA = [
       "savings_percent": 60.7
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6097314,
+      "lon": -74.0031634
+    }
   },
   {
     "building": "1710 84th St, Brooklyn, NY, 11214",
@@ -32297,7 +35786,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.0
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6097314,
+      "lon": -74.0031634
+    }
   },
   {
     "building": "1710 84th St, Brooklyn, NY, 11214",
@@ -32334,7 +35827,11 @@ const PAIRS_DATA = [
       "savings_percent": 43.9
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6097314,
+      "lon": -74.0031634
+    }
   },
   {
     "building": "3112 Emmons Ave, Brooklyn, NY, 11235",
@@ -32371,7 +35868,11 @@ const PAIRS_DATA = [
       "savings_percent": 61.6
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5837999,
+      "lon": -73.9351359
+    }
   },
   {
     "building": "2652 Cropsey Ave, Brooklyn, NY, 11214",
@@ -32408,7 +35909,11 @@ const PAIRS_DATA = [
       "savings_percent": 77.1
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5884196,
+      "lon": -73.991009
+    }
   },
   {
     "building": "9977 Shore Rd, Brooklyn, NY, 11209",
@@ -32445,7 +35950,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.7
     },
     "neighborhood": "Bay Ridge",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.612186,
+      "lon": -74.035306
+    }
   },
   {
     "building": "3045 Ocean Pkwy, Brooklyn, NY, 11235",
@@ -32482,7 +35991,11 @@ const PAIRS_DATA = [
       "savings_percent": 79.8
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5769057,
+      "lon": -73.9676452
+    }
   },
   {
     "building": "1150 Brighton Beach Ave, Brooklyn, NY, 11235",
@@ -32519,7 +36032,11 @@ const PAIRS_DATA = [
       "savings_percent": 73.9
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5774365,
+      "lon": -73.9555104
+    }
   },
   {
     "building": "30 Bushwick Ave, Brooklyn, NY, 11211",
@@ -32556,7 +36073,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.2
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.713832,
+      "lon": -73.9419343
+    }
   },
   {
     "building": "30 Bushwick Ave, Brooklyn, NY, 11211",
@@ -32593,7 +36114,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.0
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.713832,
+      "lon": -73.9419343
+    }
   },
   {
     "building": "30 Bushwick Ave, Brooklyn, NY, 11211",
@@ -32630,7 +36155,11 @@ const PAIRS_DATA = [
       "savings_percent": 22.6
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.713832,
+      "lon": -73.9419343
+    }
   },
   {
     "building": "30 Bushwick Ave, Brooklyn, NY, 11211",
@@ -32667,7 +36196,11 @@ const PAIRS_DATA = [
       "savings_percent": 28.8
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.713832,
+      "lon": -73.9419343
+    }
   },
   {
     "building": "30 Bushwick Ave, Brooklyn, NY, 11211",
@@ -32704,7 +36237,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.0
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.713832,
+      "lon": -73.9419343
+    }
   },
   {
     "building": "30 Bushwick Ave, Brooklyn, NY, 11211",
@@ -32741,7 +36278,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.9
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.713832,
+      "lon": -73.9419343
+    }
   },
   {
     "building": "1226 Saint Marks Ave, Brooklyn, NY, 11213",
@@ -32778,7 +36319,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.9
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6738754,
+      "lon": -73.9290856
+    }
   },
   {
     "building": "1322 E 14th St, Brooklyn, NY, 11230",
@@ -32815,7 +36360,11 @@ const PAIRS_DATA = [
       "savings_percent": 67.3
     },
     "neighborhood": "Midwood",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6172253,
+      "lon": -73.9610577
+    }
   },
   {
     "building": "630 Grand Ave, Brooklyn, NY, 11238",
@@ -32852,7 +36401,11 @@ const PAIRS_DATA = [
       "savings_percent": 24.5
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6768273,
+      "lon": -73.9631762
+    }
   },
   {
     "building": "630 Grand Ave, Brooklyn, NY, 11238",
@@ -32889,7 +36442,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.8
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6768273,
+      "lon": -73.9631762
+    }
   },
   {
     "building": "630 Grand Ave, Brooklyn, NY, 11238",
@@ -32926,7 +36483,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.0
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6768273,
+      "lon": -73.9631762
+    }
   },
   {
     "building": "630 Grand Ave, Brooklyn, NY, 11238",
@@ -32963,7 +36524,11 @@ const PAIRS_DATA = [
       "savings_percent": 22.9
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6768273,
+      "lon": -73.9631762
+    }
   },
   {
     "building": "630 Grand Ave, Brooklyn, NY, 11238",
@@ -33000,7 +36565,11 @@ const PAIRS_DATA = [
       "savings_percent": 22.6
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6768273,
+      "lon": -73.9631762
+    }
   },
   {
     "building": "630 Grand Ave, Brooklyn, NY, 11238",
@@ -33037,7 +36606,11 @@ const PAIRS_DATA = [
       "savings_percent": 23.7
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6768273,
+      "lon": -73.9631762
+    }
   },
   {
     "building": "842 Ocean Pkwy, Brooklyn, NY, 11230",
@@ -33074,7 +36647,11 @@ const PAIRS_DATA = [
       "savings_percent": 66.1
     },
     "neighborhood": "Midwood",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6278249,
+      "lon": -73.9717783
+    }
   },
   {
     "building": "400 E 17th St, Brooklyn, NY, 11226",
@@ -33111,7 +36688,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.2
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6411953,
+      "lon": -73.9627911
+    }
   },
   {
     "building": "601 Brightwater Ct, Brooklyn, NY, 11235",
@@ -33148,7 +36729,11 @@ const PAIRS_DATA = [
       "savings_percent": 80.3
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5760066,
+      "lon": -73.9607833
+    }
   },
   {
     "building": "1492 E 12th St, Brooklyn, NY, 11230",
@@ -33185,7 +36770,11 @@ const PAIRS_DATA = [
       "savings_percent": 50.5
     },
     "neighborhood": "Midwood",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6129315,
+      "lon": -73.9622023
+    }
   },
   {
     "building": "379 Ocean Pkwy, Brooklyn, NY, 11218",
@@ -33222,7 +36811,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.9
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6397347,
+      "lon": -73.9728191
+    }
   },
   {
     "building": "379 Ocean Pkwy, Brooklyn, NY, 11218",
@@ -33259,7 +36852,11 @@ const PAIRS_DATA = [
       "savings_percent": 55.7
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6397347,
+      "lon": -73.9728191
+    }
   },
   {
     "building": "379 Ocean Pkwy, Brooklyn, NY, 11218",
@@ -33296,7 +36893,11 @@ const PAIRS_DATA = [
       "savings_percent": 50.2
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6397347,
+      "lon": -73.9728191
+    }
   },
   {
     "building": "379 Ocean Pkwy, Brooklyn, NY, 11218",
@@ -33333,7 +36934,11 @@ const PAIRS_DATA = [
       "savings_percent": 47.0
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6397347,
+      "lon": -73.9728191
+    }
   },
   {
     "building": "379 Ocean Pkwy, Brooklyn, NY, 11218",
@@ -33370,7 +36975,11 @@ const PAIRS_DATA = [
       "savings_percent": 49.0
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6397347,
+      "lon": -73.9728191
+    }
   },
   {
     "building": "3500 Snyder Ave, Brooklyn, NY, 11203",
@@ -33407,7 +37016,11 @@ const PAIRS_DATA = [
       "savings_percent": 64.2
     },
     "neighborhood": "East Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6488393,
+      "lon": -73.9443035
+    }
   },
   {
     "building": "343 Menahan St, Brooklyn, NY, 11237",
@@ -33444,7 +37057,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.6
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7010005,
+      "lon": -73.9146829
+    }
   },
   {
     "building": "343 Menahan St, Brooklyn, NY, 11237",
@@ -33481,7 +37098,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.2
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7010005,
+      "lon": -73.9146829
+    }
   },
   {
     "building": "343 Menahan St, Brooklyn, NY, 11237",
@@ -33518,7 +37139,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.9
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7010005,
+      "lon": -73.9146829
+    }
   },
   {
     "building": "343 Menahan St, Brooklyn, NY, 11237",
@@ -33555,7 +37180,11 @@ const PAIRS_DATA = [
       "savings_percent": 57.3
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7010005,
+      "lon": -73.9146829
+    }
   },
   {
     "building": "343 Menahan St, Brooklyn, NY, 11237",
@@ -33592,7 +37221,11 @@ const PAIRS_DATA = [
       "savings_percent": 56.1
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7010005,
+      "lon": -73.9146829
+    }
   },
   {
     "building": "702 Kathleen Pl, Brooklyn, NY, 11235",
@@ -33629,7 +37262,11 @@ const PAIRS_DATA = [
       "savings_percent": 77.2
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5876945,
+      "lon": -73.9618973
+    }
   },
   {
     "building": "3101 Ocean Pkwy, Brooklyn, NY, 11235",
@@ -33666,7 +37303,11 @@ const PAIRS_DATA = [
       "savings_percent": 75.1
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5757382,
+      "lon": -73.9678346
+    }
   },
   {
     "building": "280 Saint Marks Ave, Brooklyn, NY, 11238",
@@ -33703,7 +37344,11 @@ const PAIRS_DATA = [
       "savings_percent": 5.4
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.677852,
+      "lon": -73.9664878
+    }
   },
   {
     "building": "3015 Brighton 6th St, Brooklyn, NY, 11235",
@@ -33740,7 +37385,11 @@ const PAIRS_DATA = [
       "savings_percent": 62.2
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.579157,
+      "lon": -73.9617547
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -33777,7 +37426,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.8
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -33814,7 +37467,11 @@ const PAIRS_DATA = [
       "savings_percent": 37.5
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -33851,7 +37508,11 @@ const PAIRS_DATA = [
       "savings_percent": 37.8
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -33888,7 +37549,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.3
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -33925,7 +37590,11 @@ const PAIRS_DATA = [
       "savings_percent": 37.1
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -33962,7 +37631,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.6
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -33999,7 +37672,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.0
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34036,7 +37713,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.1
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34073,7 +37754,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.9
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34110,7 +37795,11 @@ const PAIRS_DATA = [
       "savings_percent": 37.2
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34147,7 +37836,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.0
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34184,7 +37877,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.9
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34221,7 +37918,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.6
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34258,7 +37959,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.4
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34295,7 +38000,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.9
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34332,7 +38041,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.9
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34369,7 +38082,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.6
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34406,7 +38123,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.4
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34443,7 +38164,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.2
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "1027 Bushwick Ave, Brooklyn, NY, 11221",
@@ -34480,7 +38205,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.2
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6914022,
+      "lon": -73.9211029
+    }
   },
   {
     "building": "388 Avenue S, Brooklyn, NY, 11223",
@@ -34517,7 +38246,11 @@ const PAIRS_DATA = [
       "savings_percent": 75.6
     },
     "neighborhood": "Gravesend",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6017734,
+      "lon": -73.9710687
+    }
   },
   {
     "building": "2483 W 16th St, Brooklyn, NY, 11214",
@@ -34554,7 +38287,11 @@ const PAIRS_DATA = [
       "savings_percent": 79.2
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5872052,
+      "lon": -73.9842908
+    }
   },
   {
     "building": "3111 Brighton 2nd St, Brooklyn, NY, 11235",
@@ -34591,7 +38328,11 @@ const PAIRS_DATA = [
       "savings_percent": 73.2
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.576003,
+      "lon": -73.9647069
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34628,7 +38369,11 @@ const PAIRS_DATA = [
       "savings_percent": 63.9
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34665,7 +38410,11 @@ const PAIRS_DATA = [
       "savings_percent": 63.9
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34702,7 +38451,11 @@ const PAIRS_DATA = [
       "savings_percent": 70.0
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34739,7 +38492,11 @@ const PAIRS_DATA = [
       "savings_percent": 63.9
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34776,7 +38533,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.5
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34813,7 +38574,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.1
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34850,7 +38615,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.5
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34887,7 +38656,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.1
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34924,7 +38697,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.5
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34961,7 +38738,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.5
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -34998,7 +38779,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.3
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -35035,7 +38820,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.5
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -35072,7 +38861,11 @@ const PAIRS_DATA = [
       "savings_percent": 63.9
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -35109,7 +38902,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.3
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -35146,7 +38943,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.5
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -35183,7 +38984,11 @@ const PAIRS_DATA = [
       "savings_percent": 63.9
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "1171 86th St, Brooklyn, NY, 11228",
@@ -35220,7 +39025,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.5
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6158906,
+      "lon": -74.0163933
+    }
   },
   {
     "building": "2701 Newkirk Ave, Brooklyn, NY, 11226",
@@ -35257,7 +39066,11 @@ const PAIRS_DATA = [
       "savings_percent": 71.2
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6400418,
+      "lon": -73.9510018
+    }
   },
   {
     "building": "2650 Ocean Pkwy, Brooklyn, NY, 11235",
@@ -35294,7 +39107,11 @@ const PAIRS_DATA = [
       "savings_percent": 78.0
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5856275,
+      "lon": -73.965998
+    }
   },
   {
     "building": "15 Oliver St, Brooklyn, NY, 11209",
@@ -35331,7 +39148,11 @@ const PAIRS_DATA = [
       "savings_percent": 70.3
     },
     "neighborhood": "Bay Ridge",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6197286,
+      "lon": -74.0392109
+    }
   },
   {
     "building": "300 5th St, Brooklyn, NY, 11215",
@@ -35368,7 +39189,11 @@ const PAIRS_DATA = [
       "savings_percent": 1.8
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6720832,
+      "lon": -73.9857044
+    }
   },
   {
     "building": "266 10th St, Brooklyn, NY, 11215",
@@ -35405,7 +39230,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.1
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6699976,
+      "lon": -73.9901493
+    }
   },
   {
     "building": "856 Washington Ave, Brooklyn, NY, 11238",
@@ -35442,7 +39271,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.6
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6725026,
+      "lon": -73.9630684
+    }
   },
   {
     "building": "9965 Shore Rd, Brooklyn, NY, 11209",
@@ -35479,7 +39312,11 @@ const PAIRS_DATA = [
       "savings_percent": 67.0
     },
     "neighborhood": "Bay Ridge",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6123947,
+      "lon": -74.0355785
+    }
   },
   {
     "building": "402 Union Ave, Brooklyn, NY, 11211",
@@ -35516,7 +39353,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7125311,
+      "lon": -73.95121
+    }
   },
   {
     "building": "402 Union Ave, Brooklyn, NY, 11211",
@@ -35553,7 +39394,11 @@ const PAIRS_DATA = [
       "savings_percent": 21.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7125311,
+      "lon": -73.95121
+    }
   },
   {
     "building": "100 Maspeth Ave, Brooklyn, NY, 11211",
@@ -35590,7 +39435,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.2
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7158123,
+      "lon": -73.9396807
+    }
   },
   {
     "building": "43 Saint Marks Pl, Brooklyn, NY, 11217",
@@ -35627,7 +39476,11 @@ const PAIRS_DATA = [
       "savings_percent": 24.5
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6823528,
+      "lon": -73.9808351
+    }
   },
   {
     "building": "537 Brooklyn Ave, Brooklyn, NY, 11225",
@@ -35664,7 +39517,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.9
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6613863,
+      "lon": -73.9452784
+    }
   },
   {
     "building": "537 Brooklyn Ave, Brooklyn, NY, 11225",
@@ -35701,7 +39558,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.3
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6613863,
+      "lon": -73.9452784
+    }
   },
   {
     "building": "9 Argyle Rd, Brooklyn, NY, 11218",
@@ -35738,7 +39599,11 @@ const PAIRS_DATA = [
       "savings_percent": 60.6
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6493119,
+      "lon": -73.967583
+    }
   },
   {
     "building": "1073 Willoughby Ave, Brooklyn, NY, 11221",
@@ -35775,7 +39640,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.2
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6990766,
+      "lon": -73.9287941
+    }
   },
   {
     "building": "345 Warren St, Brooklyn, NY, 11201",
@@ -35812,7 +39681,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.2
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6851385,
+      "lon": -73.9900602
+    }
   },
   {
     "building": "140 Moffat St, Brooklyn, NY, 11207",
@@ -35849,7 +39722,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.9
     },
     "neighborhood": "East New York",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6865543,
+      "lon": -73.9071037
+    }
   },
   {
     "building": "1025 Pacific St, Brooklyn, NY, 11238",
@@ -35886,7 +39763,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.2
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6794072,
+      "lon": -73.9596972
+    }
   },
   {
     "building": "1725 68th St, Brooklyn, NY, 11204",
@@ -35923,7 +39804,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.8
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6184897,
+      "lon": -73.9934002
+    }
   },
   {
     "building": "1725 68th St, Brooklyn, NY, 11204",
@@ -35960,7 +39845,11 @@ const PAIRS_DATA = [
       "savings_percent": 64.5
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6184897,
+      "lon": -73.9934002
+    }
   },
   {
     "building": "1725 68th St, Brooklyn, NY, 11204",
@@ -35997,7 +39886,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.7
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6184897,
+      "lon": -73.9934002
+    }
   },
   {
     "building": "1725 68th St, Brooklyn, NY, 11204",
@@ -36034,7 +39927,11 @@ const PAIRS_DATA = [
       "savings_percent": 52.1
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6184897,
+      "lon": -73.9934002
+    }
   },
   {
     "building": "1725 68th St, Brooklyn, NY, 11204",
@@ -36071,7 +39968,11 @@ const PAIRS_DATA = [
       "savings_percent": 52.1
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6184897,
+      "lon": -73.9934002
+    }
   },
   {
     "building": "701 Prospect Pl, Brooklyn, NY, 11216",
@@ -36108,7 +40009,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.8
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.674576,
+      "lon": -73.953519
+    }
   },
   {
     "building": "701 Prospect Pl, Brooklyn, NY, 11216",
@@ -36145,7 +40050,11 @@ const PAIRS_DATA = [
       "savings_percent": 27.2
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.674576,
+      "lon": -73.953519
+    }
   },
   {
     "building": "701 Prospect Pl, Brooklyn, NY, 11216",
@@ -36182,7 +40091,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.2
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.674576,
+      "lon": -73.953519
+    }
   },
   {
     "building": "701 Prospect Pl, Brooklyn, NY, 11216",
@@ -36219,7 +40132,11 @@ const PAIRS_DATA = [
       "savings_percent": 28.1
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.674576,
+      "lon": -73.953519
+    }
   },
   {
     "building": "701 Prospect Pl, Brooklyn, NY, 11216",
@@ -36256,7 +40173,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.0
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.674576,
+      "lon": -73.953519
+    }
   },
   {
     "building": "701 Prospect Pl, Brooklyn, NY, 11216",
@@ -36293,7 +40214,11 @@ const PAIRS_DATA = [
       "savings_percent": 24.4
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.674576,
+      "lon": -73.953519
+    }
   },
   {
     "building": "701 Prospect Pl, Brooklyn, NY, 11216",
@@ -36330,7 +40255,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.7
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.674576,
+      "lon": -73.953519
+    }
   },
   {
     "building": "701 Prospect Pl, Brooklyn, NY, 11216",
@@ -36367,7 +40296,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.9
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.674576,
+      "lon": -73.953519
+    }
   },
   {
     "building": "701 Prospect Pl, Brooklyn, NY, 11216",
@@ -36404,7 +40337,11 @@ const PAIRS_DATA = [
       "savings_percent": 23.9
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.674576,
+      "lon": -73.953519
+    }
   },
   {
     "building": "1019 Hancock St, Brooklyn, NY, 11221",
@@ -36441,7 +40378,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.1
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.687657,
+      "lon": -73.9159936
+    }
   },
   {
     "building": "1019 Hancock St, Brooklyn, NY, 11221",
@@ -36478,7 +40419,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.8
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.687657,
+      "lon": -73.9159936
+    }
   },
   {
     "building": "1019 Hancock St, Brooklyn, NY, 11221",
@@ -36515,7 +40460,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.9
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.687657,
+      "lon": -73.9159936
+    }
   },
   {
     "building": "1019 Hancock St, Brooklyn, NY, 11221",
@@ -36552,7 +40501,11 @@ const PAIRS_DATA = [
       "savings_percent": 57.3
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.687657,
+      "lon": -73.9159936
+    }
   },
   {
     "building": "1019 Hancock St, Brooklyn, NY, 11221",
@@ -36589,7 +40542,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.9
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.687657,
+      "lon": -73.9159936
+    }
   },
   {
     "building": "1019 Hancock St, Brooklyn, NY, 11221",
@@ -36626,7 +40583,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.7
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.687657,
+      "lon": -73.9159936
+    }
   },
   {
     "building": "1019 Hancock St, Brooklyn, NY, 11221",
@@ -36663,7 +40624,11 @@ const PAIRS_DATA = [
       "savings_percent": 40.3
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.687657,
+      "lon": -73.9159936
+    }
   },
   {
     "building": "1019 Hancock St, Brooklyn, NY, 11221",
@@ -36700,7 +40665,11 @@ const PAIRS_DATA = [
       "savings_percent": 40.2
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.687657,
+      "lon": -73.9159936
+    }
   },
   {
     "building": "388 Bridge St, Brooklyn, NY, 11201",
@@ -36737,7 +40706,11 @@ const PAIRS_DATA = [
       "savings_percent": 26.0
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6916048,
+      "lon": -73.9854533
+    }
   },
   {
     "building": "323 Bergen St, Brooklyn, NY, 11217",
@@ -36774,7 +40747,11 @@ const PAIRS_DATA = [
       "savings_percent": 0.6
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6830951,
+      "lon": -73.9806479
+    }
   },
   {
     "building": "323 Bergen St, Brooklyn, NY, 11217",
@@ -36811,7 +40788,11 @@ const PAIRS_DATA = [
       "savings_percent": 7.8
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6830951,
+      "lon": -73.9806479
+    }
   },
   {
     "building": "323 Bergen St, Brooklyn, NY, 11217",
@@ -36848,7 +40829,11 @@ const PAIRS_DATA = [
       "savings_percent": 5.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6830951,
+      "lon": -73.9806479
+    }
   },
   {
     "building": "323 Bergen St, Brooklyn, NY, 11217",
@@ -36885,7 +40870,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6830951,
+      "lon": -73.9806479
+    }
   },
   {
     "building": "323 Bergen St, Brooklyn, NY, 11217",
@@ -36922,7 +40911,11 @@ const PAIRS_DATA = [
       "savings_percent": 5.3
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6830951,
+      "lon": -73.9806479
+    }
   },
   {
     "building": "323 Bergen St, Brooklyn, NY, 11217",
@@ -36959,7 +40952,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.0
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6830951,
+      "lon": -73.9806479
+    }
   },
   {
     "building": "1275 E 51st St, Brooklyn, NY, 11234",
@@ -36996,7 +40993,11 @@ const PAIRS_DATA = [
       "savings_percent": 76.2
     },
     "neighborhood": "Mill Basin",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6299173,
+      "lon": -73.9265277
+    }
   },
   {
     "building": "1275 E 51st St, Brooklyn, NY, 11234",
@@ -37033,7 +41034,11 @@ const PAIRS_DATA = [
       "savings_percent": 80.0
     },
     "neighborhood": "Mill Basin",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6299173,
+      "lon": -73.9265277
+    }
   },
   {
     "building": "755 Washington Ave, Brooklyn, NY, 11238",
@@ -37070,7 +41075,11 @@ const PAIRS_DATA = [
       "savings_percent": -11.8
     },
     "neighborhood": "Prospect Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6741984,
+      "lon": -73.9629581
+    }
   },
   {
     "building": "8323 13th Ave, Brooklyn, NY, 11228",
@@ -37107,7 +41116,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.1
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6155578,
+      "lon": -74.0122285
+    }
   },
   {
     "building": "19 N Henry St, Brooklyn, NY, 11222",
@@ -37144,7 +41157,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.6
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7196674,
+      "lon": -73.9427519
+    }
   },
   {
     "building": "2913 Foster Ave, Brooklyn, NY, 11210",
@@ -37181,7 +41198,11 @@ const PAIRS_DATA = [
       "savings_percent": 70.4
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6387041,
+      "lon": -73.9487022
+    }
   },
   {
     "building": "2913 Foster Ave, Brooklyn, NY, 11210",
@@ -37218,7 +41239,11 @@ const PAIRS_DATA = [
       "savings_percent": 55.1
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6387041,
+      "lon": -73.9487022
+    }
   },
   {
     "building": "2913 Foster Ave, Brooklyn, NY, 11210",
@@ -37255,7 +41280,11 @@ const PAIRS_DATA = [
       "savings_percent": 74.2
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6387041,
+      "lon": -73.9487022
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37292,7 +41321,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.5
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37329,7 +41362,11 @@ const PAIRS_DATA = [
       "savings_percent": 45.3
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37366,7 +41403,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.1
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37403,7 +41444,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.2
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37440,7 +41485,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.5
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37477,7 +41526,11 @@ const PAIRS_DATA = [
       "savings_percent": 33.8
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37514,7 +41567,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.7
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37551,7 +41608,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.5
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37588,7 +41649,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.4
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "744 Park Pl, Brooklyn, NY, 11216",
@@ -37625,7 +41690,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.7
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6733734,
+      "lon": -73.9532389
+    }
   },
   {
     "building": "30 Main St, Brooklyn, NY, 11201",
@@ -37662,7 +41731,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.3
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7036814,
+      "lon": -73.991167
+    }
   },
   {
     "building": "30 Main St, Brooklyn, NY, 11201",
@@ -37699,7 +41772,11 @@ const PAIRS_DATA = [
       "savings_percent": 23.4
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7036814,
+      "lon": -73.991167
+    }
   },
   {
     "building": "2265 W 7th St, Brooklyn, NY, 11223",
@@ -37736,7 +41813,11 @@ const PAIRS_DATA = [
       "savings_percent": 58.9
     },
     "neighborhood": "Gravesend",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5927093,
+      "lon": -73.9776924
+    }
   },
   {
     "building": "40 Brighton 1 Rd, Brooklyn, NY, 11235",
@@ -37810,7 +41891,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.9
     },
     "neighborhood": "Crown Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6657234,
+      "lon": -73.9526057
+    }
   },
   {
     "building": "959 Madison St, Brooklyn, NY, 11221",
@@ -37847,7 +41932,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.2
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6887366,
+      "lon": -73.9195288
+    }
   },
   {
     "building": "959 Madison St, Brooklyn, NY, 11221",
@@ -37884,7 +41973,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.7
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6887366,
+      "lon": -73.9195288
+    }
   },
   {
     "building": "959 Madison St, Brooklyn, NY, 11221",
@@ -37921,7 +42014,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.3
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6887366,
+      "lon": -73.9195288
+    }
   },
   {
     "building": "959 Madison St, Brooklyn, NY, 11221",
@@ -37958,7 +42055,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.4
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6887366,
+      "lon": -73.9195288
+    }
   },
   {
     "building": "959 Madison St, Brooklyn, NY, 11221",
@@ -37995,7 +42096,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.9
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6887366,
+      "lon": -73.9195288
+    }
   },
   {
     "building": "959 Madison St, Brooklyn, NY, 11221",
@@ -38032,7 +42137,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.8
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6887366,
+      "lon": -73.9195288
+    }
   },
   {
     "building": "959 Madison St, Brooklyn, NY, 11221",
@@ -38069,7 +42178,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.8
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6887366,
+      "lon": -73.9195288
+    }
   },
   {
     "building": "959 Madison St, Brooklyn, NY, 11221",
@@ -38106,7 +42219,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.7
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6887366,
+      "lon": -73.9195288
+    }
   },
   {
     "building": "959 Madison St, Brooklyn, NY, 11221",
@@ -38143,7 +42260,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.3
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6887366,
+      "lon": -73.9195288
+    }
   },
   {
     "building": "362 12th St, Brooklyn, NY, 11215",
@@ -38180,7 +42301,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.5
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6657238,
+      "lon": -73.9848043
+    }
   },
   {
     "building": "9040 Fort Hamilton Pkwy, Brooklyn, NY, 11209",
@@ -38217,7 +42342,11 @@ const PAIRS_DATA = [
       "savings_percent": 74.0
     },
     "neighborhood": "Bay Ridge",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6176071,
+      "lon": -74.0272748
+    }
   },
   {
     "building": "428 E 9th St, Brooklyn, NY, 11218",
@@ -38254,7 +42383,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.6
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6381827,
+      "lon": -73.9699258
+    }
   },
   {
     "building": "428 E 9th St, Brooklyn, NY, 11218",
@@ -38291,7 +42424,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.3
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6381827,
+      "lon": -73.9699258
+    }
   },
   {
     "building": "428 E 9th St, Brooklyn, NY, 11218",
@@ -38328,7 +42465,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.8
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6381827,
+      "lon": -73.9699258
+    }
   },
   {
     "building": "428 E 9th St, Brooklyn, NY, 11218",
@@ -38365,7 +42506,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.7
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6381827,
+      "lon": -73.9699258
+    }
   },
   {
     "building": "2475 W 16th St, Brooklyn, NY, 11214",
@@ -38402,7 +42547,11 @@ const PAIRS_DATA = [
       "savings_percent": 77.8
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5865391,
+      "lon": -73.9842589
+    }
   },
   {
     "building": "2475 W 16th St, Brooklyn, NY, 11214",
@@ -38439,7 +42588,11 @@ const PAIRS_DATA = [
       "savings_percent": 78.6
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5865391,
+      "lon": -73.9842589
+    }
   },
   {
     "building": "2475 W 16th St, Brooklyn, NY, 11214",
@@ -38476,7 +42629,11 @@ const PAIRS_DATA = [
       "savings_percent": 78.4
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5865391,
+      "lon": -73.9842589
+    }
   },
   {
     "building": "104 Newel St, Brooklyn, NY, 11222",
@@ -38513,7 +42670,11 @@ const PAIRS_DATA = [
       "savings_percent": -150.5
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7259236,
+      "lon": -73.9478257
+    }
   },
   {
     "building": "445 5th Ave, Brooklyn, NY, 11215",
@@ -38550,7 +42711,11 @@ const PAIRS_DATA = [
       "savings_percent": 14.5
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.669025,
+      "lon": -73.9863
+    }
   },
   {
     "building": "445 5th Ave, Brooklyn, NY, 11215",
@@ -38587,7 +42752,11 @@ const PAIRS_DATA = [
       "savings_percent": 14.5
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.669025,
+      "lon": -73.9863
+    }
   },
   {
     "building": "445 5th Ave, Brooklyn, NY, 11215",
@@ -38624,7 +42793,11 @@ const PAIRS_DATA = [
       "savings_percent": 16.2
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.669025,
+      "lon": -73.9863
+    }
   },
   {
     "building": "445 5th Ave, Brooklyn, NY, 11215",
@@ -38661,7 +42834,11 @@ const PAIRS_DATA = [
       "savings_percent": 21.7
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.669025,
+      "lon": -73.9863
+    }
   },
   {
     "building": "445 5th Ave, Brooklyn, NY, 11215",
@@ -38698,7 +42875,11 @@ const PAIRS_DATA = [
       "savings_percent": 11.9
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.669025,
+      "lon": -73.9863
+    }
   },
   {
     "building": "445 5th Ave, Brooklyn, NY, 11215",
@@ -38735,7 +42916,11 @@ const PAIRS_DATA = [
       "savings_percent": 12.4
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.669025,
+      "lon": -73.9863
+    }
   },
   {
     "building": "445 5th Ave, Brooklyn, NY, 11215",
@@ -38772,7 +42957,11 @@ const PAIRS_DATA = [
       "savings_percent": 14.6
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.669025,
+      "lon": -73.9863
+    }
   },
   {
     "building": "720 E 31st St, Brooklyn, NY, 11210",
@@ -38809,7 +42998,11 @@ const PAIRS_DATA = [
       "savings_percent": 78.2
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6335034,
+      "lon": -73.9470532
+    }
   },
   {
     "building": "3060 Ocean Ave, Brooklyn, NY, 11235",
@@ -38846,7 +43039,11 @@ const PAIRS_DATA = [
       "savings_percent": 78.9
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5865588,
+      "lon": -73.9495345
+    }
   },
   {
     "building": "22 Saint Johns Pl, Brooklyn, NY, 11217",
@@ -38883,7 +43080,11 @@ const PAIRS_DATA = [
       "savings_percent": 2.9
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6780335,
+      "lon": -73.9786841
+    }
   },
   {
     "building": "22 Saint Johns Pl, Brooklyn, NY, 11217",
@@ -38920,7 +43121,11 @@ const PAIRS_DATA = [
       "savings_percent": 5.3
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6780335,
+      "lon": -73.9786841
+    }
   },
   {
     "building": "129 Malcolm X Blvd, Brooklyn, NY, 11221",
@@ -38957,7 +43162,11 @@ const PAIRS_DATA = [
       "savings_percent": 59.8
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6890856,
+      "lon": -73.930054
+    }
   },
   {
     "building": "229 55th St, Brooklyn, NY, 11220",
@@ -38994,7 +43203,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.1
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6459721,
+      "lon": -74.0189256
+    }
   },
   {
     "building": "16 Bay 25th St, Brooklyn, NY, 11214",
@@ -39031,7 +43244,11 @@ const PAIRS_DATA = [
       "savings_percent": 55.7
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6038906,
+      "lon": -73.9980838
+    }
   },
   {
     "building": "366 Harman St, Brooklyn, NY, 11237",
@@ -39068,7 +43285,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.3
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7012733,
+      "lon": -73.9171678
+    }
   },
   {
     "building": "366 Harman St, Brooklyn, NY, 11237",
@@ -39105,7 +43326,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.4
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7012733,
+      "lon": -73.9171678
+    }
   },
   {
     "building": "366 Harman St, Brooklyn, NY, 11237",
@@ -39142,7 +43367,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.2
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7012733,
+      "lon": -73.9171678
+    }
   },
   {
     "building": "657 E 26th St, Brooklyn, NY, 11210",
@@ -39179,7 +43408,11 @@ const PAIRS_DATA = [
       "savings_percent": 65.3
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.634213,
+      "lon": -73.9517493
+    }
   },
   {
     "building": "207 Bay 35th St, Brooklyn, NY, 11214",
@@ -39216,7 +43449,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.1
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5954031,
+      "lon": -73.9942841
+    }
   },
   {
     "building": "207 Bay 35th St, Brooklyn, NY, 11214",
@@ -39253,7 +43490,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.3
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5954031,
+      "lon": -73.9942841
+    }
   },
   {
     "building": "207 Bay 35th St, Brooklyn, NY, 11214",
@@ -39290,7 +43531,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.4
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5954031,
+      "lon": -73.9942841
+    }
   },
   {
     "building": "207 Bay 35th St, Brooklyn, NY, 11214",
@@ -39327,7 +43572,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.0
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5954031,
+      "lon": -73.9942841
+    }
   },
   {
     "building": "207 Bay 35th St, Brooklyn, NY, 11214",
@@ -39364,7 +43613,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.1
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5954031,
+      "lon": -73.9942841
+    }
   },
   {
     "building": "207 Bay 35th St, Brooklyn, NY, 11214",
@@ -39401,7 +43654,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.5
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5954031,
+      "lon": -73.9942841
+    }
   },
   {
     "building": "166 Washington Ave, Brooklyn, NY, 11205",
@@ -39438,7 +43695,11 @@ const PAIRS_DATA = [
       "savings_percent": 29.8
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6936757,
+      "lon": -73.9672042
+    }
   },
   {
     "building": "166 Washington Ave, Brooklyn, NY, 11205",
@@ -39475,7 +43736,11 @@ const PAIRS_DATA = [
       "savings_percent": 31.7
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6936757,
+      "lon": -73.9672042
+    }
   },
   {
     "building": "193 22nd St, Brooklyn, NY, 11232",
@@ -39512,7 +43777,11 @@ const PAIRS_DATA = [
       "savings_percent": -38.9
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6618996,
+      "lon": -73.9955116
+    }
   },
   {
     "building": "175 Spencer St, Brooklyn, NY, 11205",
@@ -39549,7 +43818,11 @@ const PAIRS_DATA = [
       "savings_percent": 48.4
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6929628,
+      "lon": -73.9547432
+    }
   },
   {
     "building": "1237 Avenue Z, Brooklyn, NY, 11235",
@@ -39586,7 +43859,11 @@ const PAIRS_DATA = [
       "savings_percent": 74.9
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5880395,
+      "lon": -73.9566969
+    }
   },
   {
     "building": "2330 Voorhies Ave, Brooklyn, NY, 11235",
@@ -39623,7 +43900,11 @@ const PAIRS_DATA = [
       "savings_percent": 74.8
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5863169,
+      "lon": -73.9449178
+    }
   },
   {
     "building": "93 Waverly Ave, Brooklyn, NY, 11205",
@@ -39660,7 +43941,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.6
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6949393,
+      "lon": -73.9679447
+    }
   },
   {
     "building": "93 Waverly Ave, Brooklyn, NY, 11205",
@@ -39697,7 +43982,11 @@ const PAIRS_DATA = [
       "savings_percent": 20.1
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6949393,
+      "lon": -73.9679447
+    }
   },
   {
     "building": "93 Waverly Ave, Brooklyn, NY, 11205",
@@ -39734,7 +44023,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.8
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6949393,
+      "lon": -73.9679447
+    }
   },
   {
     "building": "591 10th St, Brooklyn, NY, 11215",
@@ -39771,7 +44064,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.2
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6656756,
+      "lon": -73.9803435
+    }
   },
   {
     "building": "96 16th St, Brooklyn, NY, 11215",
@@ -39808,7 +44105,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.9
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6662834,
+      "lon": -73.9930247
+    }
   },
   {
     "building": "525 Ocean Pkwy, Brooklyn, NY, 11218",
@@ -39845,7 +44146,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.5
     },
     "neighborhood": "Kensington",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6356248,
+      "lon": -73.9719425
+    }
   },
   {
     "building": "228 13th St, Brooklyn, NY, 11215",
@@ -39882,7 +44187,11 @@ const PAIRS_DATA = [
       "savings_percent": 16.7
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6674714,
+      "lon": -73.9899602
+    }
   },
   {
     "building": "393 Avenue S, Brooklyn, NY, 11223",
@@ -39919,7 +44228,11 @@ const PAIRS_DATA = [
       "savings_percent": 76.3
     },
     "neighborhood": "Gravesend",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6020695,
+      "lon": -73.9708235
+    }
   },
   {
     "building": "393 Avenue S, Brooklyn, NY, 11223",
@@ -39956,7 +44269,11 @@ const PAIRS_DATA = [
       "savings_percent": 76.6
     },
     "neighborhood": "Gravesend",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6020695,
+      "lon": -73.9708235
+    }
   },
   {
     "building": "88 Marion St, Brooklyn, NY, 11233",
@@ -39993,7 +44310,11 @@ const PAIRS_DATA = [
       "savings_percent": 49.6
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6797474,
+      "lon": -73.9274473
+    }
   },
   {
     "building": "1811 Ocean Pkwy, Brooklyn, NY, 11223",
@@ -40030,7 +44351,11 @@ const PAIRS_DATA = [
       "savings_percent": 76.7
     },
     "neighborhood": "Gravesend",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6045419,
+      "lon": -73.9656578
+    }
   },
   {
     "building": "928 57th St, Brooklyn, NY, 11219",
@@ -40067,7 +44392,11 @@ const PAIRS_DATA = [
       "savings_percent": 37.3
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6352699,
+      "lon": -74.0049962
+    }
   },
   {
     "building": "928 57th St, Brooklyn, NY, 11219",
@@ -40104,7 +44433,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.5
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6352699,
+      "lon": -74.0049962
+    }
   },
   {
     "building": "928 57th St, Brooklyn, NY, 11219",
@@ -40141,7 +44474,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.5
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6352699,
+      "lon": -74.0049962
+    }
   },
   {
     "building": "928 57th St, Brooklyn, NY, 11219",
@@ -40178,7 +44515,11 @@ const PAIRS_DATA = [
       "savings_percent": 42.6
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6352699,
+      "lon": -74.0049962
+    }
   },
   {
     "building": "144 Vanderbilt Ave, Brooklyn, NY, 11205",
@@ -40215,7 +44556,11 @@ const PAIRS_DATA = [
       "savings_percent": 11.3
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6933812,
+      "lon": -73.9699892
+    }
   },
   {
     "building": "144 Vanderbilt Ave, Brooklyn, NY, 11205",
@@ -40252,7 +44597,11 @@ const PAIRS_DATA = [
       "savings_percent": 7.9
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6933812,
+      "lon": -73.9699892
+    }
   },
   {
     "building": "144 Vanderbilt Ave, Brooklyn, NY, 11205",
@@ -40289,7 +44638,11 @@ const PAIRS_DATA = [
       "savings_percent": 8.0
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6933812,
+      "lon": -73.9699892
+    }
   },
   {
     "building": "144 Vanderbilt Ave, Brooklyn, NY, 11205",
@@ -40326,7 +44679,11 @@ const PAIRS_DATA = [
       "savings_percent": 10.4
     },
     "neighborhood": "Fort Greene",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6933812,
+      "lon": -73.9699892
+    }
   },
   {
     "building": "259 Halsey St, Brooklyn, NY, 11216",
@@ -40363,7 +44720,11 @@ const PAIRS_DATA = [
       "savings_percent": 28.8
     },
     "neighborhood": "Bedford-Stuyvesant",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6828219,
+      "lon": -73.942778
+    }
   },
   {
     "building": "608 Ocean Ave, Brooklyn, NY, 11226",
@@ -40400,7 +44761,11 @@ const PAIRS_DATA = [
       "savings_percent": 30.3
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6480126,
+      "lon": -73.9610054
+    }
   },
   {
     "building": "608 Ocean Ave, Brooklyn, NY, 11226",
@@ -40437,7 +44802,11 @@ const PAIRS_DATA = [
       "savings_percent": 32.3
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6480126,
+      "lon": -73.9610054
+    }
   },
   {
     "building": "84 Macdougal St, Brooklyn, NY, 11233",
@@ -40474,7 +44843,11 @@ const PAIRS_DATA = [
       "savings_percent": 76.3
     },
     "neighborhood": "Brooklyn (Other)",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6793093,
+      "lon": -73.9177548
+    }
   },
   {
     "building": "269 Eckford St, Brooklyn, NY, 11222",
@@ -40511,7 +44884,11 @@ const PAIRS_DATA = [
       "savings_percent": 3.5
     },
     "neighborhood": "Greenpoint",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7283353,
+      "lon": -73.9516567
+    }
   },
   {
     "building": "34 Bay 41st St, Brooklyn, NY, 11214",
@@ -40548,7 +44925,11 @@ const PAIRS_DATA = [
       "savings_percent": 52.7
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5964328,
+      "lon": -73.9866602
+    }
   },
   {
     "building": "1270 64th St, Brooklyn, NY, 11219",
@@ -40585,7 +44966,11 @@ const PAIRS_DATA = [
       "savings_percent": 55.2
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6267422,
+      "lon": -74.0014654
+    }
   },
   {
     "building": "1270 64th St, Brooklyn, NY, 11219",
@@ -40622,7 +45007,11 @@ const PAIRS_DATA = [
       "savings_percent": 49.1
     },
     "neighborhood": "Borough Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6267422,
+      "lon": -74.0014654
+    }
   },
   {
     "building": "864 56th St, Brooklyn, NY, 11220",
@@ -40659,7 +45048,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.1
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6366144,
+      "lon": -74.0057235
+    }
   },
   {
     "building": "864 56th St, Brooklyn, NY, 11220",
@@ -40696,7 +45089,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.8
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6366144,
+      "lon": -74.0057235
+    }
   },
   {
     "building": "1307 84th St, Brooklyn, NY, 11228",
@@ -40733,7 +45130,11 @@ const PAIRS_DATA = [
       "savings_percent": 51.3
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6152268,
+      "lon": -74.0123194
+    }
   },
   {
     "building": "1307 84th St, Brooklyn, NY, 11228",
@@ -40770,7 +45171,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.6
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6152268,
+      "lon": -74.0123194
+    }
   },
   {
     "building": "1307 84th St, Brooklyn, NY, 11228",
@@ -40807,7 +45212,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.2
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6152268,
+      "lon": -74.0123194
+    }
   },
   {
     "building": "1307 84th St, Brooklyn, NY, 11228",
@@ -40844,7 +45253,11 @@ const PAIRS_DATA = [
       "savings_percent": 52.9
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6152268,
+      "lon": -74.0123194
+    }
   },
   {
     "building": "127 Kent Ave, Brooklyn, NY, 11249",
@@ -40881,7 +45294,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.0
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7198767,
+      "lon": -73.9618231
+    }
   },
   {
     "building": "127 Kent Ave, Brooklyn, NY, 11249",
@@ -40918,7 +45335,11 @@ const PAIRS_DATA = [
       "savings_percent": -2.0
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7198767,
+      "lon": -73.9618231
+    }
   },
   {
     "building": "2837 W 19th St, Brooklyn, NY, 11224",
@@ -40955,7 +45376,11 @@ const PAIRS_DATA = [
       "savings_percent": 60.1
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.577709,
+      "lon": -73.9859387
+    }
   },
   {
     "building": "2837 W 19th St, Brooklyn, NY, 11224",
@@ -40992,7 +45417,11 @@ const PAIRS_DATA = [
       "savings_percent": 61.6
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.577709,
+      "lon": -73.9859387
+    }
   },
   {
     "building": "2837 W 19th St, Brooklyn, NY, 11224",
@@ -41029,7 +45458,11 @@ const PAIRS_DATA = [
       "savings_percent": 60.3
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.577709,
+      "lon": -73.9859387
+    }
   },
   {
     "building": "2837 W 19th St, Brooklyn, NY, 11224",
@@ -41066,7 +45499,11 @@ const PAIRS_DATA = [
       "savings_percent": 60.5
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.577709,
+      "lon": -73.9859387
+    }
   },
   {
     "building": "2837 W 19th St, Brooklyn, NY, 11224",
@@ -41103,7 +45540,11 @@ const PAIRS_DATA = [
       "savings_percent": 59.0
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.577709,
+      "lon": -73.9859387
+    }
   },
   {
     "building": "2837 W 19th St, Brooklyn, NY, 11224",
@@ -41140,7 +45581,11 @@ const PAIRS_DATA = [
       "savings_percent": 60.7
     },
     "neighborhood": "Coney Island",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.577709,
+      "lon": -73.9859387
+    }
   },
   {
     "building": "1546 Broadway, Brooklyn, NY, 11221",
@@ -41177,7 +45622,11 @@ const PAIRS_DATA = [
       "savings_percent": 48.1
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6861045,
+      "lon": -73.916286
+    }
   },
   {
     "building": "1546 Broadway, Brooklyn, NY, 11221",
@@ -41214,7 +45663,11 @@ const PAIRS_DATA = [
       "savings_percent": 45.2
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6861045,
+      "lon": -73.916286
+    }
   },
   {
     "building": "1546 Broadway, Brooklyn, NY, 11221",
@@ -41251,7 +45704,11 @@ const PAIRS_DATA = [
       "savings_percent": 45.5
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6861045,
+      "lon": -73.916286
+    }
   },
   {
     "building": "1546 Broadway, Brooklyn, NY, 11221",
@@ -41288,7 +45745,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.7
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6861045,
+      "lon": -73.916286
+    }
   },
   {
     "building": "434 Throop Ave, Brooklyn, NY, 11221",
@@ -41325,7 +45786,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.6
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6890069,
+      "lon": -73.9423988
+    }
   },
   {
     "building": "1 City Pt, Brooklyn, NY, 11201",
@@ -41399,7 +45864,11 @@ const PAIRS_DATA = [
       "savings_percent": 18.5
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41436,7 +45905,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.5
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41473,7 +45946,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.4
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41510,7 +45987,11 @@ const PAIRS_DATA = [
       "savings_percent": 14.9
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41547,7 +46028,11 @@ const PAIRS_DATA = [
       "savings_percent": 14.8
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41584,7 +46069,11 @@ const PAIRS_DATA = [
       "savings_percent": 13.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41621,7 +46110,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.1
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41658,7 +46151,11 @@ const PAIRS_DATA = [
       "savings_percent": 16.5
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41695,7 +46192,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.4
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41732,7 +46233,11 @@ const PAIRS_DATA = [
       "savings_percent": 17.2
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41769,7 +46274,11 @@ const PAIRS_DATA = [
       "savings_percent": 15.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41806,7 +46315,11 @@ const PAIRS_DATA = [
       "savings_percent": 15.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41843,7 +46356,11 @@ const PAIRS_DATA = [
       "savings_percent": 15.5
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41880,7 +46397,11 @@ const PAIRS_DATA = [
       "savings_percent": 13.0
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41917,7 +46438,11 @@ const PAIRS_DATA = [
       "savings_percent": 16.3
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41954,7 +46479,11 @@ const PAIRS_DATA = [
       "savings_percent": 11.1
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -41991,7 +46520,11 @@ const PAIRS_DATA = [
       "savings_percent": 14.8
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -42028,7 +46561,11 @@ const PAIRS_DATA = [
       "savings_percent": 11.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -42065,7 +46602,11 @@ const PAIRS_DATA = [
       "savings_percent": 8.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "229 Withers St, Brooklyn, NY, 11211",
@@ -42102,7 +46643,11 @@ const PAIRS_DATA = [
       "savings_percent": 12.2
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7177106,
+      "lon": -73.9423965
+    }
   },
   {
     "building": "51 1st St, Brooklyn, NY, 11249",
@@ -42139,7 +46684,11 @@ const PAIRS_DATA = [
       "savings_percent": -8.4
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6786137,
+      "lon": -73.9918556
+    }
   },
   {
     "building": "51 1st St, Brooklyn, NY, 11249",
@@ -42176,7 +46725,11 @@ const PAIRS_DATA = [
       "savings_percent": -12.1
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6786137,
+      "lon": -73.9918556
+    }
   },
   {
     "building": "51 1st St, Brooklyn, NY, 11249",
@@ -42213,7 +46766,11 @@ const PAIRS_DATA = [
       "savings_percent": -5.2
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6786137,
+      "lon": -73.9918556
+    }
   },
   {
     "building": "624 New York Ave, Brooklyn, NY, 11203",
@@ -42250,7 +46807,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.4
     },
     "neighborhood": "East Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.658992,
+      "lon": -73.947643
+    }
   },
   {
     "building": "1755 Benson Ave, Brooklyn, NY, 11214",
@@ -42287,7 +46848,11 @@ const PAIRS_DATA = [
       "savings_percent": 48.6
     },
     "neighborhood": "Bensonhurst",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6063223,
+      "lon": -74.0055011
+    }
   },
   {
     "building": "191 Willoughby St, Brooklyn, NY, 11201",
@@ -42324,7 +46889,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.3
     },
     "neighborhood": "Brooklyn Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.692404,
+      "lon": -73.9803657
+    }
   },
   {
     "building": "1014 Banner Ave, Brooklyn, NY, 11235",
@@ -42361,7 +46930,11 @@ const PAIRS_DATA = [
       "savings_percent": 63.0
     },
     "neighborhood": "Brighton Beach",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5833945,
+      "lon": -73.9594642
+    }
   },
   {
     "building": "707 Willoughby Ave, Brooklyn, NY, 11206",
@@ -42398,7 +46971,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.7
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.695043,
+      "lon": -73.9408296
+    }
   },
   {
     "building": "707 Willoughby Ave, Brooklyn, NY, 11206",
@@ -42435,7 +47012,11 @@ const PAIRS_DATA = [
       "savings_percent": 43.3
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.695043,
+      "lon": -73.9408296
+    }
   },
   {
     "building": "2569 W 2nd St, Brooklyn, NY, 11223",
@@ -42472,7 +47053,11 @@ const PAIRS_DATA = [
       "savings_percent": 80.3
     },
     "neighborhood": "Gravesend",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.5868096,
+      "lon": -73.9713021
+    }
   },
   {
     "building": "2421 Ocean Ave, Brooklyn, NY, 11229",
@@ -42509,7 +47094,11 @@ const PAIRS_DATA = [
       "savings_percent": 62.9
     },
     "neighborhood": "Midwood",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6026374,
+      "lon": -73.9517658
+    }
   },
   {
     "building": "216 20th St, Brooklyn, NY, 11232",
@@ -42546,7 +47135,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.6
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6622265,
+      "lon": -73.9936805
+    }
   },
   {
     "building": "379 12th St, Brooklyn, NY, 11215",
@@ -42583,7 +47176,11 @@ const PAIRS_DATA = [
       "savings_percent": 9.5
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6657873,
+      "lon": -73.9840809
+    }
   },
   {
     "building": "1411 Bushwick Ave, Brooklyn, NY, 11207",
@@ -42620,7 +47217,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.1
     },
     "neighborhood": "East New York",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6847016,
+      "lon": -73.9093798
+    }
   },
   {
     "building": "310 Lenox Rd, Brooklyn, NY, 11226",
@@ -42657,7 +47258,11 @@ const PAIRS_DATA = [
       "savings_percent": 73.7
     },
     "neighborhood": "Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6537826,
+      "lon": -73.9489509
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -42694,7 +47299,11 @@ const PAIRS_DATA = [
       "savings_percent": 34.0
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -42731,7 +47340,11 @@ const PAIRS_DATA = [
       "savings_percent": 40.5
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -42768,7 +47381,11 @@ const PAIRS_DATA = [
       "savings_percent": 23.4
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -42805,7 +47422,11 @@ const PAIRS_DATA = [
       "savings_percent": 25.9
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -42842,7 +47463,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.6
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -42879,7 +47504,11 @@ const PAIRS_DATA = [
       "savings_percent": 38.2
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -42916,7 +47545,11 @@ const PAIRS_DATA = [
       "savings_percent": 28.7
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -42953,7 +47586,11 @@ const PAIRS_DATA = [
       "savings_percent": 35.8
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -42990,7 +47627,11 @@ const PAIRS_DATA = [
       "savings_percent": 35.0
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -43027,7 +47668,11 @@ const PAIRS_DATA = [
       "savings_percent": 37.3
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "179 20th St, Brooklyn, NY, 11232",
@@ -43064,7 +47709,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.5
     },
     "neighborhood": "Sunset Park",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6631531,
+      "lon": -73.9947267
+    }
   },
   {
     "building": "8315 13th Ave, Brooklyn, NY, 11228",
@@ -43101,7 +47750,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.0
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6155877,
+      "lon": -74.0121974
+    }
   },
   {
     "building": "8315 13th Ave, Brooklyn, NY, 11228",
@@ -43138,7 +47791,11 @@ const PAIRS_DATA = [
       "savings_percent": 49.0
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6155877,
+      "lon": -74.0121974
+    }
   },
   {
     "building": "8315 13th Ave, Brooklyn, NY, 11228",
@@ -43175,7 +47832,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.1
     },
     "neighborhood": "Dyker Heights",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6155877,
+      "lon": -74.0121974
+    }
   },
   {
     "building": "625 New York Ave, Brooklyn, NY, 11203",
@@ -43212,7 +47873,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.5
     },
     "neighborhood": "East Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6590988,
+      "lon": -73.9474384
+    }
   },
   {
     "building": "625 New York Ave, Brooklyn, NY, 11203",
@@ -43249,7 +47914,11 @@ const PAIRS_DATA = [
       "savings_percent": 36.6
     },
     "neighborhood": "East Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6590988,
+      "lon": -73.9474384
+    }
   },
   {
     "building": "625 New York Ave, Brooklyn, NY, 11203",
@@ -43286,7 +47955,11 @@ const PAIRS_DATA = [
       "savings_percent": 46.5
     },
     "neighborhood": "East Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6590988,
+      "lon": -73.9474384
+    }
   },
   {
     "building": "625 New York Ave, Brooklyn, NY, 11203",
@@ -43323,7 +47996,11 @@ const PAIRS_DATA = [
       "savings_percent": 37.5
     },
     "neighborhood": "East Flatbush",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6590988,
+      "lon": -73.9474384
+    }
   },
   {
     "building": "78 Harman St, Brooklyn, NY, 11221",
@@ -43360,7 +48037,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.8
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6951773,
+      "lon": -73.9232214
+    }
   },
   {
     "building": "78 Harman St, Brooklyn, NY, 11221",
@@ -43397,7 +48078,11 @@ const PAIRS_DATA = [
       "savings_percent": 54.1
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6951773,
+      "lon": -73.9232214
+    }
   },
   {
     "building": "78 Harman St, Brooklyn, NY, 11221",
@@ -43434,7 +48119,11 @@ const PAIRS_DATA = [
       "savings_percent": 41.1
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6951773,
+      "lon": -73.9232214
+    }
   },
   {
     "building": "78 Harman St, Brooklyn, NY, 11221",
@@ -43471,7 +48160,11 @@ const PAIRS_DATA = [
       "savings_percent": 44.4
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6951773,
+      "lon": -73.9232214
+    }
   },
   {
     "building": "26 Goodwin Pl, Brooklyn, NY, 11221",
@@ -43508,7 +48201,11 @@ const PAIRS_DATA = [
       "savings_percent": 53.3
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6916286,
+      "lon": -73.924247
+    }
   },
   {
     "building": "265 Weirfield St, Brooklyn, NY, 11221",
@@ -43545,7 +48242,11 @@ const PAIRS_DATA = [
       "savings_percent": 47.9
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6928176,
+      "lon": -73.9098454
+    }
   },
   {
     "building": "378 8th St, Brooklyn, NY, 11215",
@@ -43582,7 +48283,11 @@ const PAIRS_DATA = [
       "savings_percent": -1.9
     },
     "neighborhood": "Park Slope",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6679152,
+      "lon": -73.9823424
+    }
   },
   {
     "building": "223 Frost St, Brooklyn, NY, 11211",
@@ -43619,7 +48324,11 @@ const PAIRS_DATA = [
       "savings_percent": 6.3
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.7184797,
+      "lon": -73.9420029
+    }
   },
   {
     "building": "1230 Putnam Ave, Brooklyn, NY, 11221",
@@ -43656,7 +48365,11 @@ const PAIRS_DATA = [
       "savings_percent": 50.3
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.691356,
+      "lon": -73.9152924
+    }
   },
   {
     "building": "48 Stanhope St, Brooklyn, NY, 11221",
@@ -43693,7 +48406,11 @@ const PAIRS_DATA = [
       "savings_percent": 52.0
     },
     "neighborhood": "Bushwick",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6956095,
+      "lon": -73.9251532
+    }
   },
   {
     "building": "112 Cooper St, Brooklyn, NY, 11207",
@@ -43730,7 +48447,11 @@ const PAIRS_DATA = [
       "savings_percent": 45.6
     },
     "neighborhood": "East New York",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.6866507,
+      "lon": -73.9082013
+    }
   },
   {
     "building": "197 Pulaski St, Brooklyn, NY, 11206",
@@ -43767,7 +48488,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.9
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.693121,
+      "lon": -73.9434154
+    }
   },
   {
     "building": "197 Pulaski St, Brooklyn, NY, 11206",
@@ -43804,7 +48529,11 @@ const PAIRS_DATA = [
       "savings_percent": 39.0
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.693121,
+      "lon": -73.9434154
+    }
   },
   {
     "building": "197 Pulaski St, Brooklyn, NY, 11206",
@@ -43841,6 +48570,10 @@ const PAIRS_DATA = [
       "savings_percent": 39.9
     },
     "neighborhood": "Williamsburg",
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "coordinates": {
+      "lat": 40.693121,
+      "lon": -73.9434154
+    }
   }
 ];
