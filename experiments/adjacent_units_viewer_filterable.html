@@ -489,6 +489,14 @@
         <div class="filters">
             <div class="filter-row">
                 <div class="filter-group">
+                    <label for="borough">🏙️ Borough</label>
+                    <select id="borough">
+                        <option value="all">All Boroughs</option>
+                        <option value="Manhattan">Manhattan</option>
+                        <option value="Brooklyn">Brooklyn</option>
+                    </select>
+                </div>
+                <div class="filter-group">
                     <label for="neighborhood">📍 Neighborhood</label>
                     <select id="neighborhood">
                         <option value="all">All Neighborhoods</option>
@@ -569,26 +577,47 @@
         window.addEventListener('DOMContentLoaded', loadData);
 
         function initializeFilters() {
-            const neighborhoods = [...new Set(allPairs.map(p => p.neighborhood))].sort();
+            updateNeighborhoodFilter();
+
+            document.getElementById('borough').addEventListener('change', () => {
+                updateNeighborhoodFilter();
+                applyFilters();
+            });
+            document.getElementById('neighborhood').addEventListener('change', applyFilters);
+            document.getElementById('adjacency-type').addEventListener('change', applyFilters);
+            document.getElementById('min-savings').addEventListener('change', applyFilters);
+        }
+
+        function updateNeighborhoodFilter() {
+            const borough = document.getElementById('borough').value;
             const neighborhoodSelect = document.getElementById('neighborhood');
+
+            // Filter neighborhoods by selected borough
+            let filteredPairs = allPairs;
+            if (borough !== 'all') {
+                filteredPairs = allPairs.filter(p => p.borough === borough);
+            }
+
+            const neighborhoods = [...new Set(filteredPairs.map(p => p.neighborhood))].sort();
+
+            // Clear and repopulate neighborhood dropdown
+            neighborhoodSelect.innerHTML = '<option value="all">All Neighborhoods</option>';
             neighborhoods.forEach(n => {
                 const option = document.createElement('option');
                 option.value = n;
                 option.textContent = n;
                 neighborhoodSelect.appendChild(option);
             });
-
-            document.getElementById('neighborhood').addEventListener('change', applyFilters);
-            document.getElementById('adjacency-type').addEventListener('change', applyFilters);
-            document.getElementById('min-savings').addEventListener('change', applyFilters);
         }
 
         function applyFilters() {
+            const borough = document.getElementById('borough').value;
             const neighborhood = document.getElementById('neighborhood').value;
             const adjacencyType = document.getElementById('adjacency-type').value;
             const minSavings = parseInt(document.getElementById('min-savings').value);
 
             filteredPairs = allPairs.filter(pair => {
+                if (borough !== 'all' && pair.borough !== borough) return false;
                 if (neighborhood !== 'all' && pair.neighborhood !== neighborhood) return false;
                 if (adjacencyType !== 'all' && pair.adjacency.type !== adjacencyType) return false;
                 if (pair.economics.potential_savings < minSavings) return false;
