@@ -167,11 +167,45 @@
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: relative;
         }
 
         #map {
             width: 100%;
             height: 600px;
+        }
+
+        #map-loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            text-align: center;
+            z-index: 1000;
+            display: none;
+        }
+
+        #map-loading.active {
+            display: block;
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
 
         .opportunity-card {
@@ -489,6 +523,10 @@
         </div>
 
         <div id="map-view">
+            <div id="map-loading">
+                <div class="loading-spinner"></div>
+                <p id="map-loading-text">Loading map...</p>
+            </div>
             <div id="map"></div>
         </div>
 
@@ -636,64 +674,85 @@
         async function renderMap() {
             if (!map) return;
 
+            // Show loading indicator
+            const loadingEl = document.getElementById('map-loading');
+            const loadingText = document.getElementById('map-loading-text');
+            loadingEl.classList.add('active');
+
             // Clear existing markers
             markers.forEach(m => map.removeLayer(m));
             markers = [];
 
             document.getElementById('results-count').textContent = filteredPairs.length;
 
-            // Limit to top 100 for performance
-            const pairsToShow = filteredPairs.slice(0, 100);
+            // Limit to top 50 for performance
+            const pairsToShow = filteredPairs.slice(0, 50);
+            let loaded = 0;
 
-            for (const pair of pairsToShow) {
-                const coords = await geocodeAddress(pair.building);
+            for (let i = 0; i < pairsToShow.length; i++) {
+                const pair = pairsToShow[i];
 
-                if (coords) {
-                    // Color based on savings
-                    const savings = pair.economics.potential_savings;
-                    let color = '#28a745'; // green
-                    if (savings > 2000000) color = '#007bff'; // blue for mega deals
-                    else if (savings > 1000000) color = '#28a745'; // green
-                    else if (savings > 500000) color = '#ffc107'; // yellow
-                    else color = '#6c757d'; // gray
+                loadingText.textContent = `Loading ${i + 1} of ${pairsToShow.length}...`;
 
-                    const marker = L.circleMarker([coords.lat, coords.lon], {
-                        radius: 8,
-                        fillColor: color,
-                        color: '#fff',
-                        weight: 2,
-                        opacity: 1,
-                        fillOpacity: 0.8
-                    }).addTo(map);
+                try {
+                    const coords = await geocodeAddress(pair.building);
 
-                    const popupContent = `
-                        <div class="map-popup">
-                            <h3>${pair.building.split(',')[0]}</h3>
-                            <div class="savings-badge">${formatPrice(savings)} savings</div>
-                            <p><strong>${pair.neighborhood}</strong></p>
-                            <p>${pair.unit_1.unit} + ${pair.unit_2.unit}</p>
-                            <p>${pair.adjacency.description}</p>
-                            <p>${pair.combined.sqft.toLocaleString()} sqft combined</p>
-                            ${pair.unit_1.url ? `<p><a href="${pair.unit_1.url}" target="_blank">View Unit 1 →</a></p>` : ''}
-                            ${pair.unit_2.url ? `<p><a href="${pair.unit_2.url}" target="_blank">View Unit 2 →</a></p>` : ''}
-                        </div>
-                    `;
+                    if (coords) {
+                        // Color based on savings
+                        const savings = pair.economics.potential_savings;
+                        let color = '#28a745'; // green
+                        if (savings > 2000000) color = '#007bff'; // blue for mega deals
+                        else if (savings > 1000000) color = '#28a745'; // green
+                        else if (savings > 500000) color = '#ffc107'; // yellow
+                        else color = '#6c757d'; // gray
 
-                    marker.bindPopup(popupContent);
-                    markers.push(marker);
+                        const marker = L.circleMarker([coords.lat, coords.lon], {
+                            radius: 8,
+                            fillColor: color,
+                            color: '#fff',
+                            weight: 2,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        }).addTo(map);
+
+                        const popupContent = `
+                            <div class="map-popup">
+                                <h3>${pair.building.split(',')[0]}</h3>
+                                <div class="savings-badge">${formatPrice(savings)} savings</div>
+                                <p><strong>${pair.neighborhood}</strong></p>
+                                <p>${pair.unit_1.unit} + ${pair.unit_2.unit}</p>
+                                <p>${pair.adjacency.description}</p>
+                                <p>${pair.combined.sqft.toLocaleString()} sqft combined</p>
+                                ${pair.unit_1.url ? `<p><a href="${pair.unit_1.url}" target="_blank">View Unit 1 →</a></p>` : ''}
+                                ${pair.unit_2.url ? `<p><a href="${pair.unit_2.url}" target="_blank">View Unit 2 →</a></p>` : ''}
+                            </div>
+                        `;
+
+                        marker.bindPopup(popupContent);
+                        markers.push(marker);
+                        loaded++;
+                    }
+                } catch (error) {
+                    console.error('Error geocoding:', pair.building, error);
                 }
 
-                // Add small delay to avoid rate limiting
-                await new Promise(resolve => setTimeout(resolve, 100));
+                // Longer delay to respect rate limits (1 request per second)
+                await new Promise(resolve => setTimeout(resolve, 1200));
             }
+
+            // Hide loading indicator
+            loadingEl.classList.remove('active');
 
             if (markers.length > 0) {
                 const group = L.featureGroup(markers);
                 map.fitBounds(group.getBounds().pad(0.1));
+            } else {
+                alert('No locations could be geocoded. This may be due to API rate limiting. Try refreshing the page in a minute.');
             }
 
-            if (filteredPairs.length > 100) {
-                console.log(`Showing top 100 of ${filteredPairs.length} opportunities on map`);
+            console.log(`Loaded ${loaded} of ${pairsToShow.length} markers`);
+            if (filteredPairs.length > 50) {
+                console.log(`Showing top 50 of ${filteredPairs.length} opportunities on map`);
             }
         }
 
