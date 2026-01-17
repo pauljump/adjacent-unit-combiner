@@ -1,0 +1,2112 @@
+[
+  {
+    "address": "88 Greenwich Street",
+    "unit": "2311",
+    "floor": 23,
+    "position": 11,
+    "beds": "1 Bed",
+    "sqft": 689,
+    "price": 984164,
+    "price_per_sqft": 1428
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "12B",
+    "floor": 12,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 1173,
+    "price": 1921021,
+    "price_per_sqft": 1638
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "3B",
+    "floor": 3,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 1210,
+    "price": 1925534,
+    "price_per_sqft": 1591
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "3E",
+    "floor": 3,
+    "position": 4,
+    "beds": "2 Bed",
+    "sqft": 1038,
+    "price": 1703965,
+    "price_per_sqft": 1642
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "6E",
+    "floor": 6,
+    "position": 4,
+    "beds": "Studio",
+    "sqft": 464,
+    "price": 683895,
+    "price_per_sqft": 1474
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "12D",
+    "floor": 12,
+    "position": 3,
+    "beds": "3 Bed",
+    "sqft": 1668,
+    "price": 2793302,
+    "price_per_sqft": 1675
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "21D",
+    "floor": 21,
+    "position": 3,
+    "beds": "2 Bed",
+    "sqft": 1354,
+    "price": 2187640,
+    "price_per_sqft": 1616
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "1000",
+    "floor": 10,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 831,
+    "price": 1210845,
+    "price_per_sqft": 1457
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "12B",
+    "floor": 12,
+    "position": 1,
+    "beds": "Studio",
+    "sqft": 571,
+    "price": 820802,
+    "price_per_sqft": 1437
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "3G",
+    "floor": 3,
+    "position": 6,
+    "beds": "Studio",
+    "sqft": 462,
+    "price": 613656,
+    "price_per_sqft": 1328
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "10F",
+    "floor": 10,
+    "position": 5,
+    "beds": "3 Bed",
+    "sqft": 1958,
+    "price": 3293967,
+    "price_per_sqft": 1682
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "9A",
+    "floor": 9,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 715,
+    "price": 1081241,
+    "price_per_sqft": 1512
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "14A",
+    "floor": 14,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1692,
+    "price": 2842029,
+    "price_per_sqft": 1680
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "5C",
+    "floor": 5,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 540,
+    "price": 733130,
+    "price_per_sqft": 1358
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "17B",
+    "floor": 17,
+    "position": 1,
+    "beds": "3 Bed",
+    "sqft": 1960,
+    "price": 3346130,
+    "price_per_sqft": 1707
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "400",
+    "floor": 4,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1769,
+    "price": 2999246,
+    "price_per_sqft": 1695
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "1902",
+    "floor": 19,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 505,
+    "price": 703118,
+    "price_per_sqft": 1392
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "8D",
+    "floor": 8,
+    "position": 3,
+    "beds": "3 Bed",
+    "sqft": 1689,
+    "price": 2869547,
+    "price_per_sqft": 1699
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "4B",
+    "floor": 4,
+    "position": 1,
+    "beds": "1 Bed",
+    "sqft": 628,
+    "price": 941256,
+    "price_per_sqft": 1499
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "1405",
+    "floor": 14,
+    "position": 5,
+    "beds": "3 Bed",
+    "sqft": 1879,
+    "price": 3176108,
+    "price_per_sqft": 1690
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1601",
+    "floor": 16,
+    "position": 1,
+    "beds": "Studio",
+    "sqft": 568,
+    "price": 768880,
+    "price_per_sqft": 1354
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "1903",
+    "floor": 19,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 594,
+    "price": 911424,
+    "price_per_sqft": 1534
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1505",
+    "floor": 15,
+    "position": 5,
+    "beds": "Studio",
+    "sqft": 484,
+    "price": 707027,
+    "price_per_sqft": 1461
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "1603",
+    "floor": 16,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 706,
+    "price": 1103373,
+    "price_per_sqft": 1563
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "4F",
+    "floor": 4,
+    "position": 5,
+    "beds": "1 Bed",
+    "sqft": 790,
+    "price": 1233847,
+    "price_per_sqft": 1562
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "2500",
+    "floor": 25,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1119,
+    "price": 1742724,
+    "price_per_sqft": 1557
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "10B",
+    "floor": 10,
+    "position": 1,
+    "beds": "3 Bed",
+    "sqft": 1543,
+    "price": 2653577,
+    "price_per_sqft": 1720
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "3007",
+    "floor": 30,
+    "position": 7,
+    "beds": "3 Bed",
+    "sqft": 2164,
+    "price": 3665837,
+    "price_per_sqft": 1694
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "7B",
+    "floor": 7,
+    "position": 1,
+    "beds": "1 Bed",
+    "sqft": 613,
+    "price": 961358,
+    "price_per_sqft": 1568
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "3A",
+    "floor": 3,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1958,
+    "price": 3362398,
+    "price_per_sqft": 1717
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "11C",
+    "floor": 11,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 734,
+    "price": 1077781,
+    "price_per_sqft": 1468
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1001",
+    "floor": 10,
+    "position": 1,
+    "beds": "3 Bed",
+    "sqft": 2149,
+    "price": 3678681,
+    "price_per_sqft": 1712
+  },
+  {
+    "address": "15 West 63rd Street",
+    "unit": "9D",
+    "floor": 9,
+    "position": 3,
+    "beds": "2 Bed",
+    "sqft": 1136,
+    "price": 1804512,
+    "price_per_sqft": 1588
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "16E",
+    "floor": 16,
+    "position": 4,
+    "beds": "3 Bed",
+    "sqft": 2061,
+    "price": 3490658,
+    "price_per_sqft": 1694
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1000",
+    "floor": 10,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1875,
+    "price": 3188660,
+    "price_per_sqft": 1701
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "3100",
+    "floor": 31,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 648,
+    "price": 974919,
+    "price_per_sqft": 1505
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "1905",
+    "floor": 19,
+    "position": 5,
+    "beds": "Studio",
+    "sqft": 512,
+    "price": 710956,
+    "price_per_sqft": 1389
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "2205",
+    "floor": 22,
+    "position": 5,
+    "beds": "Studio",
+    "sqft": 513,
+    "price": 749218,
+    "price_per_sqft": 1460
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "15F",
+    "floor": 15,
+    "position": 5,
+    "beds": "3 Bed",
+    "sqft": 1580,
+    "price": 2700358,
+    "price_per_sqft": 1709
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "1409",
+    "floor": 14,
+    "position": 9,
+    "beds": "1 Bed",
+    "sqft": 777,
+    "price": 1127541,
+    "price_per_sqft": 1451
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "2807",
+    "floor": 28,
+    "position": 7,
+    "beds": "2 Bed",
+    "sqft": 1177,
+    "price": 1850060,
+    "price_per_sqft": 1572
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "4A",
+    "floor": 4,
+    "position": 0,
+    "beds": "Studio",
+    "sqft": 483,
+    "price": 670465,
+    "price_per_sqft": 1388
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "6C",
+    "floor": 6,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 798,
+    "price": 1242337,
+    "price_per_sqft": 1557
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "1907",
+    "floor": 19,
+    "position": 7,
+    "beds": "3 Bed",
+    "sqft": 1572,
+    "price": 2684725,
+    "price_per_sqft": 1708
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "5A",
+    "floor": 5,
+    "position": 0,
+    "beds": "Studio",
+    "sqft": 463,
+    "price": 610653,
+    "price_per_sqft": 1319
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "10C",
+    "floor": 10,
+    "position": 2,
+    "beds": "3 Bed",
+    "sqft": 1855,
+    "price": 3166042,
+    "price_per_sqft": 1707
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "7B",
+    "floor": 7,
+    "position": 1,
+    "beds": "3 Bed",
+    "sqft": 1684,
+    "price": 2834446,
+    "price_per_sqft": 1683
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "5A",
+    "floor": 5,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 2190,
+    "price": 3715587,
+    "price_per_sqft": 1697
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "9D",
+    "floor": 9,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 702,
+    "price": 1080187,
+    "price_per_sqft": 1539
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "7A",
+    "floor": 7,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1047,
+    "price": 1689047,
+    "price_per_sqft": 1613
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "8A",
+    "floor": 8,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 682,
+    "price": 1047127,
+    "price_per_sqft": 1535
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "3A",
+    "floor": 3,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1397,
+    "price": 2229614,
+    "price_per_sqft": 1596
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "2806",
+    "floor": 28,
+    "position": 6,
+    "beds": "2 Bed",
+    "sqft": 1400,
+    "price": 2222172,
+    "price_per_sqft": 1587
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "6A",
+    "floor": 6,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1885,
+    "price": 3190307,
+    "price_per_sqft": 1692
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "8D",
+    "floor": 8,
+    "position": 3,
+    "beds": "2 Bed",
+    "sqft": 1069,
+    "price": 1696870,
+    "price_per_sqft": 1587
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "4A",
+    "floor": 4,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1297,
+    "price": 2103196,
+    "price_per_sqft": 1622
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "2403",
+    "floor": 24,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 579,
+    "price": 810952,
+    "price_per_sqft": 1401
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "2701",
+    "floor": 27,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 1044,
+    "price": 1665694,
+    "price_per_sqft": 1595
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "1407",
+    "floor": 14,
+    "position": 7,
+    "beds": "2 Bed",
+    "sqft": 1244,
+    "price": 1994518,
+    "price_per_sqft": 1603
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "13A",
+    "floor": 13,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 805,
+    "price": 1212195,
+    "price_per_sqft": 1506
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "901",
+    "floor": 9,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 994,
+    "price": 1609858,
+    "price_per_sqft": 1620
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "8A",
+    "floor": 8,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1907,
+    "price": 3237675,
+    "price_per_sqft": 1698
+  },
+  {
+    "address": "15 West 63rd Street",
+    "unit": "20B",
+    "floor": 20,
+    "position": 1,
+    "beds": "3 Bed",
+    "sqft": 2197,
+    "price": 3687112,
+    "price_per_sqft": 1678
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "14B",
+    "floor": 14,
+    "position": 1,
+    "beds": "1 Bed",
+    "sqft": 770,
+    "price": 1182676,
+    "price_per_sqft": 1536
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "1800",
+    "floor": 18,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1610,
+    "price": 2719056,
+    "price_per_sqft": 1689
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "803",
+    "floor": 8,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 441,
+    "price": 578639,
+    "price_per_sqft": 1312
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "14D",
+    "floor": 14,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 710,
+    "price": 1084541,
+    "price_per_sqft": 1528
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "600",
+    "floor": 6,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 944,
+    "price": 1492877,
+    "price_per_sqft": 1581
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "3A",
+    "floor": 3,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 2172,
+    "price": 3723334,
+    "price_per_sqft": 1714
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "6C",
+    "floor": 6,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 555,
+    "price": 791850,
+    "price_per_sqft": 1427
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "6C",
+    "floor": 6,
+    "position": 2,
+    "beds": "3 Bed",
+    "sqft": 1735,
+    "price": 2965561,
+    "price_per_sqft": 1709
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "7B",
+    "floor": 7,
+    "position": 1,
+    "beds": "Studio",
+    "sqft": 410,
+    "price": 589501,
+    "price_per_sqft": 1438
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "2101",
+    "floor": 21,
+    "position": 1,
+    "beds": "Studio",
+    "sqft": 445,
+    "price": 658473,
+    "price_per_sqft": 1480
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "502",
+    "floor": 5,
+    "position": 2,
+    "beds": "2 Bed",
+    "sqft": 1237,
+    "price": 2025390,
+    "price_per_sqft": 1637
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "5F",
+    "floor": 5,
+    "position": 5,
+    "beds": "Studio",
+    "sqft": 430,
+    "price": 625593,
+    "price_per_sqft": 1455
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "8A",
+    "floor": 8,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 678,
+    "price": 1000170,
+    "price_per_sqft": 1475
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "5D",
+    "floor": 5,
+    "position": 3,
+    "beds": "3 Bed",
+    "sqft": 1609,
+    "price": 2777721,
+    "price_per_sqft": 1726
+  },
+  {
+    "address": "15 West 63rd Street",
+    "unit": "11F",
+    "floor": 11,
+    "position": 5,
+    "beds": "1 Bed",
+    "sqft": 849,
+    "price": 1244943,
+    "price_per_sqft": 1466
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1704",
+    "floor": 17,
+    "position": 4,
+    "beds": "1 Bed",
+    "sqft": 810,
+    "price": 1232435,
+    "price_per_sqft": 1522
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "10A",
+    "floor": 10,
+    "position": 0,
+    "beds": "Studio",
+    "sqft": 579,
+    "price": 772675,
+    "price_per_sqft": 1334
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "1000",
+    "floor": 10,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 768,
+    "price": 1127545,
+    "price_per_sqft": 1468
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "503",
+    "floor": 5,
+    "position": 3,
+    "beds": "3 Bed",
+    "sqft": 1564,
+    "price": 2647783,
+    "price_per_sqft": 1693
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "3A",
+    "floor": 3,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1178,
+    "price": 1934029,
+    "price_per_sqft": 1642
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "15C",
+    "floor": 15,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 571,
+    "price": 806484,
+    "price_per_sqft": 1412
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "13D",
+    "floor": 13,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 811,
+    "price": 1168603,
+    "price_per_sqft": 1441
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "14C",
+    "floor": 14,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 450,
+    "price": 601514,
+    "price_per_sqft": 1337
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "508",
+    "floor": 5,
+    "position": 8,
+    "beds": "2 Bed",
+    "sqft": 956,
+    "price": 1506688,
+    "price_per_sqft": 1576
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "16B",
+    "floor": 16,
+    "position": 1,
+    "beds": "Studio",
+    "sqft": 526,
+    "price": 716429,
+    "price_per_sqft": 1362
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "1907",
+    "floor": 19,
+    "position": 7,
+    "beds": "2 Bed",
+    "sqft": 1072,
+    "price": 1730235,
+    "price_per_sqft": 1614
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "3202",
+    "floor": 32,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 440,
+    "price": 569354,
+    "price_per_sqft": 1294
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "16A",
+    "floor": 16,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 668,
+    "price": 961202,
+    "price_per_sqft": 1439
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "11C",
+    "floor": 11,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 637,
+    "price": 932331,
+    "price_per_sqft": 1464
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "14D",
+    "floor": 14,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 787,
+    "price": 1217302,
+    "price_per_sqft": 1547
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "4F",
+    "floor": 4,
+    "position": 5,
+    "beds": "2 Bed",
+    "sqft": 1132,
+    "price": 1829677,
+    "price_per_sqft": 1616
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "3C",
+    "floor": 3,
+    "position": 2,
+    "beds": "2 Bed",
+    "sqft": 998,
+    "price": 1636133,
+    "price_per_sqft": 1639
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "7A",
+    "floor": 7,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1317,
+    "price": 2126537,
+    "price_per_sqft": 1615
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "12B",
+    "floor": 12,
+    "position": 1,
+    "beds": "3 Bed",
+    "sqft": 2169,
+    "price": 3645689,
+    "price_per_sqft": 1681
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "8C",
+    "floor": 8,
+    "position": 2,
+    "beds": "3 Bed",
+    "sqft": 2009,
+    "price": 3389949,
+    "price_per_sqft": 1687
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "700",
+    "floor": 7,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1252,
+    "price": 2045532,
+    "price_per_sqft": 1634
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "19D",
+    "floor": 19,
+    "position": 3,
+    "beds": "2 Bed",
+    "sqft": 1008,
+    "price": 1573110,
+    "price_per_sqft": 1561
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "14A",
+    "floor": 14,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1507,
+    "price": 2584310,
+    "price_per_sqft": 1715
+  },
+  {
+    "address": "15 West 63rd Street",
+    "unit": "19F",
+    "floor": 19,
+    "position": 5,
+    "beds": "Studio",
+    "sqft": 405,
+    "price": 565812,
+    "price_per_sqft": 1397
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1402",
+    "floor": 14,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 693,
+    "price": 1052298,
+    "price_per_sqft": 1518
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "402",
+    "floor": 4,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 520,
+    "price": 764211,
+    "price_per_sqft": 1470
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "10D",
+    "floor": 10,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 416,
+    "price": 614856,
+    "price_per_sqft": 1478
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "8D",
+    "floor": 8,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 654,
+    "price": 1009034,
+    "price_per_sqft": 1543
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "1201",
+    "floor": 12,
+    "position": 1,
+    "beds": "3 Bed",
+    "sqft": 1589,
+    "price": 2699012,
+    "price_per_sqft": 1699
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "6A",
+    "floor": 6,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1158,
+    "price": 1875372,
+    "price_per_sqft": 1619
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1403",
+    "floor": 14,
+    "position": 3,
+    "beds": "3 Bed",
+    "sqft": 1919,
+    "price": 3284905,
+    "price_per_sqft": 1712
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "4F",
+    "floor": 4,
+    "position": 5,
+    "beds": "1 Bed",
+    "sqft": 719,
+    "price": 1075875,
+    "price_per_sqft": 1496
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "13B",
+    "floor": 13,
+    "position": 1,
+    "beds": "1 Bed",
+    "sqft": 597,
+    "price": 879799,
+    "price_per_sqft": 1474
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "900",
+    "floor": 9,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1068,
+    "price": 1705390,
+    "price_per_sqft": 1597
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "9F",
+    "floor": 9,
+    "position": 5,
+    "beds": "Studio",
+    "sqft": 585,
+    "price": 808595,
+    "price_per_sqft": 1382
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "3D",
+    "floor": 3,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 589,
+    "price": 825791,
+    "price_per_sqft": 1402
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "2107",
+    "floor": 21,
+    "position": 7,
+    "beds": "3 Bed",
+    "sqft": 2037,
+    "price": 3506932,
+    "price_per_sqft": 1722
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "1701",
+    "floor": 17,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 1388,
+    "price": 2186575,
+    "price_per_sqft": 1575
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "703",
+    "floor": 7,
+    "position": 3,
+    "beds": "3 Bed",
+    "sqft": 1538,
+    "price": 2630509,
+    "price_per_sqft": 1710
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "11H",
+    "floor": 11,
+    "position": 7,
+    "beds": "2 Bed",
+    "sqft": 1189,
+    "price": 1875374,
+    "price_per_sqft": 1577
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1504",
+    "floor": 15,
+    "position": 4,
+    "beds": "1 Bed",
+    "sqft": 710,
+    "price": 1038474,
+    "price_per_sqft": 1463
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "6C",
+    "floor": 6,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 787,
+    "price": 1211641,
+    "price_per_sqft": 1540
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "3009",
+    "floor": 30,
+    "position": 9,
+    "beds": "1 Bed",
+    "sqft": 644,
+    "price": 952040,
+    "price_per_sqft": 1478
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "2704",
+    "floor": 27,
+    "position": 4,
+    "beds": "3 Bed",
+    "sqft": 1789,
+    "price": 3001776,
+    "price_per_sqft": 1678
+  },
+  {
+    "address": "15 West 63rd Street",
+    "unit": "3D",
+    "floor": 3,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 761,
+    "price": 1123662,
+    "price_per_sqft": 1477
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "3D",
+    "floor": 3,
+    "position": 3,
+    "beds": "3 Bed",
+    "sqft": 1528,
+    "price": 2623583,
+    "price_per_sqft": 1717
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "2707",
+    "floor": 27,
+    "position": 7,
+    "beds": "2 Bed",
+    "sqft": 1297,
+    "price": 2095017,
+    "price_per_sqft": 1615
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "6F",
+    "floor": 6,
+    "position": 5,
+    "beds": "Studio",
+    "sqft": 513,
+    "price": 730573,
+    "price_per_sqft": 1424
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "3C",
+    "floor": 3,
+    "position": 2,
+    "beds": "2 Bed",
+    "sqft": 1120,
+    "price": 1746452,
+    "price_per_sqft": 1559
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "6A",
+    "floor": 6,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1253,
+    "price": 2041484,
+    "price_per_sqft": 1629
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "13A",
+    "floor": 13,
+    "position": 0,
+    "beds": "Studio",
+    "sqft": 443,
+    "price": 634791,
+    "price_per_sqft": 1433
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "5G",
+    "floor": 5,
+    "position": 6,
+    "beds": "3 Bed",
+    "sqft": 1891,
+    "price": 3237475,
+    "price_per_sqft": 1712
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "9D",
+    "floor": 9,
+    "position": 3,
+    "beds": "2 Bed",
+    "sqft": 1293,
+    "price": 2113950,
+    "price_per_sqft": 1635
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "12D",
+    "floor": 12,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 582,
+    "price": 851035,
+    "price_per_sqft": 1462
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "1203",
+    "floor": 12,
+    "position": 3,
+    "beds": "3 Bed",
+    "sqft": 1665,
+    "price": 2871180,
+    "price_per_sqft": 1724
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1802",
+    "floor": 18,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 604,
+    "price": 856738,
+    "price_per_sqft": 1418
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "11B",
+    "floor": 11,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 1195,
+    "price": 1884747,
+    "price_per_sqft": 1577
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "803",
+    "floor": 8,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 641,
+    "price": 959547,
+    "price_per_sqft": 1497
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "22G",
+    "floor": 22,
+    "position": 6,
+    "beds": "3 Bed",
+    "sqft": 2008,
+    "price": 3443615,
+    "price_per_sqft": 1715
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "11E",
+    "floor": 11,
+    "position": 4,
+    "beds": "1 Bed",
+    "sqft": 759,
+    "price": 1114460,
+    "price_per_sqft": 1468
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "6H",
+    "floor": 6,
+    "position": 7,
+    "beds": "Studio",
+    "sqft": 562,
+    "price": 809199,
+    "price_per_sqft": 1440
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "11F",
+    "floor": 11,
+    "position": 5,
+    "beds": "Studio",
+    "sqft": 543,
+    "price": 730086,
+    "price_per_sqft": 1345
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "4C",
+    "floor": 4,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 435,
+    "price": 622902,
+    "price_per_sqft": 1432
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "15H",
+    "floor": 15,
+    "position": 7,
+    "beds": "1 Bed",
+    "sqft": 592,
+    "price": 910090,
+    "price_per_sqft": 1537
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "4D",
+    "floor": 4,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 538,
+    "price": 778984,
+    "price_per_sqft": 1448
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "2201",
+    "floor": 22,
+    "position": 1,
+    "beds": "3 Bed",
+    "sqft": 1718,
+    "price": 2910611,
+    "price_per_sqft": 1694
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "3D",
+    "floor": 3,
+    "position": 3,
+    "beds": "2 Bed",
+    "sqft": 1271,
+    "price": 2015775,
+    "price_per_sqft": 1586
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "4A",
+    "floor": 4,
+    "position": 0,
+    "beds": "Studio",
+    "sqft": 507,
+    "price": 663066,
+    "price_per_sqft": 1308
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "12F",
+    "floor": 12,
+    "position": 5,
+    "beds": "1 Bed",
+    "sqft": 608,
+    "price": 890432,
+    "price_per_sqft": 1465
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "7A",
+    "floor": 7,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1727,
+    "price": 2939451,
+    "price_per_sqft": 1702
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "4B",
+    "floor": 4,
+    "position": 1,
+    "beds": "1 Bed",
+    "sqft": 618,
+    "price": 907867,
+    "price_per_sqft": 1469
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "10A",
+    "floor": 10,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1936,
+    "price": 3288786,
+    "price_per_sqft": 1699
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "12A",
+    "floor": 12,
+    "position": 0,
+    "beds": "Studio",
+    "sqft": 477,
+    "price": 710326,
+    "price_per_sqft": 1489
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "5A",
+    "floor": 5,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 605,
+    "price": 883889,
+    "price_per_sqft": 1461
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "8E",
+    "floor": 8,
+    "position": 4,
+    "beds": "Studio",
+    "sqft": 457,
+    "price": 621063,
+    "price_per_sqft": 1359
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "12E",
+    "floor": 12,
+    "position": 4,
+    "beds": "2 Bed",
+    "sqft": 1281,
+    "price": 2044359,
+    "price_per_sqft": 1596
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "10D",
+    "floor": 10,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 491,
+    "price": 655514,
+    "price_per_sqft": 1335
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "1702",
+    "floor": 17,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 634,
+    "price": 952082,
+    "price_per_sqft": 1502
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "9A",
+    "floor": 9,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1360,
+    "price": 2195166,
+    "price_per_sqft": 1614
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "23H",
+    "floor": 23,
+    "position": 7,
+    "beds": "Studio",
+    "sqft": 502,
+    "price": 740173,
+    "price_per_sqft": 1474
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "807",
+    "floor": 8,
+    "position": 7,
+    "beds": "1 Bed",
+    "sqft": 824,
+    "price": 1229496,
+    "price_per_sqft": 1492
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "2505",
+    "floor": 25,
+    "position": 5,
+    "beds": "3 Bed",
+    "sqft": 2094,
+    "price": 3557294,
+    "price_per_sqft": 1699
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "3F",
+    "floor": 3,
+    "position": 5,
+    "beds": "2 Bed",
+    "sqft": 1296,
+    "price": 2088784,
+    "price_per_sqft": 1612
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "14D",
+    "floor": 14,
+    "position": 3,
+    "beds": "2 Bed",
+    "sqft": 906,
+    "price": 1474117,
+    "price_per_sqft": 1627
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "16C",
+    "floor": 16,
+    "position": 2,
+    "beds": "3 Bed",
+    "sqft": 1989,
+    "price": 3409901,
+    "price_per_sqft": 1714
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "3002",
+    "floor": 30,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 533,
+    "price": 790087,
+    "price_per_sqft": 1482
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "404",
+    "floor": 4,
+    "position": 4,
+    "beds": "1 Bed",
+    "sqft": 778,
+    "price": 1180838,
+    "price_per_sqft": 1518
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1602",
+    "floor": 16,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 523,
+    "price": 746477,
+    "price_per_sqft": 1427
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "7E",
+    "floor": 7,
+    "position": 4,
+    "beds": "1 Bed",
+    "sqft": 643,
+    "price": 997537,
+    "price_per_sqft": 1551
+  },
+  {
+    "address": "225 Central Park West",
+    "unit": "16C",
+    "floor": 16,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 707,
+    "price": 1071422,
+    "price_per_sqft": 1515
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "14A",
+    "floor": 14,
+    "position": 0,
+    "beds": "3 Bed",
+    "sqft": 1655,
+    "price": 2810050,
+    "price_per_sqft": 1698
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "12D",
+    "floor": 12,
+    "position": 3,
+    "beds": "1 Bed",
+    "sqft": 826,
+    "price": 1270252,
+    "price_per_sqft": 1538
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "6B",
+    "floor": 6,
+    "position": 1,
+    "beds": "Studio",
+    "sqft": 488,
+    "price": 681498,
+    "price_per_sqft": 1397
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1605",
+    "floor": 16,
+    "position": 5,
+    "beds": "2 Bed",
+    "sqft": 1255,
+    "price": 2035459,
+    "price_per_sqft": 1622
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "8B",
+    "floor": 8,
+    "position": 1,
+    "beds": "1 Bed",
+    "sqft": 806,
+    "price": 1242709,
+    "price_per_sqft": 1542
+  },
+  {
+    "address": "180 West End Avenue",
+    "unit": "13B",
+    "floor": 13,
+    "position": 1,
+    "beds": "1 Bed",
+    "sqft": 831,
+    "price": 1252495,
+    "price_per_sqft": 1507
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "2508",
+    "floor": 25,
+    "position": 8,
+    "beds": "Studio",
+    "sqft": 403,
+    "price": 556372,
+    "price_per_sqft": 1381
+  },
+  {
+    "address": "30 Lincoln Plaza",
+    "unit": "2607",
+    "floor": 26,
+    "position": 7,
+    "beds": "3 Bed",
+    "sqft": 1784,
+    "price": 3006419,
+    "price_per_sqft": 1685
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "4C",
+    "floor": 4,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 756,
+    "price": 1107488,
+    "price_per_sqft": 1465
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "7G",
+    "floor": 7,
+    "position": 6,
+    "beds": "Studio",
+    "sqft": 472,
+    "price": 665321,
+    "price_per_sqft": 1410
+  },
+  {
+    "address": "123 West 72nd Street",
+    "unit": "6D",
+    "floor": 6,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 584,
+    "price": 847805,
+    "price_per_sqft": 1452
+  },
+  {
+    "address": "400 Central Park West",
+    "unit": "17D",
+    "floor": 17,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 538,
+    "price": 704077,
+    "price_per_sqft": 1309
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "15B",
+    "floor": 15,
+    "position": 1,
+    "beds": "Studio",
+    "sqft": 480,
+    "price": 691550,
+    "price_per_sqft": 1441
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "15C",
+    "floor": 15,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 545,
+    "price": 728703,
+    "price_per_sqft": 1337
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1200",
+    "floor": 12,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1329,
+    "price": 2175760,
+    "price_per_sqft": 1637
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1201",
+    "floor": 12,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 918,
+    "price": 1473151,
+    "price_per_sqft": 1605
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1002",
+    "floor": 10,
+    "position": 2,
+    "beds": "3 Bed",
+    "sqft": 1942,
+    "price": 3315503,
+    "price_per_sqft": 1707
+  },
+  {
+    "address": "45 West 67th Street",
+    "unit": "1003",
+    "floor": 10,
+    "position": 3,
+    "beds": "Studio",
+    "sqft": 589,
+    "price": 859337,
+    "price_per_sqft": 1459
+  },
+  {
+    "address": "205 West 76th Street",
+    "unit": "9G",
+    "floor": 9,
+    "position": 6,
+    "beds": "3 Bed",
+    "sqft": 1734,
+    "price": 2981897,
+    "price_per_sqft": 1720
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "10B",
+    "floor": 10,
+    "position": 1,
+    "beds": "3 Bed",
+    "sqft": 1621,
+    "price": 2724175,
+    "price_per_sqft": 1681
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "10C",
+    "floor": 10,
+    "position": 2,
+    "beds": "2 Bed",
+    "sqft": 924,
+    "price": 1484689,
+    "price_per_sqft": 1607
+  },
+  {
+    "address": "15 West 63rd Street",
+    "unit": "15A",
+    "floor": 15,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1132,
+    "price": 1831721,
+    "price_per_sqft": 1618
+  },
+  {
+    "address": "15 West 63rd Street",
+    "unit": "15B",
+    "floor": 15,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 1293,
+    "price": 2096849,
+    "price_per_sqft": 1622
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "12C",
+    "floor": 12,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 814,
+    "price": 1222160,
+    "price_per_sqft": 1501
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "15A",
+    "floor": 15,
+    "position": 0,
+    "beds": "1 Bed",
+    "sqft": 626,
+    "price": 926344,
+    "price_per_sqft": 1480
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "15B",
+    "floor": 15,
+    "position": 1,
+    "beds": "1 Bed",
+    "sqft": 661,
+    "price": 1020304,
+    "price_per_sqft": 1544
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "7A",
+    "floor": 7,
+    "position": 0,
+    "beds": "2 Bed",
+    "sqft": 1181,
+    "price": 1879418,
+    "price_per_sqft": 1591
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "2804",
+    "floor": 28,
+    "position": 4,
+    "beds": "2 Bed",
+    "sqft": 1360,
+    "price": 2219933,
+    "price_per_sqft": 1632
+  },
+  {
+    "address": "88 Greenwich Street",
+    "unit": "2805",
+    "floor": 28,
+    "position": 5,
+    "beds": "Studio",
+    "sqft": 439,
+    "price": 608249,
+    "price_per_sqft": 1386
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "17C",
+    "floor": 17,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 612,
+    "price": 870608,
+    "price_per_sqft": 1423
+  },
+  {
+    "address": "200 East 82nd Street",
+    "unit": "18C",
+    "floor": 18,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 614,
+    "price": 896846,
+    "price_per_sqft": 1461
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "8C",
+    "floor": 8,
+    "position": 2,
+    "beds": "1 Bed",
+    "sqft": 602,
+    "price": 936824,
+    "price_per_sqft": 1556
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "9C",
+    "floor": 9,
+    "position": 2,
+    "beds": "Studio",
+    "sqft": 555,
+    "price": 800316,
+    "price_per_sqft": 1442
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "3B",
+    "floor": 3,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 1177,
+    "price": 1889183,
+    "price_per_sqft": 1605
+  },
+  {
+    "address": "118 East 93rd Street",
+    "unit": "4B",
+    "floor": 4,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 1232,
+    "price": 1985906,
+    "price_per_sqft": 1612
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "4G",
+    "floor": 4,
+    "position": 6,
+    "beds": "3 Bed",
+    "sqft": 2001,
+    "price": 3351842,
+    "price_per_sqft": 1675
+  },
+  {
+    "address": "315 West 86th Street",
+    "unit": "5G",
+    "floor": 5,
+    "position": 6,
+    "beds": "3 Bed",
+    "sqft": 2052,
+    "price": 3490055,
+    "price_per_sqft": 1701
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "8E",
+    "floor": 8,
+    "position": 4,
+    "beds": "2 Bed",
+    "sqft": 964,
+    "price": 1528656,
+    "price_per_sqft": 1586
+  },
+  {
+    "address": "301 East 78th Street",
+    "unit": "9E",
+    "floor": 9,
+    "position": 4,
+    "beds": "Studio",
+    "sqft": 455,
+    "price": 667480,
+    "price_per_sqft": 1467
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "5C",
+    "floor": 5,
+    "position": 2,
+    "beds": "2 Bed",
+    "sqft": 1211,
+    "price": 1976333,
+    "price_per_sqft": 1632
+  },
+  {
+    "address": "520 Park Avenue",
+    "unit": "13B",
+    "floor": 13,
+    "position": 1,
+    "beds": "2 Bed",
+    "sqft": 922,
+    "price": 1428369,
+    "price_per_sqft": 1549
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "1408",
+    "floor": 14,
+    "position": 8,
+    "beds": "Studio",
+    "sqft": 574,
+    "price": 847659,
+    "price_per_sqft": 1477
+  },
+  {
+    "address": "150 West 51st Street",
+    "unit": "1508",
+    "floor": 15,
+    "position": 8,
+    "beds": "3 Bed",
+    "sqft": 1727,
+    "price": 2924432,
+    "price_per_sqft": 1693
+  }
+]

@@ -1,0 +1,245 @@
+[
+  {
+    "address": "246 E 90th St, New York, NY, 10128",
+    "unit": "Apt 4D",
+    "floor": 4,
+    "position": 3,
+    "beds": 1,
+    "sqft": 500,
+    "price": 350000
+  },
+  {
+    "address": "467 Central Park W, New York, NY, 10025",
+    "unit": "Apt 1D",
+    "floor": 1,
+    "position": 3,
+    "beds": 1,
+    "sqft": 473,
+    "price": 575000
+  },
+  {
+    "address": "630 1st Ave, New York, NY, 10016",
+    "unit": "Apt 12J",
+    "floor": 12,
+    "position": 9,
+    "beds": 1,
+    "sqft": 658,
+    "price": 748000
+  },
+  {
+    "address": "262 W 95th St, New York, NY, 10025",
+    "unit": "Unit 3",
+    "floor": 1,
+    "position": 3,
+    "beds": 3,
+    "sqft": 500,
+    "price": 699000
+  },
+  {
+    "address": "551 E 12th St, New York, NY, 10009",
+    "unit": "Apt 3",
+    "floor": 1,
+    "position": 3,
+    "beds": 1,
+    "sqft": 500,
+    "price": 150000
+  },
+  {
+    "address": "420 E 51st St, New York, NY, 10022",
+    "unit": "Apt 5D",
+    "floor": 5,
+    "position": 3,
+    "beds": 2,
+    "sqft": 1250,
+    "price": 550000
+  },
+  {
+    "address": "581 Academy St, New York, NY, 10034",
+    "unit": "Apt 4B",
+    "floor": 4,
+    "position": 1,
+    "beds": 2,
+    "sqft": 858,
+    "price": 299000
+  },
+  {
+    "address": "517 W 46th St, New York, NY, 10036",
+    "unit": "Apt 201",
+    "floor": 2,
+    "position": 1,
+    "beds": 2,
+    "sqft": 1130,
+    "price": 1145000
+  },
+  {
+    "address": "333 W 56th St, New York, NY, 10019",
+    "unit": "Apt 2M",
+    "floor": 2,
+    "position": 12,
+    "beds": 1,
+    "sqft": 797,
+    "price": 440000
+  },
+  {
+    "address": "553 W 182nd St, Manhattan, NY, 10033",
+    "unit": "Unit 5F",
+    "floor": 5,
+    "position": 5,
+    "beds": 2,
+    "sqft": 1172,
+    "price": 819000
+  },
+  {
+    "address": "15 Hudson Yards Ph 88C, New York, NY, 10001",
+    "unit": "Ph 88C",
+    "floor": 88,
+    "position": 2,
+    "beds": 4,
+    "sqft": 5139,
+    "price": 22950000
+  },
+  {
+    "address": "420 E 51st St, New York, NY, 10022",
+    "unit": "Unit 8DE",
+    "floor": 8,
+    "position": 3,
+    "beds": 4,
+    "sqft": 1600,
+    "price": 599900
+  },
+  {
+    "address": "20 E 76th St Ph 1, New York, NY, 10021",
+    "unit": "Ph 1",
+    "floor": 1,
+    "position": 1,
+    "beds": 4,
+    "sqft": 5195,
+    "price": 50000000
+  },
+  {
+    "address": "100 W 57th St, New York, NY, 10019",
+    "unit": "Apt 2G",
+    "floor": 2,
+    "position": 6,
+    "beds": 1,
+    "sqft": 850,
+    "price": 99900
+  },
+  {
+    "address": "353 W 56th St, New York, NY, 10019",
+    "unit": "Apt 3J",
+    "floor": 3,
+    "position": 9,
+    "beds": 0,
+    "sqft": 582,
+    "price": 299000
+  },
+  {
+    "address": "100 W 57th St, Manhattan, NY, 10019",
+    "unit": "Apt 18I",
+    "floor": 18,
+    "position": 8,
+    "beds": 0,
+    "sqft": 500,
+    "price": 100000
+  },
+  {
+    "address": "555 Lenox Ave, New York, NY, 10037",
+    "unit": "Apt 1A",
+    "floor": 1,
+    "position": 0,
+    "beds": 2,
+    "sqft": 1547,
+    "price": 499999
+  },
+  {
+    "address": "303 E 57th St, Manhattan, NY, 10022",
+    "unit": "Apt 30F",
+    "floor": 30,
+    "position": 5,
+    "beds": 3,
+    "sqft": 2200,
+    "price": 749000
+  },
+  {
+    "address": "200 W 56th St, Manhattan, NY, 10019",
+    "unit": "Unit 1705",
+    "floor": 17,
+    "position": 5,
+    "beds": 1,
+    "sqft": 521,
+    "price": 25000
+  },
+  {
+    "address": "530 E 72nd St, Manhattan, NY, 10021",
+    "unit": "Apt 4F",
+    "floor": 4,
+    "position": 5,
+    "beds": 3,
+    "sqft": 1790,
+    "price": 1139000
+  },
+  {
+    "address": "437 W 43rd St, New York, NY, 10036",
+    "unit": "Apt 1",
+    "floor": 1,
+    "position": 1,
+    "beds": 2,
+    "sqft": 632,
+    "price": 615000
+  },
+  {
+    "address": "160 W 77th St, Manhattan, NY, 10024",
+    "unit": "Apt 9C",
+    "floor": 9,
+    "position": 2,
+    "beds": 2,
+    "sqft": 500,
+    "price": 525000
+  },
+  {
+    "address": "28 Laight St, New York, NY, 10013",
+    "unit": "# 6AB",
+    "floor": 6,
+    "position": 0,
+    "beds": 4,
+    "sqft": 5462,
+    "price": 8000000
+  },
+  {
+    "address": "860 Fifth Ave, New York, NY, 10065",
+    "unit": "Unit 7L",
+    "floor": 7,
+    "position": 11,
+    "beds": 2,
+    "sqft": 500,
+    "price": 1100000
+  },
+  {
+    "address": "1035 Fifth Ave, New York, NY, 10028",
+    "unit": "# 8D",
+    "floor": 8,
+    "position": 3,
+    "beds": 2,
+    "sqft": 500,
+    "price": 1925000
+  },
+  {
+    "address": "156-08 Riverside Dr W, Manhattan, NY, 10032",
+    "unit": "Unit 1K",
+    "floor": 1,
+    "position": 10,
+    "beds": 1,
+    "sqft": 674,
+    "price": 388000
+  },
+  {
+    "address": "40 Sutton Pl Ph 9J, Manhattan, NY, 10022",
+    "unit": "Ph 9J",
+    "floor": 9,
+    "position": 9,
+    "beds": 3,
+    "sqft": 1690,
+    "price": 1369000
+  }
+]
