@@ -718,8 +718,8 @@
 
             document.getElementById('results-count').textContent = filteredPairs.length;
 
-            // Show top 100 pairs with coordinates
-            const pairsToShow = filteredPairs.filter(p => p.coordinates).slice(0, 100);
+            // Show all pairs with coordinates
+            const pairsToShow = filteredPairs.filter(p => p.coordinates);
 
             pairsToShow.forEach((pair, i) => {
                 const coords = pair.coordinates;
@@ -766,10 +766,7 @@
                 map.fitBounds(group.getBounds().pad(0.1));
             }
 
-            console.log(`Loaded ${markers.length} markers instantly (using pre-geocoded data)`);
-            if (filteredPairs.length > 100) {
-                console.log(`Showing top 100 of ${filteredPairs.length} opportunities`);
-            }
+            console.log(`Loaded ${markers.length} of ${filteredPairs.length} markers instantly (using pre-geocoded data)`);
         }
 
         function formatPrice(price) {
