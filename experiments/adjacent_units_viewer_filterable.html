@@ -528,8 +528,8 @@
             <div class="results-count">
                 Showing <strong id="results-count">0</strong> opportunities
             </div>
-            <div id="map-marker-count" style="display: none; color: #667eea; font-weight: 600;">
-                <span id="marker-count">0</span> markers on map
+            <div id="map-marker-count" style="display: none; color: #667eea; font-weight: 600; font-size: 0.95em;">
+                <span id="marker-count">0</span>
             </div>
         </div>
 
@@ -733,29 +733,47 @@
             console.log(`Pairs with coordinates: ${pairsToShow.length}`);
             console.log(`Missing coordinates: ${filteredPairs.length - pairsToShow.length}`);
 
-            let markersCreated = 0;
-            let markersSkipped = 0;
-
-            pairsToShow.forEach((pair, i) => {
-                const coords = pair.coordinates;
-
-                // Validate coordinates
-                if (!coords || !coords.lat || !coords.lon) {
-                    console.warn(`Skipping pair with invalid coords:`, pair.building);
-                    markersSkipped++;
-                    return;
+            // Group pairs by location (same coordinates)
+            const locationGroups = {};
+            pairsToShow.forEach(pair => {
+                const key = `${pair.coordinates.lat.toFixed(4)},${pair.coordinates.lon.toFixed(4)}`;
+                if (!locationGroups[key]) {
+                    locationGroups[key] = {
+                        coords: pair.coordinates,
+                        building: pair.building,
+                        neighborhood: pair.neighborhood,
+                        pairs: []
+                    };
                 }
+                locationGroups[key].pairs.push(pair);
+            });
 
-                // Color based on savings
-                const savings = pair.economics.potential_savings;
+            const uniqueLocations = Object.values(locationGroups);
+            console.log(`Unique locations: ${uniqueLocations.length}`);
+            console.log(`Pairs hidden by overlap: ${pairsToShow.length - uniqueLocations.length}`);
+
+            let markersCreated = 0;
+
+            uniqueLocations.forEach(location => {
+                const coords = location.coords;
+                const pairCount = location.pairs.length;
+
+                // Sort pairs by savings (highest first)
+                location.pairs.sort((a, b) => b.economics.potential_savings - a.economics.potential_savings);
+
+                // Color and size based on number of pairs and max savings
+                const maxSavings = location.pairs[0].economics.potential_savings;
                 let color = '#28a745'; // green
-                if (savings > 2000000) color = '#007bff'; // blue for mega deals
-                else if (savings > 1000000) color = '#28a745'; // green
-                else if (savings > 500000) color = '#ffc107'; // yellow
+                if (maxSavings > 2000000) color = '#007bff'; // blue for mega deals
+                else if (maxSavings > 1000000) color = '#28a745'; // green
+                else if (maxSavings > 500000) color = '#ffc107'; // yellow
                 else color = '#6c757d'; // gray
 
+                // Size based on number of pairs (min 8, max 20)
+                const radius = Math.min(20, 8 + Math.log(pairCount) * 3);
+
                 const marker = L.circleMarker([coords.lat, coords.lon], {
-                    radius: 8,
+                    radius: radius,
                     fillColor: color,
                     color: '#fff',
                     weight: 2,
@@ -763,20 +781,51 @@
                     fillOpacity: 0.8
                 }).addTo(map);
 
-                const popupContent = `
+                // Build popup content showing ALL pairs at this location
+                let popupContent = `
                     <div class="map-popup">
-                        <h3>${pair.building.split(',')[0]}</h3>
-                        <div class="savings-badge">${formatPrice(savings)} savings</div>
-                        <p><strong>${pair.neighborhood}</strong></p>
-                        <p>${pair.unit_1.unit} + ${pair.unit_2.unit}</p>
-                        <p>${pair.adjacency.description}</p>
-                        <p>${pair.combined.sqft.toLocaleString()} sqft combined</p>
-                        ${pair.unit_1.url ? `<p><a href="${pair.unit_1.url}" target="_blank">View Unit 1 →</a></p>` : ''}
-                        ${pair.unit_2.url ? `<p><a href="${pair.unit_2.url}" target="_blank">View Unit 2 →</a></p>` : ''}
+                        <h3>${location.building.split(',')[0]}</h3>
+                        <p><strong>${location.neighborhood}</strong></p>
+                        <p style="background: #f0f4ff; padding: 8px; border-radius: 5px; margin: 10px 0;">
+                            <strong>${pairCount} pair${pairCount > 1 ? 's' : ''}</strong> at this building
+                        </p>
+                `;
+
+                // Show top 5 pairs (or all if less than 5)
+                const pairsToDisplay = location.pairs.slice(0, 5);
+                pairsToDisplay.forEach((pair, idx) => {
+                    const savings = pair.economics.potential_savings;
+                    popupContent += `
+                        <div style="border-top: 1px solid #eee; padding: 10px 0; margin: 5px 0;">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <strong>${pair.unit_1.unit} + ${pair.unit_2.unit}</strong>
+                                <span style="color: #28a745; font-weight: bold;">${formatPrice(savings)}</span>
+                            </div>
+                            <div style="font-size: 0.9em; color: #666; margin-top: 5px;">
+                                ${pair.combined.sqft.toLocaleString()} sqft • ${pair.adjacency.description}
+                            </div>
+                        </div>
+                    `;
+                });
+
+                if (pairCount > 5) {
+                    popupContent += `
+                        <p style="text-align: center; color: #667eea; font-size: 0.9em; margin-top: 10px;">
+                            + ${pairCount - 5} more pair${pairCount - 5 > 1 ? 's' : ''} at this location
+                        </p>
+                    `;
+                }
+
+                popupContent += `
+                        <a href="https://www.google.com/maps/search/${encodeURIComponent(location.building)}"
+                           target="_blank"
+                           style="display: block; text-align: center; margin-top: 10px; color: #667eea; text-decoration: none;">
+                            📍 View on Google Maps
+                        </a>
                     </div>
                 `;
 
-                marker.bindPopup(popupContent);
+                marker.bindPopup(popupContent, { maxWidth: 350 });
                 markers.push(marker);
                 markersCreated++;
             });
@@ -785,11 +834,12 @@
             loadingEl.classList.remove('active');
 
             console.log(`Markers created: ${markersCreated}`);
-            console.log(`Markers skipped: ${markersSkipped}`);
             console.log(`Total markers on map: ${markers.length}`);
 
-            // Update visible marker count
-            document.getElementById('marker-count').textContent = markers.length;
+            // Update visible marker count with pair info
+            const pairsHidden = pairsToShow.length - uniqueLocations.length;
+            document.getElementById('marker-count').textContent =
+                `${markers.length} locations (${pairsToShow.length} pairs, ${pairsHidden} grouped)`;
 
             if (markers.length > 0) {
                 const group = L.featureGroup(markers);
