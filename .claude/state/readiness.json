@@ -1,0 +1,13 @@
+{
+  "score": 0,
+  "breakdown": {
+    "coreValue": 0,
+    "mvpScope": 0,
+    "technicalApproach": 0,
+    "assumptions": 0,
+    "blockers": 0
+  },
+  "status": "exploring",
+  "blockers": [],
+  "nextActions": ["Start conversation with Claude to define project"]
+}

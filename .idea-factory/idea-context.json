@@ -1,0 +1,13 @@
+{
+  "ideaId": "IDEA-155",
+  "title": "Adjacent Unit Combiner",
+  "status": "Service",
+  "readiness": 0,
+  "github": "https://github.com/pauljump/adjacent-unit-combiner",
+  "directory": "adjacent-unit-combiner",
+  "relatedIdeas": related:,
+  "lastSession": "2026-01-17T13:31:13Z",
+  "technology": [],
+  "domain": [],
+  "nextMilestone": "Start conversation to define project"
+}
