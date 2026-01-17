@@ -528,6 +528,9 @@
             <div class="results-count">
                 Showing <strong id="results-count">0</strong> opportunities
             </div>
+            <div id="map-marker-count" style="display: none; color: #667eea; font-weight: 600;">
+                <span id="marker-count">0</span> markers on map
+            </div>
         </div>
 
         <div id="map-view">
@@ -639,18 +642,21 @@
             const mapView = document.getElementById('map-view');
             const listBtn = document.getElementById('list-view-btn');
             const mapBtn = document.getElementById('map-view-btn');
+            const markerCountEl = document.getElementById('map-marker-count');
 
             if (view === 'list') {
                 listView.style.display = 'block';
                 mapView.style.display = 'none';
                 listBtn.classList.add('active');
                 mapBtn.classList.remove('active');
+                markerCountEl.style.display = 'none';
                 renderOpportunities();
             } else {
                 listView.style.display = 'none';
                 mapView.style.display = 'block';
                 listBtn.classList.remove('active');
                 mapBtn.classList.add('active');
+                markerCountEl.style.display = 'block';
                 if (!map) initMap();
                 renderMap();
             }
@@ -721,8 +727,24 @@
             // Show all pairs with coordinates
             const pairsToShow = filteredPairs.filter(p => p.coordinates);
 
+            console.log('=== MAP RENDERING DEBUG ===');
+            console.log(`Total pairs in dataset: ${allPairs.length}`);
+            console.log(`Filtered pairs: ${filteredPairs.length}`);
+            console.log(`Pairs with coordinates: ${pairsToShow.length}`);
+            console.log(`Missing coordinates: ${filteredPairs.length - pairsToShow.length}`);
+
+            let markersCreated = 0;
+            let markersSkipped = 0;
+
             pairsToShow.forEach((pair, i) => {
                 const coords = pair.coordinates;
+
+                // Validate coordinates
+                if (!coords || !coords.lat || !coords.lon) {
+                    console.warn(`Skipping pair with invalid coords:`, pair.building);
+                    markersSkipped++;
+                    return;
+                }
 
                 // Color based on savings
                 const savings = pair.economics.potential_savings;
@@ -756,17 +778,29 @@
 
                 marker.bindPopup(popupContent);
                 markers.push(marker);
+                markersCreated++;
             });
 
             // Hide loading indicator
             loadingEl.classList.remove('active');
 
+            console.log(`Markers created: ${markersCreated}`);
+            console.log(`Markers skipped: ${markersSkipped}`);
+            console.log(`Total markers on map: ${markers.length}`);
+
+            // Update visible marker count
+            document.getElementById('marker-count').textContent = markers.length;
+
             if (markers.length > 0) {
                 const group = L.featureGroup(markers);
-                map.fitBounds(group.getBounds().pad(0.1));
+                const bounds = group.getBounds();
+                console.log(`Map bounds:`, bounds);
+                map.fitBounds(bounds.pad(0.1));
+            } else {
+                console.warn('No markers to display!');
             }
 
-            console.log(`Loaded ${markers.length} of ${filteredPairs.length} markers instantly (using pre-geocoded data)`);
+            console.log('=== END DEBUG ===');
         }
 
         function formatPrice(price) {
