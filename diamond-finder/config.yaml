@@ -1,0 +1,30 @@
+# Diamond Finder Configuration
+
+preferences:
+  neighborhoods: ["Upper West Side", "Upper East Side", "Greenwich Village", "SoHo", "Tribeca", "Financial District"]
+  budget_max: 5000000
+  budget_min: 500000
+  bedrooms_min: 1
+  interested_in: ["sale", "rental"]
+
+delivery:
+  method: "html"  # or "email" or "both"
+  email: "your@email.com"
+  time: "07:00"
+  max_per_day: 5
+
+scoring:
+  min_score: 80  # Only show diamonds scoring 80+
+
+system:
+  strategies_max: 30
+  strategy_generation_frequency: "weekly"
+  llm_provider: "anthropic"
+  llm_budget_monthly: 20
+
+data_sources:
+  # Add your API keys here when available
+  streeteasy_enabled: true
+  zillow_enabled: true
+  acris_enabled: true
+  reddit_enabled: true

@@ -1,10 +1,8 @@
-# Rough Quarters: Finding Diamond Apartments in the Rough
+# Home Intelligence: Autonomous Apartment Discovery Engine
 
 **IDEA-155-v2** | Status: Working Prototype → Service
 
-An autonomous discovery engine that finds exceptional places to live by analyzing 571K+ buildings through multiple data strategies - whether they're available or not.
-
-**Pun:** "Diamond in the rough" + "Living quarters"
+An autonomous system that discovers exceptional places to live by analyzing 571K+ buildings through multiple data strategies - whether they're available or not.
 
 ---
 

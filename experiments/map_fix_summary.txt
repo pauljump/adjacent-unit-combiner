@@ -1,0 +1,43 @@
+MAP "MISSING MARKERS" ISSUE - SOLVED
+====================================
+
+WHAT YOU NOTICED:
+The map appeared to be missing many markers - you saw ~377 markers but expected 1,183.
+
+THE REAL ISSUE:
+The map wasn't broken - it was showing ONE marker per building, but many buildings 
+have MULTIPLE adjacent pair combinations!
+
+THE DATA:
+- 1,183 total adjacent pairs with geocoded addresses
+- But only 377 unique building locations  
+- That means 806 pairs were "hidden" because they share buildings with other pairs
+
+EXAMPLES OF BUILDINGS WITH MANY PAIRS:
+- 255 E 77th St: 121 different pair combinations (!)
+- 201 E 23rd St: 118 different pair combinations
+- 815 Broadway: 47 different pair combinations
+- 643 5th Ave (Brooklyn): 31 different pair combinations
+
+This makes sense! A large apartment building with many units will have lots of 
+different ways to combine adjacent units.
+
+THE FIX:
+✅ Map now groups pairs by building location
+✅ One marker per building (cleaner map)
+✅ Marker size scales with # of opportunities (bigger = more pairs)
+✅ Click any marker to see ALL pairs at that building
+✅ Popups show top 5 pairs + count of remaining
+✅ Pairs sorted by savings (best deals first)
+✅ New info display: "377 locations (1,183 pairs, 806 grouped)"
+
+WHAT THIS MEANS FOR YOU:
+- Cleaner map - no overlapping markers
+- Easy to see which buildings have the MOST opportunities (bigger markers)
+- Click any marker to browse ALL pair combinations at that location
+- Focus on buildings with lots of pairs = more flexibility in choosing units
+
+The map is now deployed at:
+https://pauljump.github.io/adjacent-unit-combiner/
+
+Refresh the page to see the updated version!

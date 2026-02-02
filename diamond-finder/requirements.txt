@@ -1,0 +1,14 @@
+# Diamond Finder Dependencies
+
+# Core
+pyyaml>=6.0
+
+# Phase 2: Real Data Sources
+praw>=7.7.0  # Reddit API
+requests>=2.31.0  # HTTP requests
+beautifulsoup4>=4.12.0  # Web scraping
+pandas>=2.0.0  # Data analysis
+sodapy>=2.2.0  # NYC Open Data (ACRIS)
+
+# Future additions
+# anthropic>=0.18.0  # For LLM strategy generation
